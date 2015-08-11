@@ -37,7 +37,7 @@ public class AQJSM {
     public static void main(String[] args) {
         Options options = new Options();
         options.addOption("h", "help", false, "produce help message");
-        options.addOption(OptionBuilder.withDescription("set file of data").hasArg().create("f"));
+        options.addOption("f", true, "set file of data");
         options.addOption("d", true, "set discretization type: 0 - without discretization, 1 - uniform discretization, 2 - chi-merge discretization");
         options.addOption("u", true, "set maximum size of universe of characters for JSM analyze");
         options.addOption("l", true, "set maximum length of causes");
@@ -49,9 +49,9 @@ public class AQJSM {
                 "aq_simple_jsm - simple AQ covering + JSM analyzing,\n" +
                 "aq_best_jsm - best AQ covering + JSM analyzing, aq_accum_jsm - cumulative AQ covering + JSM analyzing,\n" +
                 "jsm - only JSM analyzing");
-        options.addOption(OptionBuilder.withValueSeparator(',').hasArgs().withDescription("set id of classes for JSM analyze").create("c"));
+        options.addOption(Option.builder("c").desc("set id of classes for JSM analyze").valueSeparator(',').hasArg().build());
 
-        CommandLineParser parser = new BasicParser();
+        CommandLineParser parser = new DefaultParser();
         try {
             HelpFormatter formatter = new HelpFormatter();
 
