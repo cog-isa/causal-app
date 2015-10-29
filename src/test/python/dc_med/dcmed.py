@@ -28,3 +28,4 @@ for x in data.columns:
         column = column.cat.rename_categories([str(x) for x in range(len(column.cat.categories))])
         data[x] = column.astype('float64')
 
+# discretization
