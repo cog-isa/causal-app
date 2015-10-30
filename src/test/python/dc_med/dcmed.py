@@ -6,12 +6,13 @@ import matplotlib.pyplot as plt
 
 saved_column_names = []
 saved_category_names = {}
+saved_bins = {}
 
 # load data and rename columns
 data = pd.read_csv('real_sample.csv', encoding='utf-8')
 col_len = data.shape[1]
 saved_column_names.extend(list(data.columns))
-data.columns = ['attr_' + str(x) for x in range(col_len)]
+data.columns = [x for x in range(col_len)]
 
 # replace '-' to NaN and rename categories to floats
 
@@ -24,8 +25,14 @@ for x in data.columns:
             column[column == '-'] = np.nan
             column = column.cat.remove_categories('-')
 
-        saved_category_names[column.name] = list(column.cat.categories)
-        column = column.cat.rename_categories([str(x) for x in range(len(column.cat.categories))])
-        data[x] = column.astype('float64')
+        saved_category_names[x] = list(column.cat.categories)
+        data[x] = column.cat.rename_categories([str(x) for x in range(len(column.cat.categories))])
+        # elif not x == 0:
+        #     data[x], saved_bins[x] = pd.cut(column, 3, retbins=True, labels=['1', '2', '3'])
 
-# discretization
+f = open('real.gqj', 'w')
+f.write(','.join(map(str, saved_category_names)) + '\n')
+f.write(';'.join([str(x) + ':' + ','.join(list(data[x].cat.categories)) for x in saved_category_names]) + '\n')
+f.flush()
+
+data.to_csv('real.gqj', sep='\t', na_rep='?', mode='a')
