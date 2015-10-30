@@ -29,10 +29,5 @@ for x in data.columns:
         data[x] = column.cat.rename_categories([str(x) for x in range(len(column.cat.categories))])
         # elif not x == 0:
         #     data[x], saved_bins[x] = pd.cut(column, 3, retbins=True, labels=['1', '2', '3'])
+        print(x, '->', saved_column_names[x])
 
-f = open('real.gqj', 'w')
-f.write(','.join(map(str, saved_category_names)) + '\n')
-f.write(';'.join([str(x) + ':' + ','.join(list(data[x].cat.categories)) for x in saved_category_names]) + '\n')
-f.flush()
-
-data.to_csv('real.gqj', sep='\t', na_rep='?', mode='a')
