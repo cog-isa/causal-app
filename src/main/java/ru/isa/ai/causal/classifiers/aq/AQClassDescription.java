@@ -47,7 +47,8 @@ public class AQClassDescription {
                 return -Integer.compare(o1.getPopularity(), o2.getPopularity());
             }
         });
-        rawDescription = rawDescription.subList(0, maximumDescriptionSize);
+        rawDescription = rawDescription.subList(0,
+                rawDescription.size() > maximumDescriptionSize ? maximumDescriptionSize : rawDescription.size());
         return createFromProperties(rawDescription, className);
     }
 
