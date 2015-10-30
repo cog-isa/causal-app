@@ -34,7 +34,7 @@ data = data.dropna(subset=[target_column])
 
 f = open('real.gqj', 'w')
 f.write(str(target_column - 1) + '\n' + ','.join(map(str, saved_category_names)) + '\n')
-f.write(';'.join([str(x) + ':' + ','.join(list(data[x].cat.categories)) for x in saved_category_names]) + '\n')
+f.write(';'.join([str(x - 1) + ':' + ','.join(list(data[x].cat.categories)) for x in saved_category_names]) + '\n')
 f.flush()
 
 data.to_csv('real.gqj', sep='\t', na_rep='?', index=False,
