@@ -95,11 +95,11 @@ public class GAAQClassifier extends AbstractClassifier {
 
             start = System.currentTimeMillis();
             logger.info("Loading...");
-            
+
             cn = 5;
             n = 500;
             numgen = numAttr;//data 13, data2 31
-            sizegen = 3;
+            sizegen = 4;
             ngen = 50;
             nadapt = 8;
             socialcard = (int) (0.05 * (n));//социальная карта
@@ -123,35 +123,35 @@ public class GAAQClassifier extends AbstractClassifier {
                 while (attrEventEnu.hasMoreElements()) {
                     Attribute attr = attrEventEnu.nextElement();
                     int value = 0;
-                    if(instance.isMissing(attr.index()))
-                    	value = Integer.MAX_VALUE;
-                    else{
-	                    double numVal = instance.value(attr.index());
-	                    switch (attr.type()) {
-	                        case Attribute.NOMINAL:
-	                            value = (int) Math.pow(2.0, numVal);
-	
-	                            if (!featureMap.containsKey(attrCounter)) {
-	                                CRFeature feature = new CRFeature(attr.name());
-	                                featureMap.put(attrCounter, feature);
-	                            }
-	                            break;
-	                        case Attribute.NUMERIC:
-	                            double min = testData.attributeStats(attr.index()).numericStats.min;
-	                            double max = testData.attributeStats(attr.index()).numericStats.max;
-	                            double inter = max - min;
-	                            value = numVal < min + inter / 3 ? 1 : (numVal < min + 2 * inter / 3 ? 2 : 4);
-	
-	                            if (!featureMap.containsKey(attrCounter)) {
-	                                CRFeature feature = new CRFeature(attr.name());
-	                                feature.getCutPoints().add(min);
-	                                feature.getCutPoints().add(min + inter / 3);
-	                                feature.getCutPoints().add(min + 2 * inter / 3);
-	                                feature.getCutPoints().add(max);
-	                                featureMap.put(attrCounter, feature);
-	                            }
-	                            break;
-	                    }
+                    if (instance.isMissing(attr.index()))
+                        value = Integer.MAX_VALUE;
+                    else {
+                        double numVal = instance.value(attr.index());
+                        switch (attr.type()) {
+                            case Attribute.NOMINAL:
+                                value = (int) Math.pow(2.0, numVal);
+
+                                if (!featureMap.containsKey(attrCounter)) {
+                                    CRFeature feature = new CRFeature(attr.name());
+                                    featureMap.put(attrCounter, feature);
+                                }
+                                break;
+                            case Attribute.NUMERIC:
+                                double min = testData.attributeStats(attr.index()).numericStats.min;
+                                double max = testData.attributeStats(attr.index()).numericStats.max;
+                                double inter = max - min;
+                                value = numVal < min + inter / 3 ? 1 : (numVal < min + 2 * inter / 3 ? 2 : 4);
+
+                                if (!featureMap.containsKey(attrCounter)) {
+                                    CRFeature feature = new CRFeature(attr.name());
+                                    feature.getCutPoints().add(min);
+                                    feature.getCutPoints().add(min + inter / 3);
+                                    feature.getCutPoints().add(min + 2 * inter / 3);
+                                    feature.getCutPoints().add(max);
+                                    featureMap.put(attrCounter, feature);
+                                }
+                                break;
+                        }
                     }
                     if ((int) instance.classValue() == classIndex)
                         tobj[posObjCounter][attrCounter] = value;
@@ -164,48 +164,49 @@ public class GAAQClassifier extends AbstractClassifier {
                 else
                     objCounter++;
             }
-            
-            logger.info("Data is loaded.");       
-            
+
+            logger.info("Data is loaded.");
+
             boolean found;
-    		//////////////////////////////////////////////
-    		//избавимся от fobj, конфликтующих с tobj
-            int count_conflict=0;
+            //////////////////////////////////////////////
+            //избавимся от fobj, конфликтующих с tobj
+            int count_conflict = 0;
             ArrayList<int[]> fobj2 = new ArrayList<>();
             for (int[] aFobj : fobj) {
-            	found=false;
-            	for (int[] aTobj : tobj) {
-    				found=true;
-    				for(int j=0; j<numgen; ++j){
-    					if((aFobj[j]!=Integer.MAX_VALUE)&&((aTobj[j]!=aFobj[j])||(aTobj[j]==Integer.MAX_VALUE))){
-    						found=false;
-    						break;
-    					}
-    				}
-    				if(found){
-    					++count_conflict;
-    					break;
-    				}
-    			}
-    			if(!found){
-    				fobj2.add(aFobj);
-    			}
-    		}
+                found = false;
+                for (int[] aTobj : tobj) {
+                    found = true;
+                    for (int j = 0; j < numgen; ++j) {
+                        if ((aFobj[j] != Integer.MAX_VALUE) && ((aTobj[j] != aFobj[j]) || (aTobj[j] == Integer.MAX_VALUE))) {
+                            found = false;
+                            break;
+                        }
+                    }
+                    if (found) {
+                        ++count_conflict;
+                        break;
+                    }
+                }
+                if (!found) {
+                    fobj2.add(aFobj);
+                }
+            }
             fobj = new int[fobj2.size()][numAttr];
             for (int i = 0; i < fobj2.size(); i++)
                 System.arraycopy(fobj2.get(i), 0, fobj[i], 0, numAttr);
-            logger.info("Found "+ count_conflict +" conflict negative objects");
+            logger.info("Found " + count_conflict + " conflict negative objects");
             //////////////////////////////////////////////
-            
+
             logger.info("Searching...");
             Population[] BestPop = new Population[2000];
             int num_ob, num_new_ob, num_ob_miss;
-            int covered_objects=0;
+            int covered_objects = 0;
             int sizeBestPop = 0;
 
             int[][] tobj0 = tobj;
             ++sizeBestPop;
             BestPop[sizeBestPop - 1] = new Population(1, numgen, sizegen, tobj0, tobj, fobj);
+            int without_result = 0;
             while (tobj.length != 0) {
                 for (int restart = 0; restart < RESTART_NUMBER; ++restart) {
                     Coevolution mainCpop = new Coevolution(cn, n, numgen, sizegen, ngen, nadapt, socialcard, socialfine,
@@ -250,39 +251,43 @@ public class GAAQClassifier extends AbstractClassifier {
                 }
                 logger.info("BestPop = " + BestPop[sizeBestPop - 1].bestgenotype.fit);
 
-                
+
                 found = false;
                 for (int[] aFobj : fobj) {
-    				found = true;
-    				for(int j = 0; j < BestPop[sizeBestPop - 1].bestgenotype.numGenes; ++j){
-    					if((aFobj[j]!=Integer.MAX_VALUE) && (BestPop[sizeBestPop - 1].bestgenotype.genes[j] & aFobj[j]) == 0 && BestPop[sizeBestPop - 1].bestgenotype.genes[j] != 0) {
-    						found=false;
-    						break;
-    					}
-    				}
-    				if(found)
-    					break;
-    			}
-    			if(found){
-    				logger.info("Decision is not appropriate. Negative examples have been covered");
-    				continue;
-    			}
-                
-                
+                    found = true;
+                    for (int j = 0; j < BestPop[sizeBestPop - 1].bestgenotype.numGenes; ++j) {
+                        if ((aFobj[j] != Integer.MAX_VALUE) && (BestPop[sizeBestPop - 1].bestgenotype.genes[j] & aFobj[j]) == 0 && BestPop[sizeBestPop - 1].bestgenotype.genes[j] != 0) {
+                            found = false;
+                            break;
+                        }
+                    }
+                    if (found)
+                        break;
+                }
+                if (found) {
+                    logger.info("Decision is not appropriate. Negative examples have been covered");
+                    ++without_result;
+                    if (without_result == 5)
+                        break;
+                    else
+                        continue;
+                }
+
+
                 boolean ess_bool;
                 ArrayList<Boolean> ess = new ArrayList<>();
 
                 for (int j = 0; j < BestPop[sizeBestPop - 1].bestgenotype.numGenes; ++j) {
                     ess_bool = false;
                     for (int[] aTobj : tobj) {
-                    	if (aTobj[j] != Integer.MAX_VALUE && (BestPop[sizeBestPop - 1].bestgenotype.genes[j] & aTobj[j]) == 0 && BestPop[sizeBestPop - 1].bestgenotype.genes[j] != 0) {
+                        if (aTobj[j] != Integer.MAX_VALUE && (BestPop[sizeBestPop - 1].bestgenotype.genes[j] & aTobj[j]) == 0 && BestPop[sizeBestPop - 1].bestgenotype.genes[j] != 0) {
                             ess_bool = true;
                             break;
                         }
                     }
                     if (!ess_bool) {
                         for (int[] aFobj : fobj) {
-                        	if (aFobj[j] != Integer.MAX_VALUE && (BestPop[sizeBestPop - 1].bestgenotype.genes[j] & aFobj[j]) == 0 && BestPop[sizeBestPop - 1].bestgenotype.genes[j] != 0) {
+                            if (aFobj[j] != Integer.MAX_VALUE && (BestPop[sizeBestPop - 1].bestgenotype.genes[j] & aFobj[j]) == 0 && BestPop[sizeBestPop - 1].bestgenotype.genes[j] != 0) {
                                 ess_bool = true;
                                 break;
                             }
@@ -296,17 +301,16 @@ public class GAAQClassifier extends AbstractClassifier {
                 boolean significant;
                 boolean missingvalue;
                 ArrayList<int[]> tobj2 = new ArrayList<>();
-                num_new_ob=0;
+                num_new_ob = 0;
                 for (int[] aTobj : tobj) {
-                	found = true;
+                    found = true;
                     significant = false;
                     for (int j = 0; j < BestPop[sizeBestPop - 1].bestgenotype.numGenes; ++j) {
-                    	if (aTobj[j] != Integer.MAX_VALUE && (BestPop[sizeBestPop - 1].bestgenotype.genes[j] & aTobj[j]) == 0 && BestPop[sizeBestPop - 1].bestgenotype.genes[j] != 0) {
+                        if (aTobj[j] != Integer.MAX_VALUE && (BestPop[sizeBestPop - 1].bestgenotype.genes[j] & aTobj[j]) == 0 && BestPop[sizeBestPop - 1].bestgenotype.genes[j] != 0) {
                             found = false;
                             break;
-                        }
-                    	else if((aTobj[j] != Integer.MAX_VALUE) && (BestPop[sizeBestPop - 1].bestgenotype.genes[j] != 0))//если значение хотя бы одного атрибута не пропущено
-                        	significant = true;
+                        } else if ((aTobj[j] != Integer.MAX_VALUE) && (BestPop[sizeBestPop - 1].bestgenotype.genes[j] != 0))//если значение хотя бы одного атрибута не пропущено
+                            significant = true;
                     }
                     if (!found || !significant)
                         tobj2.add(aTobj);
@@ -324,27 +328,26 @@ public class GAAQClassifier extends AbstractClassifier {
                     significant = false;
                     missingvalue = false;
                     for (int j = 0; j < BestPop[sizeBestPop - 1].bestgenotype.numGenes; ++j) {
-                    	if (aTobj0[j] != Integer.MAX_VALUE && (BestPop[sizeBestPop - 1].bestgenotype.genes[j] & aTobj0[j]) == 0 && BestPop[sizeBestPop - 1].bestgenotype.genes[j] != 0) {
+                        if (aTobj0[j] != Integer.MAX_VALUE && (BestPop[sizeBestPop - 1].bestgenotype.genes[j] & aTobj0[j]) == 0 && BestPop[sizeBestPop - 1].bestgenotype.genes[j] != 0) {
                             found = false;
                             break;
-                        }
-                    	else if((aTobj0[j] != Integer.MAX_VALUE) && (BestPop[sizeBestPop - 1].bestgenotype.genes[j] != 0))//если значение хотя бы одного атрибута не пропущено
-                        	significant = true;
-                        else if((aTobj0[j] == Integer.MAX_VALUE) && (BestPop[sizeBestPop - 1].bestgenotype.genes[j] != 0))
-                        	missingvalue = true;
+                        } else if ((aTobj0[j] != Integer.MAX_VALUE) && (BestPop[sizeBestPop - 1].bestgenotype.genes[j] != 0))//если значение хотя бы одного атрибута не пропущено
+                            significant = true;
+                        else if ((aTobj0[j] == Integer.MAX_VALUE) && (BestPop[sizeBestPop - 1].bestgenotype.genes[j] != 0))
+                            missingvalue = true;
                     }
-                    if (found && significant){
-    					if(!missingvalue)
-                			++num_ob;
-                		else
-                			++num_ob_miss;
-    				}
+                    if (found && significant) {
+                        if (!missingvalue)
+                            ++num_ob;
+                        else
+                            ++num_ob_miss;
+                    }
                 }
-                int sum=num_ob+num_ob_miss;
+                int sum = num_ob + num_ob_miss;
                 num_new_objects.add(num_new_ob);
                 num_objects.add(sum);
                 num_miss_objects.add(num_ob_miss);
-                covered_objects+=num_new_ob;
+                covered_objects += num_new_ob;
                 logger.info("new_objects = " + num_new_ob);
                 logger.info("all_objects = " + sum);
                 logger.info("objects_with_missing_value_used = " + num_ob_miss);
@@ -353,7 +356,8 @@ public class GAAQClassifier extends AbstractClassifier {
                 BestPop[sizeBestPop - 1] = new Population(1, numgen, sizegen, tobj0, tobj, fobj);
             }
 
-            Integer[][] map_atr = new Integer[8][];
+            //Integer[][] map_atr = new Integer[8][];
+            Integer[][] map_atr = new Integer[16][];
             map_atr[0] = new Integer[]{0};
             map_atr[1] = new Integer[]{1};
             map_atr[2] = new Integer[]{2};
@@ -363,9 +367,19 @@ public class GAAQClassifier extends AbstractClassifier {
             map_atr[6] = new Integer[]{2, 3};
             map_atr[7] = new Integer[]{1, 2, 3};
 
+            map_atr[8] = new Integer[]{4};
+            map_atr[9] = new Integer[]{1, 4};
+            map_atr[10] = new Integer[]{2, 4};
+            map_atr[11] = new Integer[]{1, 2, 4};
+            map_atr[12] = new Integer[]{3, 4};
+            map_atr[13] = new Integer[]{1, 3, 4};
+            map_atr[14] = new Integer[]{2, 3, 4};
+            map_atr[15] = new Integer[]{1, 2, 3, 4};
+
+
             StringBuilder result = new StringBuilder();
             List<AQRule> classRules = new ArrayList<>();
-            for (int bp = 0; bp < sizeBestPop-1; ++bp) {
+            for (int bp = 0; bp < sizeBestPop - 1; ++bp) {
                 result.append("NUM_NEW_OBJECTS: ").append(num_new_objects.get(bp)).append("\n");//((int) (BestPop[bp].bestgenotype.fit / 1000)).append("\n");
                 result.append("NUM_OBJECTS: ").append(num_objects.get(bp)).append("\n");
                 result.append("NUM_MISS_OBJECTS: ").append(num_miss_objects.get(bp)).append("\n");
