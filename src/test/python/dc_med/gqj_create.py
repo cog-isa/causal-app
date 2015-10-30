@@ -8,6 +8,8 @@ saved_column_names = []
 saved_category_names = {}
 saved_bins = {}
 
+target_column = 35
+
 # load data and rename columns
 data = pd.read_csv('real_sample.csv', encoding='utf-8')
 col_len = data.shape[1]
@@ -28,10 +30,10 @@ for x in data.columns:
         saved_category_names[x] = list(column.cat.categories)
         data[x] = column.cat.rename_categories([str(x) for x in range(len(column.cat.categories))])
 
-data = data.dropna(subset=[35])
+data = data.dropna(subset=[target_column])
 
 f = open('real.gqj', 'w')
-f.write('34\n' + ','.join(map(str, saved_category_names)) + '\n')
+f.write(str(target_column - 1) + '\n' + ','.join(map(str, saved_category_names)) + '\n')
 f.write(';'.join([str(x) + ':' + ','.join(list(data[x].cat.categories)) for x in saved_category_names]) + '\n')
 f.flush()
 

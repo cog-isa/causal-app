@@ -7,6 +7,7 @@ import ru.isa.ai.causal.classifiers.aq.*;
 import ru.isa.ai.causal.jsm.AbstractJSMAnalyzer;
 import ru.isa.ai.causal.jsm.JSMHypothesis;
 import ru.isa.ai.causal.jsm.NorrisJSMAnalyzer;
+import ru.isa.ai.causal.utils.DataUtils;
 import weka.core.Instances;
 import weka.core.converters.CSVLoader;
 import weka.core.converters.ConverterUtils;
@@ -102,6 +103,8 @@ public class AQJSM {
 //                    loader.setNominalLabelSpecs(new String[]{"29:1,2,3"});
 //                    ConverterUtils.DataSource trainSource = new ConverterUtils.DataSource(loader);
 //                    data = trainSource.getDataSet(28);
+                } else if (dataFile.toLowerCase().endsWith("gqj")) {
+                    data = DataUtils.loadData(dataFile);
                 } else {
                     throw new AQClassifierException("Not supported file extension: " + dataFile);
                 }

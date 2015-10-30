@@ -14,6 +14,7 @@ import weka.filters.Filter;
 import weka.filters.unsupervised.attribute.Reorder;
 
 import java.io.*;
+import java.net.URISyntaxException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -114,7 +115,7 @@ public class AQ21ExternalClassifier extends AbstractClassifier {
         String dataPath = null;
         try {
             dataPath = createDataFile(data);
-        } catch (IOException e) {
+        } catch (Exception e) {
             throw new AQClassifierException("Cannot create input file for aq command", e);
         }
         String pathToFile = System.getProperty("java.io.tmpdir") + File.separator + (SystemUtils.IS_OS_WINDOWS ? "aq21.exe" : "aq21");
@@ -232,7 +233,7 @@ public class AQ21ExternalClassifier extends AbstractClassifier {
         return totalComplexity;
     }
 
-    private String createDataFile(Instances testData) throws IOException {
+    private String createDataFile(Instances testData) throws IOException, URISyntaxException {
         StringBuilder builder = new StringBuilder();
         // Описание задачи
         builder.append("Problem_description\n");
@@ -315,7 +316,7 @@ public class AQ21ExternalClassifier extends AbstractClassifier {
                             builder.append(attr.value((int) instance.value(attr.index())));
                             break;
                         case Attribute.NUMERIC:
-                            builder.append(instance.value(attr.index()));
+                            builder.append(String.format(Locale.ENGLISH, "%f", instance.value(attr.index())));
                             break;
                     }
                 } else {
@@ -331,7 +332,7 @@ public class AQ21ExternalClassifier extends AbstractClassifier {
 
         builder.append("}\n");
 
-        String path = new File(getClass().getProtectionDomain().getCodeSource().getLocation().getPath() + "external_input.aq21").getPath();
+        String path = new File(getClass().getProtectionDomain().getCodeSource().getLocation().toURI().getPath() + "\\external_input.aq21").getPath();
         OutputStreamWriter writer = new OutputStreamWriter(new FileOutputStream(path));
         writer.write(builder.toString());
         writer.flush();
