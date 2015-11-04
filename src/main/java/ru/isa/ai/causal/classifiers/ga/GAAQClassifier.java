@@ -22,7 +22,7 @@ import java.util.*;
 public class GAAQClassifier extends AbstractClassifier {
 
     private static final Logger logger = LogManager.getLogger(GAAQClassifier.class.getSimpleName());
-    private static final int RESTART_NUMBER = 1;
+    private static final int RESTART_NUMBER = 2;
 
     private List<String> classes;
     private Map<String, AQClassDescription> classMapDescriptions = new HashMap<>();
