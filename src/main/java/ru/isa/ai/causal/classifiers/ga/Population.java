@@ -448,7 +448,7 @@ public class Population {
         }
         int num_ones = 0;
         for (int i = 0; i < genot.numGenes; ++i) {
-            for (int j = 0; j < genot.sizeGen; ++j)
+            for (int j = 0; j < numValgen[i]; ++j)
                 if ((genot.genes[i] & (int) (Math.pow(2.0, j * 1.0))) != 0)
                     ++num_ones;
         }
