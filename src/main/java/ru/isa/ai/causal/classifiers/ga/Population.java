@@ -12,6 +12,7 @@ public class Population {
     private int numGenes;//количество генов
     private int numpoints;
     private int sizeGen;
+    private int [] numValgen;
     public Genotype[] genots;
     public Genotype bestgenotype = new Genotype();
     private int[][] tobj0;
@@ -40,11 +41,15 @@ public class Population {
 
     private Random rand = new Random(System.currentTimeMillis());
 
-    public Population(int n, int numgen, int sizegen, int[][] tobj01, int[][] tobj1, int[][] fobj1) {
+    public Population(int n, int numgen, int sizegen, int[][] tobj01, int[][] tobj1, int[][] fobj1, int [] numvalgen) {
         sizep = n;
         maxsizep = n;
         numGenes = numgen;
-        numpoints = numgen * sizegen;
+        numValgen = numvalgen;
+        numpoints = 0;
+        for (int i = 0; i < numgen; ++i) {
+            numpoints += numvalgen[i];
+        }
         sizeGen = sizegen;
         genots = new Genotype[n];
         for (int i = 0; i < n; ++i) {
@@ -78,7 +83,7 @@ public class Population {
     //обязательно задать метод учета ограничений перед выполнением
     public void init() {
         for (int i = 0; i < sizep; ++i) {
-            genots[i].init();
+            genots[i].init(numValgen);
             fitness(i);
         }
     }
@@ -179,7 +184,7 @@ public class Population {
         }
         int k = -1;
         for (int i = 0; i < numGenes; ++i)
-            for (int j = 0; j < sizeGen; ++j) {
+            for (int j = 0; j < numValgen[i]; ++j) {
                 distr[++k] = 0;
                 for (int h = 0; h < gsize; ++h)
                     distr[k] += ((genots[h].genes[i] >> j) & 1) * probsel[h];
@@ -191,8 +196,8 @@ public class Population {
             k = -1;
             for (int i = 0; i < numGenes; ++i) {
                 genots[h].genes[i] = 0;
-                for (int j = 0; j < sizeGen; ++j) {
-                    if (rand.nextInt(32768) / 32767.0 <= distr[++k])
+                for (int j = 0; j < numValgen[i]; ++j) {
+                    if (rand.nextDouble() <= distr[++k])
                         genots[h].genes[i] += Genotype.DEG[j];
                 }
             }
@@ -206,6 +211,7 @@ public class Population {
     private void getByGA() {
         Genotype[] buffgenots = new Genotype[maxsizep];
         for (int i = 0; i < maxsizep; ++i) {
+            buffgenots[i] = new Genotype();
             buffgenots[i].fit = -Double.MAX_VALUE;
             buffgenots[i].numGenes = numGenes;
             buffgenots[i].sizeGen = sizeGen;
@@ -220,7 +226,7 @@ public class Population {
         double sum;
         double dbuff;
         int ibuff1, ibuff2;
-        int which1, which2;
+        int whichgen1, whichgen2, whichbit1, whichbit2, whichbuff;
 
         //элитарная селекция
         System.arraycopy(bestgenotype.genes, 0, genots[0].genes, 0, bestgenotype.numGenes);
@@ -274,36 +280,53 @@ public class Population {
         //рекомбинация
         if (typerec == 0) {
             for (int i = 0; i < sizep; ++i) {
-                ibuff1 = rand.nextInt(numpoints);
-                which1 = ibuff1 / 15;//+(1+ibuff1%15)&&1-1;//считаем биты справа налево в каждом инте, от нуля
-                System.arraycopy(parents[2 * i], 0, buffgenots[i].genes, 0, which1);
-                System.arraycopy(parents[2 * i + 1], which1, buffgenots[i].genes, which1, numGenes - which1);
-                buffgenots[i].genes[which1] -= parents[2 * i + 1][which1] & (Genotype.DEG[ibuff1 % 15] - 1);
-                buffgenots[i].genes[which1] += parents[2 * i][which1] & (Genotype.DEG[ibuff1 % 15] - 1);
+                //ibuff1 = rand.nextInt(numpoints);
+                whichgen1 = rand.nextInt(numGenes);
+                whichbit1 = rand.nextInt(Genotype.DEG[numValgen[whichgen1]]);
+                //which1 = ibuff1 / 15;//+(1+ibuff1%15)&&1-1;//считаем биты справа налево в каждом инте, от нуля
+                System.arraycopy(parents[2 * i], 0, buffgenots[i].genes, 0, whichgen1);
+                System.arraycopy(parents[2 * i + 1], whichgen1, buffgenots[i].genes, whichgen1, numGenes - whichgen1);
+                buffgenots[i].genes[whichgen1] -= parents[2 * i + 1][whichgen1] & (Genotype.DEG[whichbit1] - 1);
+                buffgenots[i].genes[whichgen1] += parents[2 * i][whichgen1] & (Genotype.DEG[whichbit1] - 1);
             }
         }
         if (typerec == 1) {
             for (int i = 0; i < sizep; ++i) {
-                ibuff1 = rand.nextInt(numpoints);
-                //ibuff1=random(numGenes-1);//не должно быть нуля
-                ibuff2 = rand.nextInt(numpoints - ibuff1) + ibuff1;
+                //ibuff1 = rand.nextInt(numpoints);
+                ////ibuff1=random(numGenes-1);//не должно быть нуля
+                //ibuff2 = rand.nextInt(numpoints - ibuff1) + ibuff1;
                 System.arraycopy(parents[2 * i], 0, buffgenots[i].genes, 0, numGenes);
-                which1 = ibuff1 / 15;
-                which2 = ibuff2 / 15;
-                buffgenots[i].genes[which2] -= parents[2 * i][which2] & (Genotype.DEG[ibuff2 % 15] - 1);
-                buffgenots[i].genes[which2] += parents[2 * i + 1][which2] & (Genotype.DEG[ibuff2 % 15] - 1);
-                if (which1 != which2)
-                    buffgenots[i].genes[which1] = parents[2 * i + 1][which1];
-                buffgenots[i].genes[which1] -= parents[2 * i + 1][which1] & (Genotype.DEG[ibuff1 % 15] - 1);
-                buffgenots[i].genes[which1] += parents[2 * i][which1] & (Genotype.DEG[ibuff1 % 15] - 1);
-                System.arraycopy(parents[2 * i + 1], which1 + 1, buffgenots[i].genes, which1 + 1, which2 - (which1 + 1));
+                //which1 = ibuff1 / 15;
+                //which2 = ibuff2 / 15;
+                whichgen1 = rand.nextInt(numGenes);//which4
+                whichgen2 = rand.nextInt(numGenes);//which2
+                if(whichgen2<whichgen1){
+                    whichbuff = whichgen2;
+                    whichgen2 = whichgen1;
+                    whichgen1 = whichbuff;
+                }
+                whichbit1 = rand.nextInt(numValgen[whichgen1]);//which3
+                whichbit2 = rand.nextInt(numValgen[whichgen2]);//which1
+                if((whichgen2==whichgen1)&&(whichbit2<whichbit1)) {
+                    whichbuff = whichbit2;
+                    whichbit2 = whichbit1;
+                    whichbit1 = whichbuff;
+                }
+                buffgenots[i].genes[whichgen2] -= parents[2 * i][whichgen2] & (Genotype.DEG[whichbit2] - 1);
+                buffgenots[i].genes[whichgen2] += parents[2 * i + 1][whichgen2] & (Genotype.DEG[whichbit2] - 1);
+                if (whichgen1 != whichgen2)
+                    buffgenots[i].genes[whichgen1] = parents[2 * i + 1][whichgen1];
+                buffgenots[i].genes[whichgen1] -= parents[2 * i + 1][whichgen1] & (Genotype.DEG[whichbit1] - 1);
+                buffgenots[i].genes[whichgen1] += parents[2 * i][whichgen1] & (Genotype.DEG[whichbit1] - 1);
+                if (whichgen1 != whichgen2)
+                    System.arraycopy(parents[2 * i + 1], whichgen1 + 1, buffgenots[i].genes, whichgen1 + 1, whichgen2 - (whichgen1 + 1));
             }
         }
         if (typerec == 2) {
             for (int i = 0; i < sizep; ++i) {
                 for (int j = 0; j < numGenes; ++j) {
                     buffgenots[i].genes[j] = 0;
-                    for (int k = 0; k < sizeGen; ++k) {
+                    for (int k = 0; k < numValgen[j]; ++k) {
                         if (rand.nextInt(2) == 0)
                             buffgenots[i].genes[j] += ((parents[2 * i][j] >> k) & 1) << k;
                         else
@@ -315,7 +338,7 @@ public class Population {
 
         //мутация
         for (int i = 0; i < sizep; ++i)
-            buffgenots[i].mutation(probmut);
+            buffgenots[i].mutation(probmut, numValgen);
 
         for (int i = 0; i < sizep; ++i)
             buffgenots[i].setCoords();

@@ -28,19 +28,19 @@ public class Coevolution {
 
     public Coevolution(int cn, int n, int numgen, int sizegen, int ngener, int nadaptation, int socialc, int socialf,
                        boolean[] typega, int[] typesel, int[] sizetur, int[] typerec, double[] mutation, boolean[] mutadapt,
-                       double truthvalue, int[][] tobj0, int[][] tobj, int[][] fobj) {
+                       double truthvalue, int[][] tobj0, int[][] tobj, int[][] fobj, int [] numvalgen) {//numvalgen - number of valuable bits in gene(fenotype)
         pop = new Population[cn];
         buffpop = new Population[cn];
-        generalgroup = new Population(n, numgen, sizegen, tobj0, tobj, fobj);
+        generalgroup = new Population(n, numgen, sizegen, tobj0, tobj, fobj, numvalgen);
         for (int i = 0; i < cn - 1; ++i) {
-            pop[i] = new Population(n, numgen, sizegen, tobj0, tobj, fobj);
+            pop[i] = new Population(n, numgen, sizegen, tobj0, tobj, fobj, numvalgen);
             pop[i].sizep = n / cn;
-            buffpop[i] = new Population(n, numgen, sizegen, tobj0, tobj, fobj);
+            buffpop[i] = new Population(n, numgen, sizegen, tobj0, tobj, fobj, numvalgen);
             buffpop[i].sizep = pop[i].sizep;
         }
-        pop[cn - 1] = new Population(n, numgen, sizegen, tobj0, tobj, fobj);
+        pop[cn - 1] = new Population(n, numgen, sizegen, tobj0, tobj, fobj, numvalgen);
         pop[cn - 1].sizep = n % cn + n / cn;
-        buffpop[cn - 1] = new Population(n, numgen, sizegen, tobj0, tobj, fobj);
+        buffpop[cn - 1] = new Population(n, numgen, sizegen, tobj0, tobj, fobj, numvalgen);
         buffpop[cn - 1].sizep = pop[cn - 1].sizep;
         losematrix = new int[cn][cn];
 

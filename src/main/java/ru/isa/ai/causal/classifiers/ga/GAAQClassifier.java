@@ -109,10 +109,10 @@ public class GAAQClassifier extends AbstractClassifier {
             start = System.currentTimeMillis();
 
             cn = 5;
-            n = 400;//500
+            n = 500;//500
             numgen = numAttr;//data 13, data2 31
             sizegen = 24;
-            ngen = 40;//50
+            ngen = 50;//50
             nadapt = 8;
             socialcard = (int) (0.05 * (n));//социальная карта
             socialfine = (int) (0.04 * (n / cn));//штраф
@@ -123,6 +123,8 @@ public class GAAQClassifier extends AbstractClassifier {
             ArrayList<Integer> num_objects = new ArrayList<>();
             ArrayList<Integer> num_miss_objects = new ArrayList<>();
             ArrayList<Integer> num_new_objects = new ArrayList<>();
+
+            int[] numvalgen = new int[numAttr];
 
             Enumeration instEnu = testData.enumerateInstances();
             int objCounter = 0;
@@ -147,6 +149,7 @@ public class GAAQClassifier extends AbstractClassifier {
                                     CRFeature feature = new CRFeature(attr.name());
                                     feature.setNumValues(attr.numValues());
                                     featureMap.put(attrCounter, feature);
+                                    numvalgen[attrCounter] = attr.numValues();
                                 }
                                 break;
                             case Attribute.NUMERIC:
@@ -163,6 +166,7 @@ public class GAAQClassifier extends AbstractClassifier {
                                     feature.getCutPoints().add(max);
                                     feature.setNumValues(3);
                                     featureMap.put(attrCounter, feature);
+                                    numvalgen[attrCounter] = 3;
                                 }
                                 break;
                         }
@@ -220,13 +224,13 @@ public class GAAQClassifier extends AbstractClassifier {
 
             int[][] tobj0 = tobj;
             ++sizeBestPop;
-            BestPop[sizeBestPop - 1] = new Population(1, numgen, sizegen, tobj0, tobj, fobj);
+            BestPop[sizeBestPop - 1] = new Population(1, numgen, sizegen, tobj0, tobj, fobj, numvalgen);
             int without_result = 0;
             while (tobj.length != 0) {
                 for (int restart = 0; restart < RESTART_NUMBER; ++restart) {
                     Coevolution mainCpop = new Coevolution(cn, n, numgen, sizegen, ngen, nadapt, socialcard, socialfine,
                             typega, typesel, sizetur, typerec, mutation, mutadapt,
-                            truthvalue, tobj0, tobj, fobj);
+                            truthvalue, tobj0, tobj, fobj, numvalgen);
                     double BestFit = -Double.MAX_VALUE;
                     mainCpop.init();
                     if (BestFit < mainCpop.bestfit) {
@@ -369,7 +373,7 @@ public class GAAQClassifier extends AbstractClassifier {
                 logger.info("objects_with_missing_value_used = " + num_ob_miss);
                 logger.info("covered_objects = " + covered_objects);
                 ++sizeBestPop;
-                BestPop[sizeBestPop - 1] = new Population(1, numgen, sizegen, tobj0, tobj, fobj);
+                BestPop[sizeBestPop - 1] = new Population(1, numgen, sizegen, tobj0, tobj, fobj, numvalgen);
             }
 
             /*double grade = Math.pow(2.0, (double)sizegen);
@@ -401,8 +405,11 @@ public class GAAQClassifier extends AbstractClassifier {
                         for(int j=0; j<ones_pos.size(); ++j) {
                             if (ones_pos.get(j) <= featureMap.get(i).getNumValues()) {
                                 ones_pos_limited.add(ones_pos.get(j));
-                            } else
+                            }
+                            else {
+                                logger.info("fail: "+i+" "+ones_pos.get(i).toString());
                                 break;
+                            }
                         }
                         if(ones_pos_limited.size()==0)
                             continue;
