@@ -1,0 +1,1550 @@
+,DTH/Антиген,DTH/Качественное значение,DTH/Количественное значение до иммунизации,DTH/Количественное значение после иммунизации,ELISPOT/Антиген,ELISPOT/Качественное значение,ELISPOT/Количественное значение до иммунизации,ELISPOT/Количественное значение после иммунизации,Адъювант в составе вакцины/Значение,Антиген-специфические лимфоциты in vitro/Антиген,Антиген-специфические лимфоциты in vitro/Качественное значение,Вакцинация/ГРУППА: наибольшее значение кол-ва введенных клеток,Вакцинация/ГРУППА: наименьшее значение кол-ва введенных клеток,Вакцинация/Кол-во клеток введенных за одну вакцинацию,Вакцинация/Количество вакцинаций,Вакцинация/Общее количество введенных клеток,Возраст/ГРУППА: наибольшее значение,Возраст/ГРУППА: наименьшее значение,Возраст/Точное значение или медиана (для группы),Выживаемость/Единицы измерения,Выживаемость/Результат,Выживаемость/Срок дожития/наблюдения,Гаплотип/Значение,Диагноз/Значение,Иммунный статус до иммунизации/Значение,Индекс ECOG/ГРУППА: наибольшее значение,Индекс ECOG/ГРУППА: наименьшее значение,Индекс ECOG/Точное значение или медиана (для группы),Индекс Карновского/ГРУППА: наибольшее значение,Индекс Карновского/ГРУППА: наименьшее значение,Индекс Карновского/Точное значение или медиана (для группы),Индукторы созревания ДК/Значение,Источник дендритных клеток/Значение,Лечение до иммунизации/Значение,Объективный клинический ответ/Значение,Опухолевые маркеры/Качественное значение,Опухолевые маркеры/Количественное значение до вакцинации,Опухолевые маркеры/Количественное значение после вакцинации,Опухолевые маркеры/Тип маркера,Побочные эффекты/Значение,Пол/Значение,Раса/Значение,Сопутствующая терапия/Значение,Способ введения вакцины/Значение,Стадия заболевания/Значение,Тип вакцины/Значение
+0,,,,,,,,,None,Control antigen,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1,,,,,,,,,None,Control antigen,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2,,,,,,,,,,Tumor antigen,Yes,,,,4.0,2172000.0,83.0,48.0,69.0,,,,,Prostate cancer,Normal,1.0,1.0,,,,,,Monocytes,,,,,,,Not significant,Male,,Immunotherapy,Intravenously,,Protein
+3,,,,,,,,,,Tumor antigen,Yes,,,,4.0,2172000.0,83.0,48.0,69.0,,,,,Prostate cancer,Normal,1.0,1.0,,,,,,Monocytes,Chemotherapy,Stable Desease,,,,,Not significant,Male,,Immunotherapy,Intravenously,,Protein
+4,,,,,,,,,,Tumor antigen,Yes,,,,4.0,2172000.0,83.0,48.0,69.0,,,,,Prostate cancer,Normal,1.0,1.0,,,,,,Monocytes,Surgery,,,,,,Not significant,Male,,Immunotherapy,Intravenously,,Protein
+5,,,,,,,,,,Tumor antigen,Yes,,,,4.0,2172000.0,83.0,48.0,69.0,,,,,Prostate cancer,Normal,1.0,1.0,,,,,,Monocytes,Radiotherapy,Stable Desease,,,,,Not significant,Male,,Immunotherapy,Intravenously,,Protein
+6,,,,,,,,,,Tumor antigen,Yes,,,,4.0,2172000.0,83.0,48.0,69.0,,,,,Prostate cancer,Normal,1.0,1.0,,,,,,Monocytes,,Stable Desease,Decrease,,,PSA,Not significant,Male,,Immunotherapy,Intravenously,,Protein
+7,,,,,Tumor antigen,Yes,,,,Tumor antigen,Yes,,,,4.0,2172000.0,83.0,48.0,69.0,,,,,Prostate cancer,Normal,1.0,1.0,,,,,,Monocytes,,Stable Desease,Decrease,,,PSA,Not significant,Male,,Immunotherapy,Intravenously,,Protein
+8,,,,,,,,,,Tumor antigen,Yes,,,,4.0,2172000.0,83.0,48.0,69.0,,,,,Prostate cancer,Normal,1.0,1.0,,,,,,Monocytes,Surgery,Stable Desease,,,,,Not significant,Male,,Immunotherapy,Intravenously,,Protein
+9,,,,,,,,,,Tumor antigen,Yes,,,,4.0,2172000.0,83.0,48.0,69.0,,,,,Prostate cancer,Normal,1.0,1.0,,,,,,Monocytes,Surgery,,,,,,Not significant,Male,,Immunotherapy,Intravenously,,Protein
+10,,,,,,,,,KLH,Control antigen,Yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+11,,,,,,,,,,Tumor antigen,Yes,,,,4.0,2172000.0,83.0,48.0,69.0,,,,,Prostate cancer,Normal,1.0,1.0,,,,,,Monocytes,Radiotherapy,Stable Desease,,,,,Not significant,Male,,Immunotherapy,Intravenously,,Protein
+12,,,,,Tumor antigen,Yes,,,,Tumor antigen,Yes,,,,4.0,2172000.0,83.0,48.0,69.0,,,,,Prostate cancer,Normal,1.0,1.0,,,,,,Monocytes,,,Decrease,,,PSA,Not significant,Male,,Immunotherapy,Intravenously,,Protein
+13,,,,,,,,,,Tumor antigen,Yes,,,,4.0,2172000.0,83.0,48.0,69.0,,,,,Prostate cancer,Normal,1.0,1.0,,,,,,Monocytes,,Stable Desease,Decrease,,,PSA,Not significant,Male,,Immunotherapy,Intravenously,,Protein
+14,,,,,,,,,KLH,Control antigen,Yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+15,,,,,,,,,,Tumor antigen,Yes,,,,4.0,2172000.0,83.0,48.0,69.0,,,,,Prostate cancer,Normal,1.0,1.0,,,,,,Monocytes,,Stable Desease,,,,,Not significant,Male,,Immunotherapy,Intravenously,,Protein
+16,,,,,,,,,,Tumor antigen,Yes,,,,4.0,2172000.0,83.0,48.0,69.0,,,,,Prostate cancer,Normal,1.0,1.0,,,,,,Monocytes,Chemotherapy,Stable Desease,,,,,Not significant,Male,,Immunotherapy,Intravenously,,Protein
+17,,,,,,,,,None,Control antigen,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+18,,,,,,,,,,Tumor antigen,Yes,,,,4.0,2172000.0,83.0,48.0,69.0,,,,,Prostate cancer,Normal,1.0,1.0,,,,,,Monocytes,Radiotherapy,Stable Desease,,,,,Not significant,Male,,Immunotherapy,Intravenously,,Protein
+19,,,,,,,,,,Tumor antigen,Yes,,,,4.0,2172000.0,83.0,48.0,69.0,,,,,Prostate cancer,Normal,1.0,1.0,,,,,,Monocytes,,Stable Desease,Decrease,,,PSA,Not significant,Male,,Immunotherapy,Intravenously,,Protein
+20,,,,,,,,,None,Control antigen,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+21,,,,,Tumor antigen,Yes,,,,Tumor antigen,Yes,,,,4.0,2172000.0,83.0,48.0,69.0,,,,,Prostate cancer,Normal,1.0,1.0,,,,,,Monocytes,Surgery,Stable Desease,,,,,Not significant,Male,,Immunotherapy,Intravenously,,Protein
+22,,,,,,,,,KLH,Control antigen,Yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+23,,,,,,,,,,Tumor antigen,Yes,,,,4.0,2172000.0,83.0,48.0,69.0,,,,,Prostate cancer,Normal,1.0,1.0,,,,,,Monocytes,Radiotherapy,,,,,,Not significant,Male,,Immunotherapy,Intravenously,,Protein
+24,,,,,,,,,,Tumor antigen,Yes,,,,4.0,2172000.0,83.0,48.0,69.0,,,,,Prostate cancer,Normal,1.0,1.0,,,,,,Monocytes,Surgery,Stable Desease,,,,,Not significant,Male,,Immunotherapy,Intravenously,,Protein
+25,,,,,,,,,,Tumor antigen,Yes,,,,4.0,2172000.0,83.0,48.0,69.0,,,,,Prostate cancer,Normal,1.0,1.0,,,,,,Monocytes,Chemotherapy,,,,,,Not significant,Male,,Immunotherapy,Intravenously,,Protein
+26,,,,,,,,,None,Control antigen,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+27,,,,,,,,,,Tumor antigen,Yes,,,,4.0,2172000.0,83.0,48.0,69.0,,,,,Prostate cancer,Normal,1.0,1.0,,,,,,Monocytes,Chemotherapy,Stable Desease,Decrease,,,PSA,Not significant,Male,,Immunotherapy,Intravenously,,Protein
+28,,,,,,,,,None,Control antigen,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+29,,,,,,,,,KLH,Control antigen,Yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+30,,,,,,,,,,Tumor antigen,Yes,,,,4.0,2172000.0,83.0,48.0,69.0,,,,,Prostate cancer,Normal,1.0,1.0,,,,,,Monocytes,Surgery,,,,,,Not significant,Male,,Immunotherapy,Intravenously,,Protein
+31,,,,,,,,,,,,,,,8.0,10000000.0,,,,,,,HLA-A1,Melanoma,Normal,,,,,,100.0,TNF-α,HSC,Chemotherapy,Stable Desease,,,,,Not significant,Male,,,Intravenously,,Peptide
+32,,,,,,,,,,Tumor antigen,No,,,,12.0,10000000.0,,,,,,,HLA-A2,Melanoma,Normal,,,,,,100.0,TNF-α,HSC,Surgery,Not evaluable,,,,,Not significant,Male,,,Intravenously,,Peptide
+33,Tumor antigen,Yes,,,Tumor antigen,No,,,,,,,,,4.0,5000000.0,,,,,,,HLA-A1,Melanoma,Normal,,,,,,90.0,TNF-α,HSC,Surgery,Progressive Disease,,,,,Not significant,,,,Intravenously,,Peptide
+34,,,,,Tumor antigen,No,,,,Tumor antigen,No,,,,7.0,5000000.0,,,,,,,HLA-A2,Melanoma,Normal,,,,,,100.0,TNF-α,HSC,Chemotherapy,Stable Desease,,,,,Not significant,Male,,,Intravenously,,Peptide
+35,Tumor antigen,Yes,,,Tumor antigen,No,,,,,,,,,8.0,10000000.0,,,,,,,HLA-A2,Melanoma,Normal,,,,,,100.0,TNF-α,HSC,Chemotherapy,Stable Desease,,,,,Not significant,Male,,,Intravenously,,Peptide
+36,,,,,Tumor antigen,No,,,,,,,,,4.0,10000000.0,,,,,,,HLA-A1,Melanoma,Normal,,,,,,90.0,TNF-α,HSC,Surgery,Progressive Disease,,,,,Not significant,Female,,,Intravenously,,Peptide
+37,,,,,,,,,,,,,,,4.0,10000000.0,,,,,,,HLA-A2,Melanoma,Normal,,,,,,90.0,TNF-α,HSC,Chemotherapy,Progressive Disease,,,,,Not significant,Male,,,Intravenously,,Peptide
+38,,,,,Tumor antigen,No,,,,,,,,,8.0,10000000.0,,,,,,,HLA-A1,Melanoma,Normal,,,,,,,TNF-α,HSC,Surgery,Partial Response,,,,,Not significant,Male,,,Intravenously,,Peptide
+39,,,,,Tumor antigen,No,,,,Tumor antigen,Yes,,,,4.0,10000000.0,,,,,,,HLA-A2,Melanoma,Normal,,,,,,100.0,TNF-α,HSC,Chemotherapy,Stable Desease,,,,,Not significant,Male,,,Intravenously,,Peptide
+40,Tumor antigen,Yes,,,Tumor antigen,No,,,,,,,,,8.0,10000000.0,,,,,,,HLA-A2,Melanoma,Normal,,,,,,100.0,TNF-α,HSC,Chemotherapy,Stable Desease,,,,,Not significant,Male,,,Intravenously,,Peptide
+41,,,,,,,,,,,,,,,4.0,10000000.0,,,,,,,HLA-A1,Melanoma,Normal,,,,,,80.0,TNF-α,HSC,Chemotherapy,Progressive Disease,,,,,Not significant,Male,,,Intravenously,,Peptide
+42,,,,,Tumor antigen,No,,,,Tumor antigen,No,,,,4.0,50000000.0,,,,,,,HLA-A2,Melanoma,Normal,,,,,,80.0,TNF-α,HSC,Surgery,Progressive Disease,,,,,Not significant,Male,,,Intravenously,,Peptide
+43,,,,,,,,,,Tumor antigen,No,,,,4.0,50000000.0,,,,,,,HLA-A1,Melanoma,Normal,,,,,,,TNF-α,HSC,Surgery,Progressive Disease,,,,,Not significant,,,,Intravenously,,Peptide
+44,,,,,,,,,,Tumor antigen,No,,,,4.0,50000000.0,,,,,,,HLA-A2,Melanoma,Normal,,,,,,,TNF-α,HSC,Chemotherapy,Stable Desease,,,,,Not significant,,,,Intravenously,,Peptide
+45,Control antigen,Yes,,,,,,,KLH,,,,,,3.0,10000000.0,17.0,3.0,16.0,,,,,Fibrosarcoma,,,,,,,,,,Chemotherapy,,,,,,Not significant,Female,,,Intradermal,Metastatic,Lysate
+46,Control antigen,Yes,,,,,,,KLH,,,,,,3.0,10000000.0,17.0,3.0,16.0,,,,,Fibrosarcoma,,,,,,,,,,Chemotherapy,,,,,,Not significant,Female,,,Intradermal,Metastatic,Lysate
+47,Control antigen,Yes,,,,,,,KLH,,,,,,3.0,10000000.0,17.0,3.0,16.0,,,,,Fibrosarcoma,,,,,,,,,,Chemotherapy,,,,,,Not significant,Female,,,Intradermal,Metastatic,Lysate
+48,Control antigen,Yes,,,,,,,KLH,,,,,,3.0,10000000.0,17.0,3.0,16.0,,,,,Fibrosarcoma,,,,,,,,,,Chemotherapy,,,,,,Not significant,Female,,,Intradermal,Metastatic,Lysate
+49,Control antigen,Yes,,,,,,,KLH,,,,,,3.0,10000000.0,17.0,3.0,16.0,,,,,Fibrosarcoma,,,,,,,,,,Chemotherapy,,,,,,Not significant,Female,,,Intradermal,Metastatic,Lysate
+50,Control antigen,Yes,,,,,,,KLH,,,,,,3.0,10000000.0,17.0,3.0,16.0,,,,,Fibrosarcoma,,,,,,,,,,Chemotherapy,,,,,,Not significant,Female,,,Intradermal,Metastatic,Lysate
+51,Control antigen,Yes,,,,,,,KLH,,,,,,3.0,10000000.0,17.0,3.0,16.0,,,,,Fibrosarcoma,,,,,,,,,,Chemotherapy,,,,,,Not significant,Female,,,Intradermal,Metastatic,Lysate
+52,Control antigen,Yes,,,,,,,KLH,,,,,,3.0,10000000.0,17.0,3.0,16.0,,,,,Fibrosarcoma,,,,,,,,,,Chemotherapy,,,,,,Not significant,Female,,,Intradermal,Metastatic,Lysate
+53,Control antigen,Yes,,,,,,,KLH,,,,,,3.0,10000000.0,17.0,3.0,16.0,,,,,Fibrosarcoma,,,,,,,,,,Chemotherapy,,,,,,Not significant,Female,,,Intradermal,Metastatic,Lysate
+54,Control antigen,Yes,,,,,,,KLH,,,,,,3.0,10000000.0,17.0,3.0,16.0,,,,,Fibrosarcoma,,,,,,,,,,Chemotherapy,,,,,,Not significant,Female,,,Intradermal,Metastatic,Lysate
+55,,,,,,,,,,Tumor antigen,Yes,,,,2.0,3200000.0,79.0,59.0,67.0,,,,,Prostate cancer,Normal,,,,100.0,90.0,100.0,,Monocytes,Surgery,Progressive Disease,,,,,Not significant,Male,,,Intravenously,,Protein
+56,,,,,,,,,,Tumor antigen,Yes,,,,2.0,6300000.0,79.0,59.0,67.0,,,,,Prostate cancer,Normal,,,,100.0,90.0,100.0,,Monocytes,Surgery,Stable Desease,,,,,Not significant,Male,,,Intravenously,,Protein
+57,,,,,,,,,,,,,,,2.0,14900000.0,79.0,59.0,67.0,,,,,Prostate cancer,Normal,,,,100.0,90.0,100.0,,Monocytes,Radiotherapy,Progressive Disease,,,,,Not significant,Male,,,Intravenously,,Protein
+58,,,,,,,,,,Tumor antigen,Yes,,,,2.0,3400000.0,79.0,59.0,67.0,,,,,Prostate cancer,Normal,,,,100.0,90.0,100.0,,Monocytes,Surgery,Stable Desease,,,,,Not significant,Male,,,Intravenously,,Protein
+59,,,,,,,,,,,,,,,2.0,4800000.0,79.0,59.0,67.0,,,,,Prostate cancer,Normal,,,,100.0,90.0,100.0,,Monocytes,Radiotherapy,Progressive Disease,,,,,Not significant,Male,,,Intravenously,,Protein
+60,,,,,,,,,,Tumor antigen,Yes,,,,2.0,17700000.0,79.0,59.0,67.0,,,,,Prostate cancer,Normal,,,,100.0,90.0,100.0,,Monocytes,,Stable Desease,,,,,Not significant,Male,,,Intravenously,,Protein
+61,,,,,,,,,,Tumor antigen,Yes,,,,2.0,7600000.0,79.0,59.0,67.0,,,,,Prostate cancer,Normal,,,,100.0,90.0,100.0,,Monocytes,Surgery,Progressive Disease,,,,,Not significant,Male,,,Intravenously,,Protein
+62,,,,,,,,,,Tumor antigen,Yes,,,,2.0,14900000.0,79.0,59.0,67.0,,,,,Prostate cancer,Normal,,,,100.0,90.0,100.0,,Monocytes,Surgery,Progressive Disease,,,,,Not significant,Male,,,Intravenously,,Protein
+63,,,,,,,,,,Tumor antigen,Yes,,,,2.0,18600000.0,79.0,59.0,67.0,,,,,Prostate cancer,Normal,,,,100.0,90.0,100.0,,Monocytes,,Progressive Disease,,,,,Not significant,Male,,,Intravenously,,Protein
+64,,,,,,,,,,Tumor antigen,Yes,,,,2.0,24400000.0,79.0,59.0,67.0,,,,,Prostate cancer,Normal,,,,100.0,90.0,100.0,,Monocytes,,Progressive Disease,,,,,Not significant,Male,,,Intradermal,,Protein
+65,,,,,,,,,,,,,,,2.0,2300000.0,79.0,59.0,67.0,,,,,Prostate cancer,Normal,,,,100.0,90.0,100.0,,Monocytes,Radiotherapy,Stable Desease,,,,,Not significant,Male,,,Intradermal,,Protein
+66,,,,,,,,,,Tumor antigen,Yes,,,,2.0,14600000.0,79.0,59.0,67.0,,,,,Prostate cancer,Normal,,,,100.0,90.0,100.0,,Monocytes,,Progressive Disease,,,,,Not significant,Male,,,Intradermal,,Protein
+67,,,,,,,,,,,,,,,2.0,10600000.0,79.0,59.0,67.0,,,,,Prostate cancer,Normal,,,,100.0,90.0,100.0,,Monocytes,Radiotherapy,Progressive Disease,,,,,Not significant,Male,,,Intradermal,,Protein
+68,,,,,,,,,,Tumor antigen,Yes,,,,2.0,5100000.0,79.0,59.0,67.0,,,,,Prostate cancer,Normal,,,,100.0,90.0,100.0,,Monocytes,Surgery,Progressive Disease,,,,,Not significant,Male,,,Intradermal,,Protein
+69,,,,,,,,,,Tumor antigen,Yes,,,,2.0,22700000.0,79.0,59.0,67.0,,,,,Prostate cancer,Normal,,,,100.0,90.0,100.0,,Monocytes,,Stable Desease,,,,,Not significant,Male,,,Intradermal,,Protein
+70,,,,,,,,,,,,,,,2.0,9500000.0,79.0,59.0,67.0,,,,,Prostate cancer,Normal,,,,100.0,90.0,100.0,,Monocytes,,Progressive Disease,,,,,Not significant,Male,,,Intralymphatically,,Protein
+71,,,,,,,,,,,,,,,2.0,14400000.0,79.0,59.0,67.0,,,,,Prostate cancer,Normal,,,,100.0,90.0,100.0,,Monocytes,Radiotherapy,Progressive Disease,,,,,Not significant,Male,,,Intralymphatically,,Protein
+72,,,,,,,,,,,,,,,2.0,26900000.0,79.0,59.0,67.0,,,,,Prostate cancer,Normal,,,,100.0,90.0,100.0,,Monocytes,Radiotherapy,Progressive Disease,,,,,Not significant,Male,,,Intralymphatically,,Protein
+73,,,,,,,,,,Tumor antigen,Yes,,,,2.0,2600000.0,79.0,59.0,67.0,,,,,Prostate cancer,Normal,,,,100.0,90.0,100.0,,Monocytes,,Progressive Disease,,,,,Not significant,Male,,,Intralymphatically,,Protein
+74,,,,,,,,,,,,,,,2.0,9700000.0,79.0,59.0,67.0,,,,,Prostate cancer,Normal,,,,100.0,90.0,100.0,,Monocytes,Radiotherapy,Stable Desease,,,,,Not significant,Male,,,Intralymphatically,,Protein
+75,,,,,,,,,,Tumor antigen,Yes,,,,2.0,10300000.0,79.0,59.0,67.0,,,,,Prostate cancer,Normal,,,,100.0,90.0,100.0,,Monocytes,,Stable Desease,,,,,Not significant,Male,,,Intralymphatically,,Protein
+76,,,,,Control antigen,Yes,,,,Tumor antigen,Yes,,,,,100000.0,,,55.0,,,,,,,,,,,,,,,Chemotherapy,Progressive Disease,,,,,,Male,,,,,
+77,Tumor antigen,Yes,,,Control antigen,Yes,,,,Tumor antigen,Yes,,,,,100000.0,,,59.0,,,,,,,,,,,,,,,Surgery,Complete response,,,,,,Male,,,,,
+78,Control antigen,Yes,,,Control antigen,Yes,,,,Tumor antigen,Yes,,,,,250000.0,,,43.0,,,,,,,,,,,,,,,Surgery,Progressive Disease,,,,,,Female,,,,,
+79,Tumor antigen,Yes,,,Control antigen,Yes,,,,Tumor antigen,Yes,,,,,100000.0,,,42.0,,,,,,,,,,,,,,,Chemotherapy,Stable Desease,,,,,,Female,,,,,
+80,Control antigen,Yes,,,Control antigen,Yes,,,,Tumor antigen,Yes,,,,,250000.0,,,45.0,,,,,,,,,,,,,,,Chemotherapy,Stable Desease,,,,,,Male,,,,,
+81,Tumor antigen,Yes,,,Control antigen,Yes,,,,Tumor antigen,Yes,,,,,100000.0,,,36.0,,,,,,,,,,,,,,,Surgery,Progressive Disease,,,,,,Male,,,,,
+82,Control antigen,Yes,,,Control antigen,Yes,,,,Tumor antigen,Yes,,,,,500000.0,,,61.0,,,,,,,,,,,,,,,Surgery,Partial Response,,,,,,Female,,,,,
+83,Control antigen,Yes,,,Control antigen,Yes,,,,Tumor antigen,Yes,,,,,250000.0,,,44.0,,,,,,,,,,,,,,,Immunotherapy,Complete response,,,,,,Male,,,,,
+84,Tumor antigen,Yes,,,Control antigen,Yes,,,,Tumor antigen,Yes,,,,,500000.0,,,50.0,,,,,,,,,,,,,,,Surgery,Complete response,,,,,,Male,,,,,
+85,Tumor antigen,Yes,,,Control antigen,Yes,,,,Tumor antigen,Yes,,,,,1000000.0,,,56.0,,,,,,,,,,,,,,,Surgery,Partial Response,,,,,,Female,,,,,
+86,,,,,Tumor antigen,Yes,,,,Tumor antigen,Yes,,,,4.0,500000.0,,,50.0,,,,HLA-A201,Melanoma,Normal,,,,,80.0,,Flt3L,HSC,Surgery,Progressive Disease,,,,,None,Male,,,Subcutaneously,Metastatic,Peptide
+87,Tumor antigen,Yes,,,Control antigen,Yes,,,,,,,,,,1000000.0,,,43.0,,,,,,,,,,,,,,,Surgery,Progressive Disease,,,,,,Female,,,,,
+88,Control antigen,Yes,,,Control antigen,Yes,,,,,,,,,,250000.0,,,73.0,,,,,,,,,,,,,,,Chemotherapy,Progressive Disease,,,,,,Male,,,,,
+89,Tumor antigen,Yes,,,,,,,,Tumor antigen,Yes,,,,,500000.0,,,57.0,,,,,,,,,,,,,,,Surgery,Stable Desease,,,,,,Female,,,,,
+90,Tumor antigen,Yes,,,Control antigen,Yes,,,,Tumor antigen,Yes,,,,,1000000.0,,,70.0,,,,,,,,,,,,,,,Surgery,Partial Response,,,,,,Female,,,,,
+91,Tumor antigen,Yes,,,Control antigen,Yes,,,,,,,,,,100000.0,,,66.0,,,,,,,,,,,,,,,Radiotherapy,Not evaluable,,,,,,Male,,,,,
+92,Tumor antigen,Yes,,,Control antigen,Yes,,,,,,,,,,1000000.0,,,40.0,,,,,,,,,,,,,,,Surgery,Progressive Disease,,,,,,Male,,,,,
+93,,,,,Control antigen,Yes,,,,Tumor antigen,Yes,,,,,1000000.0,,,66.0,,,,,,,,,,,,,,,Surgery,Stable Desease,,,,,,Male,,,,,
+94,Tumor antigen,Yes,,,,,,,KLH,,,,,,14.0,,,,53.0,,,,HLA-A1,Thyroid Cancer,,,,,,,,TNF-α,Monocytes,Surgery,Stable Desease,Decrease,,,PSA,None,Female,,,Intracutaneously,,Peptide
+95,Control antigen,Yes,,,,,,,,,,,,,14.0,,,,62.0,,,,HLA-A1,,,,,,,,,,,Surgery,Stable Desease,Decrease,,,PSA,Not significant,Male,,,,,Co-culture
+96,Control antigen,Yes,,,,,,,KLH,,,,,,12.0,,,,37.0,,,,HLA-A2,Thyroid Cancer,,,,,,,,TNF-α,Monocytes,Surgery,Partial Response,Decrease,,,PSA,None,Male,,,Intracutaneously,,Peptide
+97,Control antigen,Yes,,,,,,,KLH,,,,,,10.0,,,,32.0,,,,HLA-A2,Thyroid Cancer,,,,,,,,TNF-α,Monocytes,Surgery,Stable Desease,Decrease,,,PSA,Not significant,Female,,,Intracutaneously,,Peptide
+98,Control antigen,Yes,,,,,,,KLH,,,,,,11.0,,,,58.0,,,,HLA-A1,Thyroid Cancer,,,,,,,,TNF-α,Monocytes,Surgery,Stable Desease,Decrease,,,PSA,Not significant,Female,,,Intracutaneously,,Peptide
+99,Control antigen,Yes,,,,,,,KLH,,,,,,11.0,,,,31.0,,,,HLA-A2,Thyroid Cancer,,,,,,,,TNF-α,Monocytes,Surgery,Stable Desease,Decrease,,,PSA,Not significant,Male,,,Intracutaneously,,Peptide
+100,Control antigen,Yes,,,,,,,KLH,,,,,,7.0,,,,38.0,,,,HLA-A2,Thyroid Cancer,,,,,,,,TNF-α,Monocytes,Surgery,Progressive Disease,Decrease,,,PSA,Not significant,Female,,,Intracutaneously,,Peptide
+101,,,,,,,,,,Tumor antigen,Yes,,,,6.0,10000000.0,,,75.0,Months,Dead,2.0,HLA-A24,Bladder cancer,,,,,,,,,Monocytes,Surgery,Complete response,,,,,Not significant,Female,,,Subcutaneously,IV,Peptide
+102,,,,,,,,,,Tumor antigen,Yes,,,,18.0,10000000.0,,,65.0,Months,Live,8.0,HLA-A24,Bladder cancer,,,,,,,,,Monocytes,Surgery,Partial Response,,,,,Not significant,Male,,,Subcutaneously,IV,Peptide
+103,,,,,,,,,,Tumor antigen,Yes,,,,6.0,10000000.0,,,64.0,Months,Live,5.0,HLA-A24,Bladder cancer,,,,,,,,,Monocytes,Radiotherapy,Partial Response,,,,,Not significant,Male,,,Subcutaneously,IV,Peptide
+104,,,,,,,,,,Tumor antigen,Yes,,,,6.0,10000000.0,,,56.0,Months,Live,2.0,HLA-A24,Bladder cancer,,,,,,,,,Monocytes,Surgery,Progressive Disease,,,,,Not significant,Male,,,Subcutaneously,IV,Peptide
+105,,,,,,,,,,,,,,,3.0,,,,,,,,,Colon cancer,,,,,,,,,,,Progressive Disease,Decrease,,,PSA,None,,,Immunotherapy,Intradermal,,Expression vector
+106,,,,,,,,,,,,,,,3.0,,,,,,,,,Colon cancer,,,,,,,,,,,Partial Response,Decrease,,,PSA,None,,,Immunotherapy,Intradermal,,Expression vector
+107,,,,,,,,,,,,,,,3.0,,,,,,,,,Colon cancer,,,,,,,,,,,Partial Response,Decrease,,,PSA,None,,,Immunotherapy,Intradermal,,Expression vector
+108,,,,,,,,,,,,,,,3.0,,,,,,,,,Prostate cancer,,,,,,,,,,,Progressive Disease,Decrease,,,PSA,None,,,Immunotherapy,Intradermal,,Expression vector
+109,,,,,,,,,,,,,,,3.0,,,,,,,,,Colon cancer,,,,,,,,,,,Partial Response,Decrease,,,PSA,None,,,Immunotherapy,Intradermal,,Expression vector
+110,,,,,,,,,,,,,,,3.0,,,,,,,,,Prostate cancer,,,,,,,,,,,Partial Response,Decrease,,,PSA,None,,,Immunotherapy,Intradermal,,Expression vector
+111,,,,,,,,,,,,,,,3.0,,,,,,,,,Prostate cancer,,,,,,,,,,,Stable Desease,Decrease,,,PSA,None,,,Immunotherapy,Intradermal,,Expression vector
+112,,,,,,,,,,,,,,,3.0,,,,,,,,,Prostate cancer,,,,,,,,,,,Partial Response,Decrease,,,PSA,None,,,Immunotherapy,Intradermal,,Expression vector
+113,,,,,,,,,,,,,,,3.0,,,,,,,,,Prostate cancer,,,,,,,,,,,Progressive Disease,Decrease,,,PSA,None,,,Immunotherapy,Intradermal,,Expression vector
+114,,,,,,,,,,,,,,,3.0,,,,,,,,,Prostate cancer,,,,,,,,,,,Stable Desease,Decrease,,,PSA,None,,,Immunotherapy,Intradermal,,Expression vector
+115,,,,,,,,,,,,,,,3.0,,,,,,,,,Prostate cancer,,,,,,,,,,,Stable Desease,Decrease,,,PSA,None,,,Immunotherapy,Intradermal,,Expression vector
+116,,,,,,,,,,,,,,,3.0,,,,,,,,,Prostate cancer,,,,,,,,,,,Stable Desease,Decrease,,,PSA,None,,,Immunotherapy,Intradermal,,Expression vector
+117,,,,,,,,,,,,,,,3.0,,,,,,,,,Colon cancer,,,,,,,,,,,Partial Response,Decrease,,,PSA,None,,,Immunotherapy,Intradermal,,Expression vector
+118,,,,,,,,,,,,,,,3.0,,,,,,,,,Prostate cancer,,,,,,,,,,,Partial Response,Decrease,,,PSA,None,,,Immunotherapy,Intradermal,,Expression vector
+119,,,,,,,,,,,,,,,3.0,,,,,,,,,Prostate cancer,,,,,,,,,,,Partial Response,Decrease,,,PSA,None,,,Immunotherapy,Intradermal,,Expression vector
+120,,,,,,,,,,,,,,,3.0,,,,,,,,,Prostate cancer,,,,,,,,,,,Partial Response,Decrease,,,PSA,None,,,Immunotherapy,Intradermal,,Expression vector
+121,,,,,,,,,,,,,,,3.0,,,,,,,,,Prostate cancer,,,,,,,,,,,Partial Response,Decrease,,,PSA,None,,,Immunotherapy,Intradermal,,Expression vector
+122,,,,,,,,,,,,,,,3.0,,,,,,,,,Prostate cancer,,,,,,,,,,,Progressive Disease,Decrease,,,PSA,None,,,Immunotherapy,Intradermal,,Expression vector
+123,,,,,,,,,,,,,,,3.0,,,,,,,,,Prostate cancer,,,,,,,,,,,Progressive Disease,Decrease,,,PSA,None,,,Immunotherapy,Intradermal,,Expression vector
+124,,,,,,,,,,,,,,,3.0,,,,,,,,,Colon cancer,,,,,,,,,,,Partial Response,Decrease,,,PSA,None,,,Immunotherapy,Intradermal,,Expression vector
+125,,,,,,,,,,,,,,,3.0,,,,,,,,,Colon cancer,,,,,,,,,,,Partial Response,Decrease,,,PSA,None,,,Immunotherapy,Intradermal,,Expression vector
+126,,,,,,,,,,,,,,,3.0,,,,,,,,,Colon cancer,,,,,,,,,,,Progressive Disease,Decrease,,,PSA,None,,,Immunotherapy,Intradermal,,Expression vector
+127,,,,,,,,,,,,,,,3.0,,,,,,,,,Prostate cancer,,,,,,,,,,,Stable Desease,Decrease,,,PSA,None,,,Immunotherapy,Intradermal,,Expression vector
+128,Control antigen,Yes,,,,,,,KLH,,,,,,4.0,,,,50.0,,,,,Breast cancer,,,,,,,,,Monocytes,,,Increase,,,CEA,,Female,,,Intralymphatically,IV,Lysate
+129,,,,,,,,,Flt3L,Tumor antigen,Yes,,,,2.0,10000000.0,71.0,33.0,53.0,,,,HLA-A*0201,,Abnormal,,,,100.0,80.0,90.0,,Monocytes,Chemotherapy,Progressive Disease,,,,,Not significant,Female,,,Intravenously,Metastatic,Peptide
+130,,,,,,,,,Flt3L,,,,,,2.0,10000000.0,71.0,33.0,53.0,,,,HLA-A*0201,Colon cancer,Abnormal,,,,100.0,80.0,90.0,,Monocytes,Chemotherapy,Progressive Disease,,,,,Not significant,,,,Intravenously,Metastatic,Peptide
+131,,,,,,,,,Flt3L,,,,,,2.0,10000000.0,71.0,33.0,53.0,,,,HLA-A*0201,Lung cancer,,,,,100.0,80.0,90.0,,Monocytes,Chemotherapy,Stable Desease,,,,,Not significant,Female,,,Intravenously,Metastatic,Peptide
+132,,,,,,,,,Flt3L,Tumor antigen,Yes,,,,2.0,10000000.0,71.0,33.0,53.0,,,,HLA-A*0201,,,,,,100.0,80.0,90.0,,Monocytes,Chemotherapy,Progressive Disease,,,,,Not significant,,,,Intravenously,Metastatic,Peptide
+133,,,,,,,,,Flt3L,Tumor antigen,Yes,,,,2.0,10000000.0,71.0,33.0,53.0,,,,HLA-A*0201,Colon cancer,,,,,100.0,80.0,90.0,,Monocytes,Chemotherapy,Complete response,,,,,Not significant,Female,,,Intravenously,Metastatic,Peptide
+134,,,,,,,,,Flt3L,,,,,,2.0,10000000.0,71.0,33.0,53.0,,,,HLA-A*0201,Colon cancer,Abnormal,,,,100.0,80.0,90.0,,Monocytes,Chemotherapy,Progressive Disease,,,,,Not significant,,,,Intravenously,Metastatic,Peptide
+135,,,,,,,,,Flt3L,Tumor antigen,Yes,,,,2.0,10000000.0,71.0,33.0,53.0,,,,HLA-A*0201,Colon cancer,Abnormal,,,,100.0,80.0,90.0,,Monocytes,Chemotherapy,Progressive Disease,,,,,Not significant,,,,Intravenously,Metastatic,Peptide
+136,,,,,,,,,Flt3L,Tumor antigen,Yes,,,,2.0,10000000.0,71.0,33.0,53.0,,,,HLA-A*0201,,,,,,100.0,80.0,90.0,,Monocytes,Chemotherapy,Stable Desease,,,,,Not significant,Male,,,Intravenously,Metastatic,Peptide
+137,,,,,,,,,Flt3L,Tumor antigen,Yes,,,,2.0,10000000.0,71.0,33.0,53.0,,,,HLA-A*0201,Colon cancer,Abnormal,,,,100.0,80.0,90.0,,Monocytes,Chemotherapy,Progressive Disease,,,,,Not significant,Male,,,Intravenously,Metastatic,Peptide
+138,,,,,,,,,Flt3L,Tumor antigen,Yes,,,,2.0,10000000.0,71.0,33.0,53.0,,,,HLA-A*0201,Colon cancer,Abnormal,,,,100.0,80.0,90.0,,Monocytes,Chemotherapy,Progressive Disease,,,,,Not significant,,,,Intravenously,Metastatic,Peptide
+139,,,,,,,,,Flt3L,Tumor antigen,Yes,,,,2.0,10000000.0,71.0,33.0,53.0,,,,HLA-A*0201,,Abnormal,,,,100.0,80.0,90.0,,Monocytes,Chemotherapy,Complete response,,,,,Not significant,,,,Intravenously,Metastatic,Peptide
+140,,,,,,,,,Flt3L,,,,,,2.0,10000000.0,71.0,33.0,53.0,,,,HLA-A*0201,Colon cancer,Abnormal,,,,100.0,80.0,90.0,,Monocytes,Chemotherapy,Partial Response,,,,,Not significant,Male,,,Intravenously,Metastatic,Peptide
+141,Tumor antigen,Yes,,,,,,,KLH,,,,,,3.0,1000000.0,,,40.0,,,,,Melanoma,Normal,,,,,,,GM-CSF,Monocytes,Immunotherapy,Progressive Disease,,,,,,Female,,,Intradermal,IV,Lysate
+142,,,,,,,,,,,,,,,,1000000.0,,,63.0,,,,,Melanoma,,,,,,,,,,,Partial Response,,,,,,Female,,,,,
+143,,,,,,,,,,,,,,,,1000000.0,,,65.0,,,,,Melanoma,,,,,,,,,,,Progressive Disease,,,,,,Male,,,,,
+144,,,,,,,,,,,,,,,,1000000.0,,,55.0,,,,,Melanoma,,,,,,,,,,,Progressive Disease,,,,,,Male,,,,,
+145,Tumor antigen,Yes,,,,,,,,,,,,,,1000000.0,,,66.0,,,,,Melanoma,,,,,,,,,,,Progressive Disease,,,,,,Male,,,,,
+146,,,,,,,,,,,,,,,,10000000.0,,,50.0,,,,,Rectum cancer,,,,,,,,,,Chemotherapy,Progressive Disease,,,,,,Male,,,,,
+147,,,,,,,,,,,,,,,,10000000.0,,,69.0,,,,,Melanoma,,,,,,,,,,,Stable Desease,,,,,,Female,,,,,
+148,,,,,,,,,,,,,,10000000.0,,,,,73.0,,,,,Melanoma,,,,,,,,,,,Progressive Disease,,,,,,Male,,,,,
+149,,,,,,,,,,,,,,,,10000000.0,,,41.0,,,,,Melanoma,,,,,,,,,,Immunotherapy,Stable Desease,,,,,,Male,,,,,
+150,,,,,Tumor antigen,Yes,,,,,,,,,,10000000.0,,,40.0,,,,,Melanoma,,,,,,,,,,Immunotherapy,Progressive Disease,,,,,,Male,,,,,
+151,,,,,,,,,,,,,,,,10000000.0,,,47.0,,,,,Rectum cancer,,,,,,,,,,Chemotherapy,Stable Desease,,,,,,Male,,,,,
+152,,,,,,,,,,,,,,,,100000000.0,,,49.0,,,,,Melanoma,,,,,,,,,,Immunotherapy,Progressive Disease,,,,,,Male,,,,,
+153,,,,,Tumor antigen,Yes,,,,,,,,,,100000000.0,,,66.0,,,,,Melanoma,,,,,,,,,,,Stable Desease,,,,,,Female,,,,,
+154,,,,,Tumor antigen,Yes,,,,,,,,,,100000000.0,,,36.0,,,,,Stomach cancer,,,,,,,,,,Chemotherapy,Stable Desease,,,,,,Female,,,,,
+155,Tumor antigen,Yes,,,,,,,,,,,,,,52000000.0,,,50.0,,,,HLA-A24,,,,,,,,,,,Surgery,Progressive Disease,,,,,None,Female,,,,,
+156,Tumor antigen,Yes,,,,,,,,,,,,,,27000000.0,,,54.0,,,,HLA-A24,,,,,,,,,,,Surgery,Progressive Disease,,,,,Not significant,Male,,,,,
+157,Tumor antigen,Yes,,,,,,,,,,,,,,36000000.0,,,39.0,,,,HLA-A24,,,,,,,,,,,Surgery,Stable Desease,,,,,Not significant,Male,,,,,
+158,,,,,,,,,,,,,,,13.0,171.7,,,53.0,Months,Dead,21.5,,,Normal,,,,,,,,,,Partial Response,,,,,Not significant,Male,,,Intravenously,,Lysate
+159,,,,,,,,,,,,,,,,,,,68.0,,,,,,,,,,,,,,,,,,,,,,Male,,,,,
+160,Tumor antigen,Yes,,,,,,,,Tumor antigen,Yes,,,,3.0,29.1,,,57.0,Months,Dead,4.0,,,,,,,,,,,,,Progressive Disease,,,,,,Male,,,Intravenously,,Lysate
+161,Tumor antigen,Yes,,,,,,,,,,,,,8.0,70.4,,,70.0,Months,Dead,42.0,,,,,,,,,,,,,Stable Desease,,,,,None,Female,,,Intravenously,,Lysate
+162,Tumor antigen,Yes,,,,,,,,,,,,,12.0,61.9,,,52.0,Months,Dead,25.0,,,,,,,,,,,,Immunotherapy,Stable Desease,,,,,None,Male,,,Intravenously,,Lysate
+163,,,,,,,,,,,,,,,,,,,29.0,,,,,,,,,,,,,,,,,,,,,,Female,,,,,
+164,Tumor antigen,Yes,,,,,,,,Tumor antigen,Yes,,,,3.0,18.7,,,60.0,Months,Dead,10.4,,,,,,,,,,,,,Progressive Disease,,,,,None,Female,,,Intravenously,,Co-culture
+165,,,,,,,,,KLH,Control antigen,Yes,,,,,,,,56.0,,,,,Renal cancer,Normal,,,,,,,,Monocytes,,,,,,,,Male,,,,,
+166,Tumor antigen,Yes,,,,,,,KLH,Tumor antigen,Yes,,,,6.0,52.4,,,56.0,Months,Dead,13.5,,Renal cancer,Normal,,,,,,,,Monocytes,,Stable Desease,,,,,,Female,,,Intravenously,,Co-culture
+167,,,,,,,,,,Control antigen,Yes,,,,,,,,57.0,,,,,,,,,,,,,,,,,,,,,,Male,,,,,
+168,Tumor antigen,Yes,,,,,,,,Tumor antigen,Yes,,,,7.0,76.0,,,59.0,Months,Dead,32.9,,,,,,,,,,,,,Complete response,,,,,None,Male,,,Intravenously,,Lysate
+169,Tumor antigen,Yes,,,,,,,,Tumor antigen,Yes,,,,3.0,46.6,,,57.0,Months,Dead,4.0,,,,,,,,,,,,Immunotherapy,Progressive Disease,,,,,,Female,,,Intravenously,,Co-culture
+170,Tumor antigen,Yes,,,,,,,,Tumor antigen,Yes,,,,4.0,49.0,,,59.0,Months,Dead,8.8,,,,,,,,,,,,Immunotherapy,Progressive Disease,,,,,,Male,,,Intravenously,,Co-culture
+171,Tumor antigen,Yes,,,,,,,,Control antigen,Yes,,,,3.0,39.0,,,51.0,Days,Dead,,,,,,,,,,,,,Immunotherapy,Progressive Disease,,,,,,Male,,,Intravenously,,Co-culture
+172,Tumor antigen,Yes,,,,,,,,Tumor antigen,Yes,,,,6.0,70.9,,,51.0,Months,Dead,5.0,,,,,,,,,,,,Immunotherapy,Progressive Disease,,,,,None,Female,,,Intravenously,,Co-culture
+173,Tumor antigen,Yes,,,,,,,,,,,,,4.0,30.9,,,52.0,Months,Dead,30.0,,,,,,,,,,,,Immunotherapy,Stable Desease,,,,,,Male,,,Intravenously,,Co-culture
+174,,,,,,,,,,Tumor antigen,Yes,,,,,,,,49.0,,,,,,,,,,,,,,,,,,,,,,Female,,,,,
+175,Tumor antigen,Yes,,,,,,,,Tumor antigen,Yes,,,,6.0,52.0,,,54.0,Months,Dead,8.0,,,,,,,,,,,,,Progressive Disease,,,,,,Male,,,Intravenously,,Co-culture
+176,Tumor antigen,Yes,,,,,,,,,,,,,3.0,32.0,,,57.0,,,,,,,,,,,,,,,Immunotherapy,Progressive Disease,,,,,,Female,,,Intravenously,,Co-culture
+177,Tumor antigen,Yes,,,,,,,,,,,,,3.0,33.0,,,63.0,,,,,,,,,,,,,,,Immunotherapy,Progressive Disease,,,,,None,Female,,,Intravenously,,Co-culture
+178,,,,,,,,,,,,,,,,,,,49.0,,,,,,,,,,,,,,,,,,,,,,Male,,,,,
+179,Tumor antigen,Yes,,,,,,,,,,,,,3.0,31.0,,,71.0,Months,Dead,7.0,,,,,,,,,,,,Immunotherapy,Progressive Disease,,,,,,Male,,,Intradermal,,Co-culture
+180,Tumor antigen,Yes,,,,,,,,Control antigen,Yes,,,,4.0,47.0,,,46.0,,,,,,,,,,,,,,,Immunotherapy,Progressive Disease,,,,,,Male,,,Intravenously,,Co-culture
+181,Tumor antigen,Yes,,,,,,,,Tumor antigen,Yes,,,,3.0,29.0,,,55.0,Months,Dead,5.0,,,,,,,,,,,,Immunotherapy,Progressive Disease,,,,,,Male,,,Intravenously,,Co-culture
+182,Tumor antigen,Yes,,,,,,,,,,,,,3.0,12.5,,,52.0,Months,Dead,5.0,,,,,,,,,,,,Immunotherapy,Progressive Disease,,,,,None,Male,,,Intradermal,,Co-culture
+183,,,,,,,,,,Control antigen,Yes,,,,,,,,63.0,,,,,,,,,,,,,,,,,,,,,,Male,,,,,
+184,Tumor antigen,Yes,,,,,,,,,,,,,3.0,9.7,,,53.0,,,,,,,,,,,,,,,Immunotherapy,Progressive Disease,,,,,,Male,,,Intradermal,,Co-culture
+185,Tumor antigen,Yes,,,,,,,,Tumor antigen,Yes,,,,3.0,9.7,,,55.0,,,,,,,,,,,,,,,Immunotherapy,Progressive Disease,,,,,,Male,,,Intravenously,,Co-culture
+186,Tumor antigen,Yes,,,,,,,,Control antigen,Yes,,,,3.0,8.3,,,57.0,Months,Dead,26.0,,,,,,,,,,,,,Stable Desease,,,,,,Male,,,Intradermal,,Co-culture
+187,,,,,,,,,,,,,,,,,,,66.0,,,,,,,,,,,,,,,,,,,,,,Male,,,,,
+188,Tumor antigen,Yes,,,,,,,,,,,,,6.0,42.8,,,62.0,Months,Dead,24.0,,,,,,,,,,,,Immunotherapy,Stable Desease,,,,,,Female,,,Intradermal,,Co-culture
+189,Tumor antigen,Yes,,,,,,,,,,,,,3.0,11.1,,,62.0,Months,Dead,23.5,,,,,,,,,,,,,Stable Desease,,,,,,Male,,,Intradermal,,Co-culture
+190,Tumor antigen,Yes,,,,,,,,Control antigen,Yes,,,,3.0,11.0,,,61.0,Months,Dead,23.3,,,,,,,,,,,,Immunotherapy,Complete response,,,,,,Male,,,Intradermal,,Lysate
+191,Tumor antigen,Yes,,,,,,,,Control antigen,Yes,,,,3.0,13.9,,,63.0,Months,Dead,5.0,,,,,,,,,,,,,Progressive Disease,,,,,,Male,,,Intradermal,,Lysate
+192,Tumor antigen,Yes,,,,,,,KLH,Control antigen,Yes,,,,3.0,7.65,,,56.0,Months,Dead,23.0,,Renal cancer,Normal,,,,,,,,Monocytes,,Progressive Disease,,,,,,Male,,,Intradermal,,Lysate
+193,Tumor antigen,No,,,,,,,None,,,,,,,27000000.0,,,54.0,,,,HLA-A24,Rectum cancer,,,,,,,,,,Surgery,Progressive Disease,,,,,Not significant,Female,,,,,
+194,Tumor antigen,Yes,,,,,,,None,,,,,,,53000000.0,,,64.0,,,,HLA-11,Colon cancer,,,,,,,,,,Surgery,Progressive Disease,,,,,Not significant,Female,,,,,
+195,Tumor antigen,Yes,,,,,,,None,,,,,,,160000000.0,,,61.0,,,,HLA-24,Colon cancer,,,,,,,,,,Surgery,,,,,,None,Female,,,,,
+196,Tumor antigen,Yes,,,,,,,None,,,,,,,110000000.0,,,28.0,,,,HLA-A2,Colon cancer,,,,,,,,,,Surgery,Progressive Disease,,,,,,Female,,,,,
+197,Tumor antigen,Yes,,,,,,,None,,,,,,,120000000.0,,,33.0,,,,HLA-A2,Stomach cancer,,,,,,,,,,Surgery,Progressive Disease,,,,,,Female,,,,,
+198,Tumor antigen,Yes,,,,,,,None,Tumor antigen,Yes,,,,,77000000.0,,,69.0,,,,HLA-A2,Lung cancer,,,,,,,,,,Surgery,Progressive Disease,,,,,,Male,,,,,
+199,Tumor antigen,Yes,,,,,,,None,Tumor antigen,No,,,,,85000000.0,,,57.0,,,,HLA-24,Rectum cancer,,,,,,,,,,Surgery,Stable Desease,,,,,Not significant,Female,,,,,
+200,Tumor antigen,Yes,,,,,,,None,,,,,,,65000000.0,,,56.0,,,,HLA-A2,Rectum cancer,,,,,,,,,,Surgery,Progressive Disease,,,,,,Male,,,,,
+201,Tumor antigen,Yes,,,,,,,None,,,,,,,130000000.0,,,52.0,,,,HLA-24,Lung cancer,,,,,,,,,,Surgery,Stable Desease,,,,,Not significant,Female,,,,,
+202,Tumor antigen,Yes,,,,,,,None,,,,,,,120000000.0,,,42.0,,,,HLA-24,Colon cancer,,,,,,,,,,Surgery,Progressive Disease,,,,,,Female,,,,,
+203,Tumor antigen,No,,,Tumor antigen,Not done,,,,,,,,,2.0,1000000.0,,,50.0,,,,HLA-A2,Breast cancer,Normal,,,,,,,,Monocytes,Surgery,Progressive Disease,,,,,None,Female,,,Subcutaneously,I,Expression vector
+204,Tumor antigen,Yes,,,Tumor antigen,Yes,109.0,16.0,,,,,,,3.0,1000000.0,,,48.0,,,,HLA-A2,Breast cancer,Normal,,,,,,,,Monocytes,Surgery,Progressive Disease,,,,,,Female,,,Subcutaneously,I,Expression vector
+205,Tumor antigen,Yes,,,Tumor antigen,Yes,37.0,225.0,,,,,,,3.0,1000000.0,,,66.0,,,,HLA-A2,Breast cancer,Normal,,,,,,,,Monocytes,Surgery,Stable Desease,,,,,,Female,,,Subcutaneously,I,Expression vector
+206,Tumor antigen,Yes,,,Tumor antigen,Yes,16.0,154.0,,,,,,,3.0,1000000.0,,,55.0,,,,HLA-A2,Breast cancer,Normal,,,,,,,,Monocytes,Surgery,Progressive Disease,,,,,,Female,,,Subcutaneously,I,Expression vector
+207,Tumor antigen,Yes,,,Tumor antigen,Yes,266.0,874.0,,,,,,,3.0,1000000.0,,,76.0,,,,HLA-A2,Pancreatic cancer,Normal,,,,,,,,Monocytes,,Progressive Disease,,,,,,Female,,,Subcutaneously,I,Expression vector
+208,Tumor antigen,Yes,,,Tumor antigen,Yes,41.0,85.0,,,,,,,3.0,1000000.0,,,38.0,,,,HLA-A2,Breast cancer,Normal,,,,,,,,Monocytes,Surgery,Progressive Disease,,,,,,Female,,,Subcutaneously,I,Expression vector
+209,Tumor antigen,Yes,,,Tumor antigen,Yes,804.0,1002.0,,,,,,,2.0,1000000.0,,,72.0,,,,HLA-A2,Pancreatic cancer,Normal,,,,,,,,Monocytes,,Progressive Disease,,,,,,Female,,,Subcutaneously,I,Expression vector
+210,Tumor antigen,Yes,,,Tumor antigen,Yes,1.0,10.0,,,,,,,3.0,1000000.0,,,66.0,,,,HLA-A2,Hepatocellular carcinoma,Normal,,,,,,,,Monocytes,Surgery,Progressive Disease,,,,,,Male,,,Subcutaneously,I,Expression vector
+211,Tumor antigen,Yes,,,Tumor antigen,Yes,249.0,260.0,,,,,,,3.0,1000000.0,,,46.0,,,,HLA-A2,Breast cancer,Normal,,,,,,,,Monocytes,Surgery,Progressive Disease,,,,,,Female,,,Subcutaneously,I,Expression vector
+212,Tumor antigen,Yes,,,Tumor antigen,Yes,87.0,1.0,,,,,,,3.0,1000000.0,,,45.0,,,,HLA-A2,Breast cancer,Normal,,,,,,,,Monocytes,Surgery,Progressive Disease,,,,,,Female,,,Subcutaneously,I,Expression vector
+213,,,,,Tumor antigen,Yes,,,,,,,,,,,,,69.0,,,,,,,,,,,,,,,,,,,,,,Male,,,,,
+214,,,,,Tumor antigen,No,,,,,,,,,,,,,59.0,,,,,,,,,,,,,,,,,,,,,,Female,,,,,
+215,,,,,Tumor antigen,No,,,,,,,,,,,,,61.0,,,,,,,,,,,,,,,,,,,,,,Male,,,,,
+216,,,,,Tumor antigen,No,,,,,,,,,,,,,64.0,,,,,,,,,,,,,,,,,,,,,,Female,,,,,
+217,,,,,Tumor antigen,Yes,,,,,,,,,,,,,61.0,,,,,,,,,,,,,,,,,,,,,,Male,,,,,
+218,Tumor antigen,No,,,,,,,,,,,,,,10000000.0,,,47.0,Days,Dead,3.75,HLA-A2,Pancreatic cancer,Normal,,,,,,,,Monocytes,Chemotherapy,,,,,,Not significant,,,None,Intradermal,,RNA
+219,,,,,,,,,,,,,,,,10000000.0,,,73.0,Days,Dead,3.75,HLA-A2,Pancreatic cancer,Normal,,,,,,,,Monocytes,Chemotherapy,,,,,,Not significant,,,Immunotherapy,Intradermal,,RNA
+220,Tumor antigen,Yes,,,,,,,,,,,,,,10000000.0,,,53.0,Days,Dead,3.75,HLA-A2,Pancreatic cancer,Normal,,,,,,,,Monocytes,Chemotherapy,,,,,,Not significant,,,Immunotherapy,Intradermal,,RNA
+221,Tumor antigen,No,,,,,,,,Tumor antigen,No,,,,4.0,5000000.0,,,42.0,,,,HLA-A1,Hepatocellular carcinoma,Abnormal,,,,,,,,Monocytes,,Progressive Disease,,,,,Not significant,Male,Caucasoid,,Intradermal,IV,Co-culture
+222,Tumor antigen,Yes,,,,,,,,,,,,,4.0,10000000.0,,,53.0,Years,Live,3.0,HLA-A30,Hepatocellular carcinoma,Abnormal,,,,,,,,Monocytes,,Stable Desease,,,,,Not significant,Male,Caucasoid,,Intradermal,IV,RNA
+223,,,,,,,,,,,,,,,2.0,10000000.0,,,46.0,Weeks,Dead,73.0,,Glioblastoma,,,,,,,,,,,Stable Desease,,,,,Not significant,,,,Intradermal,,
+224,,,,,,,,,,,,,,,2.0,17000000.0,,,40.0,Weeks,Dead,216.0,,Glioma,,,,,,,,,,,Stable Desease,,,,,,Female,,,Intradermal,,
+225,,,,,,,,,,,,,,,4.0,42400000.0,,,53.0,Weeks,Dead,100.0,,Glioblastoma,,,,,,,,,,,Partial Response,,,,,,Female,,,Intradermal,,
+226,,,,,,,,,,,,,,,1.0,12600000.0,,,47.0,Weeks,Dead,188.0,,Glioma,,,,,,,,,,,Stable Desease,,,,,,Female,,,Intradermal,,
+227,,,,,,,,,,,,,,,2.0,64000000.0,,,60.0,Weeks,Dead,63.0,,Glioblastoma,,,,,,,,,,,Progressive Disease,,,,,,Male,,,Intradermal,,
+228,,,,,,,,,,,,,,,10.0,137200000.0,,,65.0,Weeks,Dead,308.0,,Glioblastoma,,,,,,,,,,,Partial Response,,,,,Not significant,Female,,,Intradermal,,
+229,,,,,,,,,,,,,,,3.0,46000000.0,,,69.0,Weeks,Dead,52.0,,Glioblastoma,,,,,,,,,,,Progressive Disease,,,,,,Male,,,Intradermal,,
+230,,,,,,,,,,,,,,,6.0,37500000.0,,,20.0,Weeks,Dead,60.0,,Glioblastoma,,,,,,,,,,,Stable Desease,,,,,,Female,,,Intradermal,,
+231,,,,,,,,,,,,,,,4.0,28200000.0,,,34.0,Weeks,Dead,98.0,,Prostate cancer,,,,,,,,,,,Progressive Disease,,,,,,Male,,,Intradermal,,
+232,,,,,,,,,,,,,,,3.0,20600000.0,,,27.0,Weeks,Dead,564.0,,Glioblastoma,,,,,,,,,,,Progressive Disease,,,,,,Female,,,Intradermal,,
+233,Control antigen,Yes,5.0,7.0,,,,,,,,,,,,,,,62.0,,,,,,,,,,,,,,,Surgery,Progressive Disease,,,,,,Male,,,,,Co-culture
+234,Control antigen,Yes,13.0,16.0,,,,,,,,,,,,,,,75.0,,,,,,,,,,,,,,,Surgery,Progressive Disease,,,,,,Male,,,,,Co-culture
+235,Control antigen,Yes,5.0,4.0,,,,,,,,,,,,,,,58.0,,,,,,,,,,,,,,,Surgery,Stable Desease,,,,,,Male,,,,,Co-culture
+236,Control antigen,Yes,12.0,16.0,,,,,,,,,,,,,,,75.0,,,,,,,,,,,,,,,Surgery,Progressive Disease,,,,,,Male,,,,,Lysate
+237,Control antigen,Yes,34.0,28.0,,,,,,,,,,,,,,,78.0,,,,,,,,,,,,,,,Radiotherapy,Progressive Disease,,,,,,Male,,,,,Lysate
+238,Control antigen,Yes,8.0,8.0,,,,,,,,,,,,,,,46.0,,,,,,,,,,,,,,,Surgery,Progressive Disease,,,,,,Male,,,,,Co-culture
+239,Control antigen,Yes,17.0,48.0,,,,,,,,,,,,,,,60.0,,,,,,,,,,,,,,,Immunotherapy,Progressive Disease,,,,,,Male,,,,,Lysate
+240,Control antigen,Yes,9.0,9.0,,,,,,,,,,,,,,,48.0,,,,,,,,,,,,,,,Surgery,Stable Desease,,,,,,Male,,,,,Co-culture
+241,Control antigen,Yes,16.0,12.0,,,,,,,,,,,,,,,59.0,,,,,,,,,,,,,,,Surgery,Progressive Disease,,,,,,Male,,,,,Co-culture
+242,Control antigen,Yes,6.0,20.0,,,,,,,,,,,,,,,62.0,,,,,,,,,,,,,,,Surgery,Stable Desease,,,,,,Male,,,,,Co-culture
+243,Control antigen,Yes,14.0,6.0,,,,,,,,,,,,,,,42.0,,,,,,,,,,,,,,,Surgery,Progressive Disease,,,,,,Male,,,,,Co-culture
+244,Control antigen,Yes,6.0,7.0,,,,,,,,,,,,,,,62.0,,,,,,,,,,,,,,,Surgery,Stable Desease,,,,,,Male,,,,,Lysate
+245,,,,,,,,,,,,,,1000000.0,4.0,,69.0,32.0,47.0,,,,HLA-A2,,,,,,,,,,,,,Decrease,,,HER-2/Neu,Not significant,,,,Intravenously,Metastatic,Peptide
+246,,,,,,,,,,,,,,1000000.0,4.0,,69.0,32.0,47.0,,,,HLA-A2,,,,,,,,,,,,,Decrease,,,HER-2/Neu,Not significant,,,,Intravenously,Metastatic,Peptide
+247,,,,,,,,,,,,,,1000000.0,4.0,,69.0,32.0,47.0,,,,HLA-A2,,,,,,,,,,,,,Decrease,,,HER-2/Neu,Not significant,,,,Intravenously,Metastatic,Peptide
+248,,,,,,,,,,,,,,30000000.0,,,69.0,32.0,47.0,,,,HLA-A2,,,,,,,,,,,,,Decrease,,,HER-2/Neu,Not significant,,,,Intravenously,Metastatic,Peptide
+249,,,,,,,,,,,,,,1000000.0,4.0,,69.0,32.0,47.0,,,,HLA-A2,,,,,,,,,,,,,Decrease,,,HER-2/Neu,Not significant,,,,Intravenously,Metastatic,Peptide
+250,,,,,,,,,,,,,,30000000.0,,,69.0,32.0,47.0,,,,HLA-A2,,,,,,,,,,,,,Decrease,,,HER-2/Neu,Not significant,,,,Intravenously,Metastatic,Peptide
+251,,,,,,,,,,,,,,30000000.0,,,69.0,32.0,47.0,,,,HLA-A2,,,,,,,,,,,,,Decrease,,,HER-2/Neu,Not significant,,,,Intravenously,Metastatic,Peptide
+252,,,,,,,,,,,,,,30000000.0,,,69.0,32.0,47.0,,,,HLA-A2,,,,,,,,,,,,,Decrease,,,HER-2/Neu,Not significant,,,,Intravenously,Metastatic,Peptide
+253,,,,,,,,,,,,,,30000000.0,,,69.0,32.0,47.0,,,,HLA-A2,,,,,,,,,,,,,Decrease,,,HER-2/Neu,Not significant,,,,Intravenously,Metastatic,Peptide
+254,,,,,,,,,,Control antigen,Yes,,,10000000.0,4.0,,70.0,35.0,57.0,Days,Dead,477.0,,Colon cancer,,,,,,,,,,,Progressive Disease,Increase,,,CEA,Not significant,Male,,,Intravenously,Metastatic,RNA
+255,,,,,,,,,,Control antigen,Yes,,,10000000.0,4.0,,70.0,35.0,57.0,,,,,Colon cancer,,,,,,,,,,,Progressive Disease,Increase,,,CEA,Not significant,Male,,Immunotherapy,Intravenously,Metastatic,RNA
+256,Tumor antigen,Yes,,,,,,,,,,,,30000000.0,4.0,,79.0,34.0,57.0,,,,,Colon cancer,,,,,,,,,,,,,,,,Not significant,Male,,,Intravenously,,
+257,Control antigen,Yes,,,,,,,,Control antigen,Yes,,,10000000.0,4.0,,70.0,35.0,57.0,,,,,Breast cancer,,,,,,,,,,,Stable Desease,Increase,,,CEA,Not significant,Female,,,Intravenously,Metastatic,RNA
+258,Control antigen,Yes,,,,,,,,Control antigen,Yes,,,10000000.0,4.0,,70.0,35.0,57.0,,,,,Colon cancer,,,,,,,,,,,,Decrease,,,CA-125,Not significant,,,,Intravenously,Metastatic,RNA
+259,Control antigen,Yes,,,,,,,,Control antigen,Yes,,,10000000.0,4.0,,70.0,35.0,57.0,,,,,,,,,,,,,,,,Stable Desease,Increase,,,CEA,Not significant,Male,,,Intravenously,Metastatic,RNA
+260,,,,,,,,,,Control antigen,Yes,,,10000000.0,4.0,,70.0,35.0,57.0,Days,Dead,477.0,,,,,,,,,,,,,Progressive Disease,Increase,,,CEA,Not significant,Female,,,Intravenously,Metastatic,RNA
+261,Tumor antigen,Yes,,,,,,,,Control antigen,Yes,,,10000000.0,4.0,,70.0,35.0,57.0,Days,Dead,477.0,,,,,,,,,,,,,Progressive Disease,Increase,,,CEA,Not significant,Female,,,Intravenously,Metastatic,RNA
+262,,,,,,,,,,,,,,30000000.0,4.0,,79.0,34.0,57.0,,,,,Colon cancer,,,,,,,,,,,,,,,,Not significant,Male,,,Intravenously,,
+263,,,,,,,,,,,,,,30000000.0,4.0,,79.0,34.0,57.0,,,,,Colon cancer,,,,,,,,,,,,,,,,Not significant,,,,Intravenously,,
+264,Control antigen,Yes,,,,,,,,Control antigen,Yes,,,10000000.0,4.0,,70.0,35.0,57.0,Days,Dead,477.0,,,,,,,,,,,,,Stable Desease,Increase,,,CEA,Not significant,,,Immunotherapy,Intravenously,Metastatic,RNA
+265,,,,,,,,,,,,,,30000000.0,4.0,,79.0,34.0,57.0,,,,,Colon cancer,,,,,,,,,,,,,,,,Not significant,Female,,,Intravenously,,
+266,Tumor antigen,Yes,,,,,,,,,,,,30000000.0,4.0,,79.0,34.0,57.0,,,,,Colon cancer,,,,,,,,,,,,,,,,Not significant,Female,,,Intravenously,,
+267,Tumor antigen,Yes,,,,,,,,Control antigen,Yes,,,10000000.0,4.0,,70.0,35.0,57.0,Days,Dead,477.0,,,,,,,,,,,,,,Increase,,,CEA,Not significant,Male,,,Intravenously,Metastatic,RNA
+268,Tumor antigen,Yes,,,,,,,,,,,,30000000.0,4.0,,79.0,34.0,57.0,,,,,Colon cancer,,,,,,,,,,,,,,,,Not significant,Male,,,Intravenously,,
+269,,,,,,,,,,Control antigen,Yes,,,10000000.0,4.0,,70.0,35.0,57.0,,,,,,,,,,,,,,,,Progressive Disease,Increase,,,CEA,Not significant,Male,,,Intravenously,Metastatic,RNA
+270,Control antigen,Yes,,,,,,,,Control antigen,Yes,,,10000000.0,4.0,,70.0,35.0,57.0,,,,,,,,,,,,,,,,Progressive Disease,Decrease,,,CA-125,Not significant,,,,Intravenously,Metastatic,RNA
+271,Control antigen,Yes,,,,,,,,Control antigen,Yes,,,10000000.0,4.0,,70.0,35.0,57.0,Days,Dead,477.0,,,,,,,,,,,,,,Increase,,,CEA,Not significant,Female,,,Intravenously,Metastatic,RNA
+272,,,,,,,,,,Control antigen,Yes,,,10000000.0,4.0,,70.0,35.0,57.0,Days,Dead,477.0,,Breast cancer,,,,,,,,,,,Progressive Disease,Decrease,,,CA-125,Not significant,Male,,,Intravenously,Metastatic,RNA
+273,Control antigen,Yes,,,,,,,,Control antigen,Yes,,,10000000.0,4.0,,70.0,35.0,57.0,,,,,Colon cancer,,,,,,,,,,,,Increase,,,CEA,Not significant,Female,,,Intravenously,Metastatic,RNA
+274,,,,,,,,,,,,,,30000000.0,4.0,,79.0,34.0,57.0,,,,,Colon cancer,,,,,,,,,,,,,,,,Not significant,Male,,,Intravenously,,
+275,,,,,,,,,,,,,,30000000.0,4.0,,79.0,34.0,57.0,,,,,Colon cancer,,,,,,,,,,,,,,,,Not significant,Female,,,Intravenously,,
+276,,,,,,,,,,,,,,30000000.0,4.0,,79.0,34.0,57.0,,,,,Colon cancer,,,,,,,,,,,,,,,,Not significant,Male,,,Intravenously,,
+277,,,,,,,,,,,,,,30000000.0,4.0,,79.0,34.0,57.0,,,,,Colon cancer,,,,,,,,,,,,,,,,Not significant,Female,,,Intravenously,,
+278,Tumor antigen,Yes,,,,,,,,,,,,30000000.0,4.0,,79.0,34.0,57.0,,,,,Colon cancer,,,,,,,,,,,,,,,,Not significant,Male,,,Intravenously,,
+279,Tumor antigen,Yes,,,,,,,,,,,,30000000.0,4.0,,79.0,34.0,57.0,,,,,Colon cancer,,,,,,,,,,,,,,,,Not significant,Male,,,Intravenously,,
+280,,,,,,,,,,,,,,30000000.0,4.0,,79.0,34.0,57.0,,,,,Colon cancer,,,,,,,,,,,,,,,,Not significant,Female,,,Intravenously,,
+281,,,,,,,,,,,,,,30000000.0,4.0,,79.0,34.0,57.0,,,,,,,,,,,,,,,,,,,,,Not significant,,,,Intravenously,,
+282,Tumor antigen,Yes,,,,,,,,,,,,30000000.0,4.0,,79.0,34.0,57.0,,,,,Colon cancer,,,,,,,,,,,,,,,,Not significant,Female,,,Intravenously,,
+283,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+284,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Progressive Disease,,,,,,,,,,,Peptide
+285,,,,,,,,,Flt3L,,,,,,,,,,,,,,,,,,,,,,,,,,Progressive Disease,,,,,,,,,,,Peptide
+286,,,,,,,,,Flt3L,,,,,,,,,,,,,,,,,,,,,,,,,,Progressive Disease,,,,,,,,,,,Peptide
+287,,,,,,,,,Flt3L,,,,,,,,,,,,,,,,,,,,,,,,,,Progressive Disease,,,,,,,,,,,Peptide
+288,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Progressive Disease,,,,,,,,,,,
+289,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Progressive Disease,,,,,,,,,,,
+290,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Progressive Disease,,,,,,,,,,,
+291,,,,,,,,,Flt3L,,,,,,,,,,,,,,,,,,,,,,,,,,Progressive Disease,,,,,,,,,,,
+292,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Progressive Disease,,,,,,,,,,,
+293,,,,,,,,,Flt3L,,,,,,,,,,,,,,,,,,,,,,,,,,Progressive Disease,,,,,,,,,,,
+294,,,,,,,,,Flt3L,,,,,,,,,,,,,,,,,,,,,,,,,,Progressive Disease,,,,,,,,,,,
+295,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Progressive Disease,,,,,,,,,,,
+296,,,,,Tumor antigen,Yes,,,Flt3L,,,23600000.0,6.5,13400000.0,6.0,,74.0,32.0,57.0,Months,Live,6.2,HLA-A1,Melanoma,,1.0,1.0,,,,,,Monocytes,,Stable Desease,,,,,,Female,,Immunotherapy,Subcutaneously,IV,Peptide
+297,,,,,Tumor antigen,Yes,,,,,,23600000.0,6.5,13400000.0,6.0,,74.0,32.0,57.0,Months,Live,6.2,HLA-A1,Melanoma,,1.0,1.0,,,,,,Monocytes,,Stable Desease,,,,,,Female,,Immunotherapy,Subcutaneously,IV,Peptide
+298,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Progressive Disease,,,,,,,,,,,
+299,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Progressive Disease,,,,,,,,,,,
+300,,,,,,,,,Flt3L,,,,,,,,,,,,,,,,,,,,,,,,,,Progressive Disease,,,,,,,,,,,
+301,,,,,Tumor antigen,Yes,,,Flt3L,,,23600000.0,6.5,13400000.0,6.0,,74.0,32.0,57.0,Months,Live,6.2,HLA-A1,Melanoma,,1.0,1.0,,,,,,Monocytes,,Partial Response,,,,,,Female,,Immunotherapy,Subcutaneously,IV,Peptide
+302,,,,,,,,,Flt3L,,,,,,,,,,,,,,,,,,,,,,,,,,Progressive Disease,,,,,,,,,,,
+303,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Progressive Disease,,,,,,,,,,,
+304,,,,,,,,,Flt3L,,,,,,,,,,,,,,,,,,,,,,,,,,Progressive Disease,,,,,,,,,,,
+305,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Progressive Disease,,,,,,,,,,,
+306,,,,,Tumor antigen,Yes,,,,Tumor antigen,Yes,23600000.0,6.5,13400000.0,6.0,,74.0,32.0,57.0,Months,Live,6.2,HLA-A1,Melanoma,,1.0,1.0,,,,,,Monocytes,,Partial Response,,,,,,Female,,Immunotherapy,Subcutaneously,IV,Peptide
+307,,,,,,,,,Flt3L,,,,,,,,,,,,,,,,,,,,,,,,,,Progressive Disease,,,,,,,,,,,
+308,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Progressive Disease,,,,,,,,,,,
+309,,,,,,,,,Flt3L,,,,,,,,,,,,,,,,,,,,,,,,,,Progressive Disease,,,,,,,,,,,
+310,Tumor antigen,Yes,,,,,,,,,,,,,5.0,,,,69.0,Months,Dead,4.0,,Thyroid Cancer,,,,,,,,,,,Progressive Disease,,,,,,Male,,,,,
+311,Tumor antigen,Yes,,,,,,,,,,,,,4.0,,75.0,18.0,49.0,Months,Dead,4.0,,Pancreatic cancer,,,,,,60.0,,TNF-α,Monocytes,,Stable Desease,,,,,Not significant,Male,,Immunotherapy,Intralymphatically,IV,Lysate
+312,Tumor antigen,Yes,,,,,,,,,,,,,4.0,,75.0,18.0,50.0,Months,Dead,3.0,,Pancreatic cancer,,,,,,60.0,,TNF-α,Monocytes,,Stable Desease,,,,,Not significant,Male,,Immunotherapy,Intralymphatically,IV,Lysate
+313,Tumor antigen,Yes,,,,,,,,,,,,,10.0,,75.0,18.0,42.0,Months,Dead,18.0,,Hepatocellular carcinoma,,,,,,60.0,,TNF-α,Monocytes,,Stable Desease,,,,,Not significant,Male,,Immunotherapy,Intralymphatically,IV,Lysate
+314,Tumor antigen,Yes,,,Tumor antigen,Yes,,,,,,,,,10.0,,75.0,18.0,57.0,Months,Dead,9.0,,Thyroid Cancer,,,,,,60.0,,TNF-α,Monocytes,,Stable Desease,Increase,,,PSA,Not significant,Male,,Immunotherapy,Intralymphatically,IV,Lysate
+315,Tumor antigen,Yes,,,Tumor antigen,Yes,,,,,,,,,8.0,,75.0,18.0,55.0,Months,Dead,6.0,,Hepatocellular carcinoma,,,,,,60.0,,TNF-α,Monocytes,,Stable Desease,,,,,Not significant,Male,,Immunotherapy,Intralymphatically,IV,Lysate
+316,Tumor antigen,Yes,,,,,,,,,,,,,10.0,,75.0,18.0,62.0,Months,Live,22.0,,Hepatocellular carcinoma,,,,,,60.0,,TNF-α,Monocytes,,Stable Desease,,,,,Not significant,Female,,Immunotherapy,Intralymphatically,IV,Lysate
+317,Tumor antigen,Yes,,,,,,,,,,,,,4.0,,75.0,18.0,52.0,Months,Dead,4.0,,Pancreatic cancer,,,,,,60.0,,TNF-α,Monocytes,,Stable Desease,,,,,Not significant,Male,,Immunotherapy,Intralymphatically,IV,Lysate
+318,Tumor antigen,Yes,,,,,,,,,,,,,10.0,,75.0,18.0,41.0,Months,Dead,9.0,,Cholangiocellular carcinoma,,,,,,60.0,,TNF-α,Monocytes,Chemotherapy,Stable Desease,Increase,,,PSA,Not significant,Male,,Immunotherapy,Intralymphatically,IV,Lysate
+319,Tumor antigen,Yes,,,,,,,,,,,,,7.0,,75.0,18.0,59.0,Months,Dead,7.0,,Pancreatic cancer,,,,,,60.0,,TNF-α,Monocytes,,Stable Desease,,,,,Not significant,Male,,Immunotherapy,Intralymphatically,IV,Lysate
+320,Tumor antigen,Yes,,,,,,,,,,,,,5.0,,75.0,18.0,60.0,Months,Dead,4.0,,Pancreatic cancer,,,,,,60.0,,TNF-α,Monocytes,,Stable Desease,Increase,,,PSA,Not significant,Male,,Immunotherapy,Intralymphatically,IV,Lysate
+321,Tumor antigen,Yes,,,,,,,,,,,,,10.0,,75.0,18.0,75.0,Months,Dead,12.0,,Pancreatic cancer,,,,,,60.0,,TNF-α,Monocytes,,Stable Desease,Increase,,,PSA,Not significant,Male,,Immunotherapy,Intralymphatically,IV,Lysate
+322,Tumor antigen,Yes,,,,,,,,,,,,,4.0,,75.0,18.0,51.0,Months,Dead,10.0,,Pancreatic cancer,,,,,,60.0,,TNF-α,Monocytes,,Stable Desease,,,,,Not significant,Male,,Immunotherapy,Intralymphatically,IV,Lysate
+323,Tumor antigen,Yes,,,,,,,,,,,,,6.0,,75.0,18.0,60.0,Months,Dead,6.0,,Pancreatic cancer,,,,,,60.0,,TNF-α,Monocytes,,Stable Desease,,,,,Not significant,Female,,Immunotherapy,Intralymphatically,IV,Lysate
+324,Tumor antigen,Yes,,,,,,,,,,,,,6.0,,75.0,18.0,63.0,Months,Dead,5.0,,Hepatocellular carcinoma,,,,,,60.0,,TNF-α,Monocytes,,Stable Desease,Increase,,,PSA,Not significant,Male,,Immunotherapy,Intralymphatically,IV,Lysate
+325,Tumor antigen,Yes,,,,,,,,,,,,,10.0,,75.0,18.0,61.0,Months,Dead,24.0,,Thyroid Cancer,,,,,,60.0,,TNF-α,Monocytes,,Stable Desease,Increase,,,PSA,Not significant,Male,,Immunotherapy,Intralymphatically,IV,Lysate
+326,Tumor antigen,Yes,,,Tumor antigen,Yes,,,,,,,,,4.0,,75.0,18.0,66.0,Months,Dead,4.0,,Pancreatic cancer,,,,,,60.0,,TNF-α,Monocytes,,Stable Desease,Increase,,,PSA,Not significant,Male,,Immunotherapy,Intralymphatically,IV,Lysate
+327,Tumor antigen,Yes,,,,,,,,,,,,,4.0,,75.0,18.0,71.0,Months,Dead,3.0,,Hepatocellular carcinoma,,,,,,60.0,,TNF-α,Monocytes,,Stable Desease,Increase,,,PSA,Not significant,Male,,Immunotherapy,Intralymphatically,IV,Lysate
+328,Tumor antigen,Yes,,,,,,,,,,,,,10.0,,75.0,18.0,44.0,Months,Dead,9.0,,Hepatocellular carcinoma,,,,,,60.0,,TNF-α,Monocytes,,Stable Desease,,,,,Not significant,Female,,Immunotherapy,Intralymphatically,IV,Lysate
+329,Tumor antigen,Yes,,,,,,,,,,,,,10.0,,75.0,18.0,31.0,Months,Dead,32.0,,Thyroid Cancer,,,,,,60.0,,TNF-α,Monocytes,,Stable Desease,,,,,Not significant,Male,,Immunotherapy,Intralymphatically,IV,Lysate
+330,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+331,Tumor antigen,No,,,,,,,,,,,,,4.0,5.2,,,64.0,,,,,Hepatocellular carcinoma,,,,,,,,,,Radiotherapy,Stable Desease,Decrease,3797.0,6446.0,AFP,,Male,,,,,
+332,Tumor antigen,Yes,,,,,,,,,,,,,12.0,18100000.0,,,48.0,,,,,Cholangiocellular carcinoma,,,,,,,,,,,Stable Desease,,,,,,Male,,,,,
+333,Tumor antigen,Yes,,,,,,,,,,,,,5.0,7900000.0,,,70.0,,,,,Hepatocellular carcinoma,,,,,,,,,,,Stable Desease,Decrease,14.8,113.3,HPV16/18 E7,,Male,,,,,
+334,Tumor antigen,Yes,,,,,,,,,,,,,4.0,5700000.0,,,65.0,,,,,Hepatocellular carcinoma,,,,,,,,,,Surgery,Progressive Disease,Decrease,5576.0,10154.0,AFP,,Male,,,,,
+335,Tumor antigen,Yes,,,,,,,,,,,,,8.0,6300000.0,,,54.0,,,,,Hepatocellular carcinoma,,,,,,,,,,,Stable Desease,Decrease,10.0,125.8,HPV16/18 E7,,Male,,,,,
+336,Tumor antigen,Yes,,,,,,,,,,,,,4.0,7800000.0,,,65.0,,,,,Hepatocellular carcinoma,,,,,,,,,,Chemotherapy,Progressive Disease,Decrease,5.3,7.1,AFP,,Male,,,,,
+337,Tumor antigen,Yes,,,,,,,,,,,,,12.0,21400000.0,,,63.0,,,,,Hepatocellular carcinoma,,,,,,,,,,Surgery,Partial Response,Decrease,50.7,78.2,AFP,,Male,,,,,
+338,Tumor antigen,Yes,,,,,,,,,,,,,8.0,21300000.0,,,83.0,,,,,Cholangiocellular carcinoma,,,,,,,,,,Surgery,Stable Desease,Decrease,116.3,121.7,CA-19,,Female,,,,,
+339,Tumor antigen,Yes,,,,,,,,,,,,,4.0,29400000.0,,,75.0,,,,,Hepatocellular carcinoma,,,,,,,,,,Radiotherapy,Stable Desease,Decrease,128.0,94.0,AFP,,Female,,,,,
+340,Tumor antigen,Yes,,,,,,,,,,,,,8.0,30300000.0,,,63.0,,,,,Hepatocellular carcinoma,,,,,,,,,,Surgery,Progressive Disease,,,,,,Male,,,,,
+341,Tumor antigen,No,,,,,,,,,,,,,14.0,900000.0,,,53.0,Months,Dead,19.0,,,,,,,,,,,,Surgery,Partial Response,,,,,,Female,,,,,
+342,,,,,,,,,,,,,,,9.0,900000.0,,,60.0,Months,Dead,8.0,,,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+343,Tumor antigen,Yes,,1.0,,,,,,,,,,,3.0,900000.0,,,50.0,Days,Dead,1.0,,,,,,,,,,,,Surgery,Progressive Disease,,,,,,Male,,,,,
+344,Tumor antigen,Yes,,,,,,,,,,,,,10.0,900000.0,,,37.0,Months,Dead,10.0,,,,,,,,,,,,Surgery,Progressive Disease,,,,,,Female,,,,,
+345,Tumor antigen,Yes,,,,,,,,,,,,,36.0,900000.0,,,39.0,Months,Dead,55.0,,,,,,,,,,,,Surgery,Complete response,,,,,,Male,,,,,
+346,Tumor antigen,Yes,,1.0,,,,,,,,,,,6.0,5000000.0,,,47.0,Months,Dead,3.5,,Melanoma,,2.0,,,,,,,Monocytes,Surgery,Progressive Disease,,,,,Not significant,Female,,Radiotherapy,Intradermal,IV,Co-culture
+347,,,,,,,,,,,,,,,1.0,,,,49.0,,,,,,,,,,,,,,,Surgery,Progressive Disease,,,,,,Male,,,,,
+348,,,,,,,,,,,,,,,3.0,5000000.0,,,51.0,Months,Dead,3.0,,,,,,,,,,,,Surgery,Progressive Disease,,,,,,Female,,,,,
+349,,,,,,,,,,,,,,,1.0,5000000.0,,,67.0,Months,Dead,1.0,,,,,,,,,,,,,Progressive Disease,,,,,,Male,,,,,
+350,Tumor antigen,Yes,,7.5,,,,,,,,,,,5.0,5000000.0,,,64.0,Months,Dead,5.5,,,,,,,,,,,,Surgery,Progressive Disease,,,,,,Female,,,,,
+351,Tumor antigen,Yes,,5.8,,,,,,,,,,,19.0,5000000.0,,,21.0,Months,Dead,21.0,,,,,,,,,,,,,Partial Response,,,,,,Male,,,,,
+352,,,,,,,,,,,,,,,1.0,,,,49.0,,,,,,,,,,,,,,,Surgery,Progressive Disease,,,,,,Male,,,,,
+353,Tumor antigen,Yes,,4.0,,,,,,,,5000000.0,900000.0,,6.0,900000.0,,,66.0,Months,Dead,5.0,,Melanoma,,2.0,,,,,,,Monocytes,Surgery,Progressive Disease,,,,,Not significant,Male,,,Intradermal,IV,Co-culture
+354,Tumor antigen,Yes,,41.0,,,,,,,,,,,30.0,5000000.0,,,24.0,Months,Dead,44.0,,,,,,,,,,,,Surgery,Complete response,,,,,,Female,,,,,
+355,Tumor antigen,Yes,,7.0,,,,,,,,,,,28.0,5000000.0,,,49.0,Months,Dead,38.0,,,,,,,,,,,,Surgery,Progressive Disease,,,,,,Male,,,,,
+356,Tumor antigen,Yes,,3.0,,,,,,,,,,,3.0,900000.0,,,27.0,Months,Dead,10.0,,,,,,,,,,,,Surgery,Progressive Disease,,,,,,Male,,,,,
+357,Tumor antigen,Yes,,,,,,,,,,5000000.0,900000.0,,6.0,900000.0,,,31.0,Months,Dead,6.5,,Melanoma,,2.0,,,,,,,Monocytes,Surgery,Progressive Disease,,,,,Not significant,Male,,Radiotherapy,Intradermal,IV,Co-culture
+358,,,,,Tumor antigen,Yes,8.0,81.0,,Tumor antigen,Yes,,,,3.0,10000000.0,,,55.0,Months,Live,29.0,,,,,,1.0,,,,,,,,,,,,,Male,,Surgery,,,
+359,,,,,Tumor antigen,Yes,12.0,25.0,,,,,,10000000.0,3.0,,,,40.0,Months,Dead,11.1,,,,,,1.0,,,,,,,,,,,,,Male,,Immunotherapy,Intravenously,,
+360,,,,,Tumor antigen,Yes,2.0,32.0,,,,,,10000000.0,3.0,,,,50.0,Months,Dead,44.0,,,,,,1.0,,,,,,,,,,,,,Male,,Immunotherapy,,,
+361,,,,,Tumor antigen,Yes,13.0,12.0,,,,,,,3.0,30000000.0,,,65.0,Months,Dead,28.7,,,,,,1.0,,,,,,,,,,,,,Male,,Immunotherapy,,,
+362,,,,,,,,,,,,,,10000000.0,3.0,,,,73.0,Months,Dead,13.0,,,,,,1.0,,,,,,,,,,,,,Male,,Immunotherapy,,,
+363,,,,,Tumor antigen,Yes,11.0,89.0,,,,,,30000000.0,3.0,,,,41.0,Months,Dead,26.5,,,,,,1.0,,,,,,,,,,,,,Male,,,,,
+364,,,,,,,,,,,,,,10000000.0,3.0,,,,59.0,Months,Dead,5.5,,,,,,1.0,,,,,,,,,,,,,Male,,,,,
+365,,,,,Tumor antigen,Yes,13.0,86.0,,,,,,10000000.0,3.0,,,,74.0,Months,Dead,17.9,,,,,,1.0,,,,,,,,,,,,,Female,,Immunotherapy,,,
+366,,,,,,,,,,,,,,10000000.0,3.0,,,,83.0,Months,Dead,5.0,,,,,,1.0,,,,,,,,,,,,,Male,,Immunotherapy,,,
+367,,,,,,,,,,,,,,10000000.0,3.0,,,,50.0,Months,Dead,12.4,,,,,,1.0,,,,,,,,,,,,,Male,,Immunotherapy,,,
+368,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Surgery,,,,,,,,,,,IV,
+369,,,,,,,,,,,,,,,,,,,,Months,Dead,24.0,,,,,,,,,,,,Surgery,,,,,,,,,,,III,
+370,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Surgery,,,,,,,,,,,IV,
+371,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Surgery,,,,,,,,,,,IV,
+372,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Surgery,,,,,,,,,,,IV,
+373,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Surgery,,,,,,,,,,,IV,
+374,,,,,Tumor antigen,Yes,,,,Tumor antigen,Yes,,,100000.0,3.0,,79.0,39.0,60.0,Months,Dead,18.0,HLA-A*0201,Melanoma,,,,,,70.0,,,Monocytes,Chemotherapy,,,,,,,,,,Intravenously,III,Peptide
+375,,,,,,,,,,,,,,,,,,,,Months,Dead,24.0,,,,,,,,,,,,Surgery,,,,,,,,,,,III,
+376,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Surgery,,,,,,,,,,,IV,
+377,,,,,Tumor antigen,Yes,,,,Tumor antigen,Yes,,,100000.0,3.0,,79.0,39.0,60.0,Months,Dead,18.0,HLA-A*0201,Melanoma,,,,,,70.0,,,Monocytes,Chemotherapy,,,,,,,Male,,,Intravenously,III,Peptide
+378,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Surgery,,,,,,,,,,,III,
+379,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Surgery,,,,,,,,,,,IV,
+380,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Surgery,,,,,,,,,,,IV,
+381,,,,,,,,,,,,,,,,,,,,Months,Dead,24.0,,,,,,,,,,,,Surgery,,,,,,,,,,,III,
+382,,,,,,,,,,,,,,,,,,,,Months,Dead,24.0,,,,,,,,,,,,Surgery,,,,,,,,,,,III,
+383,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Surgery,,,,,,,,,,,IV,
+384,,,,,Tumor antigen,Yes,,,,Tumor antigen,Yes,,,100000.0,3.0,,79.0,39.0,60.0,Months,Dead,18.0,HLA-A*0201,Melanoma,,,,,,70.0,,,Monocytes,Chemotherapy,,,,,,,,,,Intravenously,III,Peptide
+385,,,,,,,,,,,,,,,,,,,,Months,Dead,24.0,,,,,,,,,,,,Surgery,,,,,,,,,,,III,
+386,Tumor antigen,Yes,,,,,,,,,,,,,,,,,47.0,,,,,,,,,,,,,,,Immunotherapy,Partial Response,,,,,,Female,,,,II,
+387,Tumor antigen,Yes,,,,,,,,,,,,,,,,,52.0,,,,,,,,,,,,,,,Chemotherapy,Partial Response,,,,,,Female,,,,I,
+388,Tumor antigen,Yes,,,,,,,,,,,,,,,,,64.0,,,,,,,,,,,,,,,Chemotherapy,Progressive Disease,,,,,,Female,,,,I,
+389,Tumor antigen,Yes,,,,,,,,,,,,,,,,,62.0,,,,,,,,,,,,,,,Surgery,Progressive Disease,,,,,,Female,,,,II,
+390,Tumor antigen,Yes,,,,,,,,,,,,,,,,,62.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,Male,,,,I,
+391,Tumor antigen,Yes,,,,,,,,,,,,,,,,,65.0,,,,,,,,,,,,,,,Chemotherapy,Progressive Disease,,,,,,Male,,,,IV,
+392,,,,,,,,,,,,,,,,,,,74.0,,,,,,,,,,,,,,,Chemotherapy,Progressive Disease,,,,,,Male,,,,II,
+393,Tumor antigen,Yes,,,,,,,,,,,,,,,,,57.0,,,,,,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,I,
+394,Tumor antigen,Yes,,,,,,,,,,,,,,,,,47.0,,,,,,,,,,,,,,,Chemotherapy,Progressive Disease,,,,,,Male,,,,II,
+395,Tumor antigen,Yes,,,,,,,,,,,,,,,,,69.0,,,,,,,,,,,,,,,Chemotherapy,Partial Response,,,,,,Female,,,,III,
+396,,,,,,,,,,,,,,,10.0,,,,77.0,Months,Live,10.0,,Pancreatic cancer,,,,,,,,,,,Stable Desease,,,,,,Male,,,,,
+397,,,,,,,,,,,,,,,4.0,,,,55.0,Months,Dead,4.0,,Hepatocellular carcinoma,,,,,,,,,,,Stable Desease,,,,,,Female,,,,,
+398,,,,,,,,,,,,,,,9.0,,,,73.0,Months,Dead,7.0,,Hepatocellular carcinoma,,,,,,,,,,,Stable Desease,,,,,,Female,,,,,
+399,,,,,,,,,,,,,,,10.0,,,,57.0,Months,Dead,14.0,,Glioma,,,,,,,,,,,Progressive Disease,,,,,,Male,,,,,
+400,,,,,,,,,,,,,,,10.0,,,,26.0,Months,Dead,14.0,,Thyroid Cancer,,,,,,,,,,,Partial Response,,,,,,Female,,,,,
+401,,,,,,,,,,,,,,,10.0,,,,77.0,Months,Live,10.0,,Pancreatic cancer,,,,,,,,,,,Stable Desease,,,,,,Male,,,,,
+402,,,,,,,,,,,,,,,4.0,,,,55.0,Months,Dead,4.0,,Hepatocellular carcinoma,,,,,,,,,,,Stable Desease,,,,,,Female,,,,,
+403,,,,,,,,,,,,,,,9.0,,,,73.0,Months,Dead,7.0,,Hepatocellular carcinoma,,,,,,,,,,,Stable Desease,,,,,,Female,,,,,
+404,,,,,,,,,,,,,,,10.0,,,,57.0,Months,Dead,14.0,,Glioma,,,,,,,,,,,Progressive Disease,,,,,,Male,,,,,
+405,,,,,,,,,,,,,,,10.0,,,,26.0,Months,Dead,14.0,,Thyroid Cancer,,,,,,,,,,,Partial Response,,,,,,Female,,,,,
+406,,,,,,,,,,,,,,,10.0,,,,77.0,Months,Live,10.0,,Pancreatic cancer,,,,,,,,,,,Stable Desease,,,,,,Male,,,,,
+407,,,,,,,,,,,,,,,4.0,,,,55.0,Months,Dead,4.0,,Hepatocellular carcinoma,,,,,,,,,,,Stable Desease,,,,,,Female,,,,,
+408,,,,,,,,,,,,,,,9.0,,,,73.0,Months,Dead,7.0,,Hepatocellular carcinoma,,,,,,,,,,,Stable Desease,,,,,,Female,,,,,
+409,,,,,,,,,,,,,,,10.0,,,,57.0,Months,Dead,14.0,,Glioma,,,,,,,,,,,Progressive Disease,,,,,,Male,,,,,
+410,,,,,,,,,,,,,,,10.0,,,,26.0,Months,Dead,14.0,,Thyroid Cancer,,,,,,,,,,,Partial Response,,,,,,Female,,,,,
+411,,,,,,,,,,,,,,,10.0,,,,77.0,Months,Live,10.0,,Pancreatic cancer,,,,,,,,,,,Stable Desease,,,,,,Male,,,,,
+412,,,,,,,,,,,,,,,4.0,,,,55.0,Months,Dead,4.0,,Hepatocellular carcinoma,,,,,,,,,,,Stable Desease,,,,,,Female,,,,,
+413,Tumor antigen,No,,,Tumor antigen,No,,,,,,,,0.05,8.0,,,,50.0,Months,Dead,3.0,,,,,,1.0,,,,,,,Partial Response,,,,,,Male,,,,,
+414,Tumor antigen,Yes,,,,,,,,,,,,0.02,5.0,,,,67.0,,,,,,,,,1.0,,,,,,,Progressive Disease,,,,,,Male,,,,,
+415,Tumor antigen,No,,,Tumor antigen,No,,,,,,,,0.02,3.0,,,,66.0,,,,,,,,,1.0,,,,,,,Progressive Disease,,,,,,Male,,,,,
+416,Tumor antigen,Yes,,,Tumor antigen,Yes,,,,,,,,0.05,8.0,,,,43.0,,,,,,,,,1.0,,,,,,,Progressive Disease,,,,,,Male,,,,,
+417,Tumor antigen,No,,,Tumor antigen,Yes,,,,,,,,0.02,8.0,,,,41.0,,,,,,,,,1.0,,,,,,,Progressive Disease,,,,,None,Female,,,,,
+418,Tumor antigen,Yes,,,Tumor antigen,Yes,,,,,,,,0.02,3.0,,,,37.0,,,,,,,,,1.0,,,,,,,Progressive Disease,,,,,,Female,,,,,
+419,Tumor antigen,Yes,,,Tumor antigen,Yes,,,,,,,,0.05,5.0,,,,35.0,,,,,,,,,1.0,,,,,,,Progressive Disease,,,,,,Female,,,,,
+420,Tumor antigen,Yes,,,Tumor antigen,Yes,,,,,,,,0.07,4.0,,,,57.0,,,,,,,,,1.0,,,,,,,Progressive Disease,,,,,,Female,,,,,
+421,Tumor antigen,Yes,,,Tumor antigen,Yes,,,,,,,,0.07,8.0,,,,40.0,Months,Dead,40.0,,,,,,1.0,,,,,,,Complete response,,,,,None,Male,,,,,
+422,Tumor antigen,Yes,,,Tumor antigen,Yes,,,,,,,,0.09,8.0,,,,62.0,,,,,,,,,1.0,,,,,,,Progressive Disease,,,,,,Male,,,,,
+423,Tumor antigen,Yes,,,Tumor antigen,Yes,,,,,,,,0.09,8.0,,,,75.0,Months,Dead,8.0,,,,,,1.0,,,,,,,Partial Response,,,,,,Female,,,,,
+424,Tumor antigen,Yes,,,Tumor antigen,Yes,,,,,,,,0.11,6.0,,,,52.0,,,,,,,,,1.0,,,,,,,Progressive Disease,,,,,None,Female,,,,,
+425,Tumor antigen,Yes,,,Tumor antigen,Yes,,,,,,,,0.11,7.0,,,,48.0,,,,,,,,,1.0,,,,,,,Progressive Disease,,,,,None,Female,,,,,
+426,Tumor antigen,Yes,,,Tumor antigen,Yes,,,,,,,,0.07,8.0,,,,45.0,,,,,,,,,1.0,,,,,,,Progressive Disease,,,,,,Female,,,,,
+427,Tumor antigen,Yes,,,Tumor antigen,Yes,,,,,,,,0.07,5.0,,,,72.0,,,,,,,,,1.0,,,,,,,Progressive Disease,,,,,,Male,,,,,
+428,Tumor antigen,Yes,,,Tumor antigen,No,,,,,,,,0.07,8.0,,,,44.0,,,,,,,,,1.0,,,,,,,Progressive Disease,,,,,None,Male,,,,,
+429,Tumor antigen,Yes,,,Tumor antigen,No,,,,,,,,0.07,8.0,,,,63.0,,,,,,,,,1.0,,,,,,,Progressive Disease,,,,,None,Male,,,,,
+430,Tumor antigen,Yes,,,Tumor antigen,No,,,,,,,,0.07,5.0,,,,71.0,,,,,,,,,1.0,,,,,,,Progressive Disease,,,,,,Male,,,,,
+431,Tumor antigen,Yes,,,Tumor antigen,No,,,,,,,,0.07,5.0,,,,31.0,,,,,,,,,1.0,,,,,,,Progressive Disease,,,,,,Female,,,,,
+432,Tumor antigen,Yes,,,Tumor antigen,No,,,,,,,,0.07,5.0,,,,33.0,,,,,,,,,1.0,,,,,,,Progressive Disease,,,,,,Male,,,,,
+433,Tumor antigen,Yes,,,Tumor antigen,Yes,,,,,,,,0.07,8.0,,,,60.0,Months,Dead,2.0,,,,,,1.0,,,,,,,Stable Desease,,,,,None,Male,,,,,
+434,Tumor antigen,Yes,,,Tumor antigen,Yes,,,,,,,,0.07,8.0,,,,39.0,,,,,,,,,1.0,,,,,,,Progressive Disease,,,,,,Female,,,,,
+435,,,,,,,,,,Tumor antigen,No,,,,1.0,,,,60.0,,,,,Prostate cancer,,,,,,,,,,Hormonal therapy,Not evaluable,,,,,,,,,,,
+436,,,,,,,,,KLH,Tumor antigen,No,,,5000000.0,6.0,15000000.0,,18.0,58.0,,,,HLA-A2,Prostate cancer,,1.0,,,,,,,Monocytes,Chemotherapy,Stable Desease,Increase,,,PSA,Not significant,,,,Subcutaneously,Metastatic,Peptide
+437,,,,,,,,,,Tumor antigen,Yes,,,,6.0,,,,72.0,,,,,Prostate cancer,,,,,,,,,,Immunotherapy,Stable Desease,,,,,,,,,,,
+438,,,,,,,,,,Tumor antigen,Yes,,,,6.0,,,,52.0,,,,,Prostate cancer,,,,,,,,,,Chemotherapy,Stable Desease,,,,,,,,,,,
+439,,,,,Control antigen,Yes,,,KLH,Tumor antigen,No,,,5000000.0,6.0,15000000.0,,18.0,57.0,,,,HLA-A2,Prostate cancer,,1.0,,,,,,,Monocytes,Chemotherapy,Stable Desease,Increase,,,PSA,Not significant,,,,Subcutaneously,Metastatic,Peptide
+440,,,,,,,,,,Tumor antigen,Yes,,,,6.0,,,,40.0,,,,,Breast cancer,,,,,,,,,,Chemotherapy,Progressive Disease,,,,,,,,,,,
+441,,,,,,,,,,Tumor antigen,Yes,,,,3.0,,,,52.0,,,,,Breast cancer,,,,,,,,,,Chemotherapy,Partial Response,,,,,,,,,,,
+442,,,,,Tumor antigen,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+443,Control antigen,Yes,,,Tumor antigen,Yes,,,,Tumor antigen,Yes,100000000.0,25000000.0,,9.0,131000000.0,,,66.0,Days,Live,,HLA-A2,Prostate cancer,,,,,,,,,Monocytes,Surgery,,,,,,Not significant,,,,Intravenously,,Protein
+444,Control antigen,Yes,,,Tumor antigen,Yes,,,,Tumor antigen,Yes,100000000.0,25000000.0,,9.0,131000000.0,,,66.0,Days,Live,,HLA-A2,Prostate cancer,,,,,,,,,Monocytes,Surgery,,Decrease,,,PSA,Not significant,,,,Intravenously,,Protein
+445,Control antigen,Yes,,,Tumor antigen,Yes,,,,,,100000000.0,25000000.0,,9.0,131000000.0,,,66.0,Days,Live,,HLA-A2,Prostate cancer,,,,,,,,,Monocytes,Surgery,Progressive Disease,,,,,Not significant,,,,Intravenously,,Protein
+446,Control antigen,Yes,,,Tumor antigen,Yes,,,,Tumor antigen,Yes,100000000.0,25000000.0,,9.0,131000000.0,,,66.0,Days,Live,,HLA-A2,Prostate cancer,,,,,,,,,Monocytes,Surgery,Progressive Disease,,,,,Not significant,,,,Intravenously,,Protein
+447,Control antigen,Yes,,,Tumor antigen,Yes,,,,Tumor antigen,Yes,100000000.0,25000000.0,,9.0,131000000.0,,,66.0,Days,Live,,HLA-A2,Prostate cancer,,,,,,,,,Monocytes,Surgery,,,,,,Not significant,,,,Intravenously,,Protein
+448,Control antigen,Yes,,,Tumor antigen,Yes,,,,,,100000000.0,25000000.0,,9.0,131000000.0,,,66.0,Days,Live,,HLA-A2,Prostate cancer,,,,,,,,,Monocytes,Surgery,,,,,,Not significant,,,,Intravenously,,Protein
+449,Control antigen,Yes,,,Tumor antigen,Yes,,,,,,100000000.0,25000000.0,,9.0,131000000.0,,,66.0,Days,Live,,HLA-A2,Prostate cancer,,,,,,,,,Monocytes,Surgery,Progressive Disease,,,,,Not significant,,,,Intravenously,,Protein
+450,Control antigen,Yes,,,Tumor antigen,Yes,,,,Tumor antigen,Yes,100000000.0,25000000.0,,9.0,131000000.0,,,66.0,Days,Live,,HLA-A2,Prostate cancer,,,,,,,,,Monocytes,Surgery,,Decrease,,,PSA,Not significant,,,,Intravenously,,Protein
+451,Control antigen,Yes,,,Tumor antigen,Yes,,,,,,100000000.0,25000000.0,,9.0,131000000.0,,,66.0,Days,Live,,HLA-A2,Prostate cancer,,,,,,,,,Monocytes,Surgery,,,,,,Not significant,,,,Intravenously,,Protein
+452,Control antigen,Yes,,,Tumor antigen,Yes,,,,Tumor antigen,Yes,100000000.0,25000000.0,,9.0,131000000.0,,,66.0,Days,Live,,HLA-A2,Prostate cancer,,,,,,,,,Monocytes,Surgery,,,,,,Not significant,,,,Intravenously,,Protein
+453,Control antigen,Yes,,,Tumor antigen,Yes,,,,,,100000000.0,25000000.0,,9.0,131000000.0,,,66.0,Days,Live,,HLA-A2,Prostate cancer,,,,,,,,,Monocytes,Surgery,Progressive Disease,,,,,Not significant,,,,Intravenously,,Protein
+454,Control antigen,Yes,,,Tumor antigen,Yes,,,,Tumor antigen,Yes,100000000.0,25000000.0,,9.0,131000000.0,,,66.0,Days,Live,,HLA-A2,Prostate cancer,,,,,,,,,Monocytes,Surgery,,,,,,Not significant,,,,Intravenously,,Protein
+455,,,,,Tumor antigen,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+456,Control antigen,Yes,,,Tumor antigen,Yes,,,,,,100000000.0,25000000.0,,9.0,131000000.0,,,66.0,Days,Live,,,Prostate cancer,,,,,,,,,Monocytes,Surgery,,Decrease,,,PSA,Not significant,,,,Intravenously,,Protein
+457,Control antigen,Yes,,,Tumor antigen,Yes,,,,,,100000000.0,25000000.0,,9.0,131000000.0,,,66.0,Days,Live,,HLA-A2,Prostate cancer,,,,,,,,,Monocytes,Surgery,,,,,,Not significant,,,,Intravenously,,Protein
+458,Control antigen,Yes,,,Tumor antigen,Yes,,,,,,100000000.0,25000000.0,,9.0,131000000.0,,,66.0,Days,Live,,HLA-A2,Prostate cancer,,,,,,,,,Monocytes,Surgery,,Decrease,,,PSA,Not significant,,,,Intravenously,,Protein
+459,Control antigen,Yes,,,Tumor antigen,Yes,,,,Tumor antigen,Yes,100000000.0,25000000.0,,9.0,131000000.0,,,66.0,Days,Live,,HLA-A2,Prostate cancer,,,,,,,,,Monocytes,Surgery,Progressive Disease,Decrease,,,PSA,Not significant,,,,Intravenously,,Protein
+460,Control antigen,Yes,,,Tumor antigen,Yes,,,,,,100000000.0,25000000.0,,9.0,131000000.0,,,66.0,Days,Live,,,Prostate cancer,,,,,,,,,Monocytes,Surgery,Progressive Disease,Decrease,,,PSA,Not significant,,,,Intravenously,,Protein
+461,Control antigen,Yes,,,Tumor antigen,Yes,,,,,,100000000.0,25000000.0,,9.0,131000000.0,,,66.0,Days,Live,,,Prostate cancer,,,,,,,,,Monocytes,Surgery,,,,,,Not significant,,,,Intravenously,,Protein
+462,Control antigen,Yes,,,Tumor antigen,Yes,,,,,,100000000.0,25000000.0,,9.0,131000000.0,,,66.0,Days,Live,,,Prostate cancer,,,,,,,,,Monocytes,Surgery,Progressive Disease,,,,,Not significant,,,,Intravenously,,Protein
+463,Control antigen,Yes,,,Tumor antigen,Yes,,,,,,100000000.0,25000000.0,,9.0,131000000.0,,,66.0,Days,Live,,,Prostate cancer,,,,,,,,,Monocytes,Surgery,Progressive Disease,,,,,Not significant,,,,Intravenously,,Protein
+464,Control antigen,Yes,,,Tumor antigen,Yes,,,,,,100000000.0,25000000.0,,9.0,131000000.0,,,66.0,Days,Live,,HLA-A2,Prostate cancer,,,,,,,,,Monocytes,Surgery,,,,,,Not significant,,,,Intravenously,,Protein
+465,Control antigen,Yes,,,Tumor antigen,Yes,,,,,,100000000.0,25000000.0,,9.0,131000000.0,,,66.0,Days,Live,,,Prostate cancer,,,,,,,,,Monocytes,Surgery,,Decrease,,,PSA,Not significant,,,,Intravenously,,Protein
+466,,,,,,,,,,Tumor antigen,Yes,,,5000000.0,10.0,,,,46.0,Months,Live,24.0,HLA-A2,Breast cancer,,,,,,,,,,Chemotherapy,Stable Desease,,,,,Not significant,,,Immunotherapy,Subcutaneously,Metastatic,Peptide
+467,,,,,,,,,,,,,,,8.0,,,,65.0,Months,Live,7.0,,,,,,,,,,,,Chemotherapy,Progressive Disease,,,,,,,,,,,
+468,,,,,,,,,,,,,,,8.0,,,,49.0,Months,Live,17.0,,,,,,,,,,,,Chemotherapy,Progressive Disease,,,,,,,,,,,
+469,,,,,,,,,,,,,,,7.0,,,,51.0,Months,Live,41.0,,,,,,,,,,,,Chemotherapy,Progressive Disease,,,,,,,,,,,
+470,,,,,,,,,,,,,,,10.0,,,,41.0,Months,Live,15.0,,,,,,,,,,,,Chemotherapy,Partial Response,,,,,,,,,,,
+471,,,,,Tumor antigen,Yes,,,,Tumor antigen,Yes,,,5000000.0,10.0,,,,62.0,Months,Live,14.0,HLA-A2,Breast cancer,,,,,,,,,,Chemotherapy,Stable Desease,,,,,Not significant,,,Immunotherapy,Subcutaneously,Metastatic,Peptide
+472,,,,,,,,,,,,,,,,100000000.0,,,,Weeks,Live,8.0,,,,,,,,,,,,Chemotherapy,Progressive Disease,,,,,,,,,,,
+473,,,,,,,,,,,,,,,,100000000.0,,,,Weeks,Live,8.0,,,,,,,,,,,,Chemotherapy,Not applicable,,,,,,,,,,,
+474,,,,,,,,,,,,,,,,100000000.0,,,,Weeks,Live,4.0,,,,,,,,,,,,Chemotherapy,Progressive Disease,,,,,,,,,,,
+475,,,,,,,,,,,,,,,,100000000.0,,,,Weeks,Live,5.0,,,,,,,,,,,,Chemotherapy,Progressive Disease,,,,,,,,,,,
+476,,,,,,,,,,,,,,,,100000000.0,,,,Weeks,Live,4.0,,,,,,,,,,,,Chemotherapy,Progressive Disease,,,,,,,,,,,
+477,,,,,,,,,,,,,,,,200000000.0,,,,Weeks,Live,14.0,,,,,,,,,,,,Chemotherapy,Progressive Disease,,,,,,,,,,,
+478,,,,,,,,,,,,,,,,2000000000.0,,,,Weeks,Live,75.0,,,,,,,,,,,,Chemotherapy,Progressive Disease,,,,,,,,,,,
+479,,,,,,,,,,,,,,,,2100000000.0,,,,Weeks,Live,18.0,,,,,,,,,,,,Chemotherapy,Progressive Disease,,,,,,,,,,,
+480,,,,,,,,,,,,,,,,2000000000.0,,,,Weeks,Live,23.0,,,,,,,,,,,,Chemotherapy,Partial Response,,,,,,,,,,,
+481,,,,,,,,,,,,,,,,2000000000.0,,,,Weeks,Live,9.0,,,,,,,,,,,,Chemotherapy,Progressive Disease,,,,,,,,,,,
+482,,,,,,,,,,,,,,,,3000000000.0,,,,Weeks,Live,94.0,,,,,,,,,,,,Chemotherapy,Stable Desease,,,,,,,,,,,
+483,,,,,,,,,,,,,,,,3000000000.0,,,,Weeks,Dead,4.0,,,,,,,,,,,,Chemotherapy,Death,,,,,,,,,,,
+484,,,,,,,,,,,,,,,,2000000000.0,,,,Weeks,Live,8.0,,,,,,,,,,,,Chemotherapy,Progressive Disease,,,,,,,,,,,
+485,,,,,,,,,,,,,,,,2000000000.0,,,,Weeks,Live,77.0,,,,,,,,,,,,Chemotherapy,Stable Desease,,,,,,,,,,,
+486,,,,,,,,,,,,,,,,3000000000.0,,,,Weeks,Live,12.0,,,,,,,,,,,,Chemotherapy,Progressive Disease,,,,,,,,,,,
+487,,,,,,,,,,,,,,,,3000000000.0,,,,Weeks,Dead,7.0,,,,,,,,,,,,Chemotherapy,Progressive Disease,,,,,,,,,,,
+488,,,,,,,,,,,,,,,,2000000000.0,,,,Weeks,Live,20.0,,,,,,,,,,,,Chemotherapy,Progressive Disease,,,,,,,,,,,
+489,,,,,,,,,,,,,,,,100000000.0,,,,Weeks,Live,8.0,,,,,,,,,,,,Chemotherapy,Progressive Disease,,,,,,,,,,,
+490,,,,,,,,,,,,,,,,100000000.0,,,,Weeks,Live,8.0,,,,,,,,,,,,Chemotherapy,Not applicable,,,,,,,,,,,
+491,Tumor antigen,Yes,,,,,,,,Tumor antigen,Yes,,,,,,,,70.0,Months,Live,21.0,,,,,,,,,,,,Hormonal therapy,Partial Response,Decrease,,,PSA,,,,,,Metastatic,
+492,,,,,,,,,,,,,,,,,,,82.0,Months,Dead,8.0,,,,,,,,,,,,Radiotherapy,Partial Response,Decrease,,,PSA,,,,,,Metastatic,
+493,,,,,,,,,,,,,,,,,,,64.0,Months,Dead,1.0,,,,,,,,,,,,Hormonal therapy,Progressive Disease,Decrease,,,PSA,,,,,,Metastatic,
+494,,,,,,,,,,,,,,,,,,,45.0,Months,Live,21.0,,,,,,,,,,,,Hormonal therapy,Progressive Disease,Decrease,,,PSA,,,,,,Metastatic,
+495,,,,,,,,,,,,,,,,,,,65.0,Months,Live,24.0,,,,,,,,,,,,Surgery,Progressive Disease,Decrease,,,PSA,,,,,,Metastatic,
+496,,,,,,,,,,,,,,,,,,,51.0,Months,Live,21.0,,,,,,,,,,,,Hormonal therapy,Progressive Disease,Decrease,,,PSA,,,,,,Metastatic,
+497,,,,,,,,,,,,,,,,,,,50.0,Months,Dead,11.0,,,,,,,,,,,,Surgery,Progressive Disease,Decrease,,,PSA,,,,,,Recurrent,
+498,,,,,,,,,,,,,,,,,,,72.0,Months,Dead,16.0,,,,,,,,,,,,Surgery,Stable Desease,Decrease,,,PSA,,,,,,Metastatic,
+499,,,,,,,,,,,,,,,,,,,72.0,Months,Live,18.0,,,,,,,,,,,,Hormonal therapy,Stable Desease,Decrease,,,PSA,,,,,,Recurrent,
+500,,,,,,,,,,,,,,,,,,,64.0,Months,Live,18.0,,,,,,,,,,,,Hormonal therapy,Stable Desease,Decrease,,,PSA,,,,,,Recurrent,
+501,,,,,,,,,,,,,,,,,,,59.0,Months,Live,17.0,,,,,,,,,,,,Surgery,Stable Desease,Decrease,,,PSA,,,,,,Metastatic,
+502,Tumor antigen,Yes,,,,,,,,Tumor antigen,Yes,,,,,,,,70.0,Months,Live,21.0,,,,,,,,,,,,Hormonal therapy,Partial Response,Decrease,,,PSA,,,,,,Metastatic,
+503,Tumor antigen,Yes,,,,,,,,,,,,,7.0,5000000.0,,,,Months,Live,31.0,,Thyroid Cancer,,,,,,,,,,Chemotherapy,Stable Desease,,,,,,,,,,IV,
+504,Tumor antigen,Yes,,,,,,,,,,,,,3.0,1000000.0,,,,Months,Dead,73.0,,Thyroid Cancer,,,,,,,,,,Chemotherapy,,,,,,,,,,,IV,
+505,Tumor antigen,Yes,,,,,,,,,,,,,8.0,5000000.0,,,,Months,Live,38.0,,Renal cancer,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,,
+506,Tumor antigen,Yes,,,,,,,,,,,,,7.0,5000000.0,,,,Months,Dead,26.0,,Solid malignancies,,,,,,,,,,Chemotherapy,,,,,,,,,,,IV,
+507,Tumor antigen,Yes,,,,,,,,,,,,,8.0,5000000.0,,,,Months,Dead,46.0,,Renal cancer,,,,,,,,,,Surgery,,,,,,,,,,,IV,
+508,Tumor antigen,Yes,,,,,,,,,,,,,9.0,5000000.0,,,,Months,Live,23.0,,Thyroid Cancer,,,,,,,,,,Chemotherapy,Progressive Disease,,,,,,,,,,IV,
+509,Tumor antigen,Yes,,,,,,,,,,,,,5.0,5000000.0,,,,Months,Dead,22.0,,Pancreatic cancer,,,,,,,,,,Chemotherapy,,,,,,,,,,,IV,
+510,Tumor antigen,Yes,,,,,,,,,,,,,4.0,5000000.0,,,,Months,Dead,18.0,,Glioblastoma,,,,,,,,,,Surgery,,,,,,,,,,,IV,
+511,Tumor antigen,Yes,,,,,,,,,,,,,8.0,5000000.0,,,,Months,Dead,14.0,,Glioblastoma,,,,,,,,,,Surgery,,,,,,,,,,,IV,
+512,Tumor antigen,Yes,,,,,,,,,,,,,5.0,5000000.0,,,,Months,Dead,7.0,,Prostate cancer,,,,,,,,,,Surgery,,,,,,,,,,,IV,
+513,Tumor antigen,Yes,,,,,,,,,,,,,5.0,5.0,,,,Months,Dead,30.0,,Glioblastoma,,,,,,,,,,Surgery,,,,,,,,,,,IV,
+514,Tumor antigen,Yes,,,,,,,,,,,,,5.0,5000000.0,,,,Months,Dead,33.0,,Prostate cancer,,,,,,,,,,Surgery,,,,,,,,,,,IV,
+515,Tumor antigen,Yes,,,,,,,,,,,,,4.0,5000000.0,,,,Months,Dead,11.0,,Melanoma,,,,,,,,,,Radiotherapy,,,,,,,,,,,IV,
+516,Tumor antigen,Yes,,,,,,,,,,,,,8.0,5000000.0,,,,Months,Dead,49.0,,Melanoma,,,,,,,,,,Surgery,,,,,,,,,,,IV,
+517,Tumor antigen,Yes,,,,,,,,,,,,,5.0,5000000.0,,,,Months,Live,10.0,,Renal cancer,,,,,,,,,,Surgery,,,,,,,,,,,IV,
+518,Tumor antigen,Yes,,,,,,,,,,,,,3.0,5000000.0,,,,Months,Dead,21.0,,Solid malignancies,,,,,,,,,,Surgery,,,,,,,,,,,IV,
+519,Tumor antigen,Yes,,,,,,,,,,,,,4.0,5000000.0,,,,Months,Live,24.0,,Thyroid Cancer,,,,,,,,,,Chemotherapy,,,,,,,,,,,IV,
+520,Tumor antigen,Yes,,,,,,,,,,,,,12.0,5000000.0,,,,Months,Live,279.0,,Hepatocellular carcinoma,,,,,,,,,,Surgery,,,,,,,,,,,IV,
+521,Tumor antigen,Yes,,,Tumor antigen,Yes,,2.15,,Tumor antigen,Yes,,,,5.0,15000000.0,72.0,23.0,37.0,Months,Dead,30.0,,Cervical cancer,,,,,,,,,Monocytes,Surgery,Not evaluable,Yes,,,HPV16/18 E7,Not significant,,Caucasoid,,Subcutaneously,I,Protein
+522,Tumor antigen,Yes,,,Tumor antigen,Yes,,2.15,,Tumor antigen,Yes,,,,5.0,15000000.0,72.0,23.0,31.0,Months,Dead,31.0,,Cervical cancer,,,,,,,,,Monocytes,Surgery,Not evaluable,Yes,,,HPV16/18 E7,Not significant,,Caucasoid,,Subcutaneously,I,Protein
+523,Tumor antigen,Yes,,,Tumor antigen,Yes,,2.15,,Tumor antigen,Yes,,,,5.0,15000000.0,72.0,23.0,32.0,Months,Dead,30.0,,Cervical cancer,,,,,,,,,Monocytes,Surgery,Not evaluable,Yes,,,HPV16/18 E7,Not significant,,Caucasoid,,Subcutaneously,I,Protein
+524,Tumor antigen,Yes,,,Tumor antigen,Yes,,2.15,,Tumor antigen,Yes,,,,5.0,15000000.0,72.0,23.0,34.0,Months,Dead,26.0,,Cervical cancer,,,,,,,,,Monocytes,Surgery,Not evaluable,Yes,,,HPV16/18 E7,Not significant,,Caucasoid,,Subcutaneously,I,Protein
+525,,,,,,,,,,,,,,,5.0,,,,43.0,Months,Dead,26.0,,Nasopharyngeal carcinoma,,,,,,,,,,Surgery,Not evaluable,,,,,,,Caucasoid,,,I,
+526,Tumor antigen,Yes,,,Tumor antigen,Yes,,2.15,,Tumor antigen,Yes,,,,5.0,15000000.0,72.0,23.0,72.0,Months,Dead,25.0,,Cervical cancer,,,,,,,,,Monocytes,Surgery,Not evaluable,Yes,,,HPV16/18 E7,Not significant,,Caucasoid,,Subcutaneously,I,Protein
+527,,,,,,,,,,,,,,,5.0,,,,39.0,Months,Dead,25.0,,Nasopharyngeal carcinoma,,,,,,,,,,Surgery,Not evaluable,,,,,,,Caucasoid,,,I,
+528,Tumor antigen,Yes,,,Tumor antigen,Yes,,2.15,,,,,,,5.0,15000000.0,72.0,23.0,23.0,Months,Dead,20.0,,Cervical cancer,,,,,,,,,Monocytes,Surgery,Not evaluable,Yes,,,HPV16/18 E7,Not significant,,Caucasoid,,Subcutaneously,I,Protein
+529,Tumor antigen,Yes,,,Tumor antigen,Yes,,2.15,,Tumor antigen,Yes,,,,5.0,15000000.0,72.0,23.0,32.0,Months,Dead,19.0,,Cervical cancer,,,,,,,,,Monocytes,Surgery,Not evaluable,Yes,,,HPV16/18 E7,Not significant,,Caucasoid,,Subcutaneously,I,Protein
+530,Tumor antigen,Yes,,,Tumor antigen,Yes,,2.15,,Tumor antigen,Yes,,,,5.0,15000000.0,72.0,23.0,23.0,Months,Dead,17.0,,Cervical cancer,,,,,,,,,Monocytes,Surgery,Not evaluable,Yes,,,HPV16/18 E7,Not significant,,Caucasoid,,Subcutaneously,I,Protein
+531,,,,,,,,,,Control antigen,Yes,,,,,,,,55.0,,,,HLA-A24,Solid malignancies,,1.0,1.0,,,,,,Monocytes,Surgery,,Decrease,,,CEA,,Female,,Immunotherapy,,Metastatic,Peptide
+532,,,,,,,,,,,,,,,,,,,56.0,,,,,Rectum cancer,,,,,,,,,,Surgery,,,,,,,Male,,,,,
+533,,,,,,,,,,,,,,,,,,,52.0,,,,,Lung cancer,,,,,,,,,,Surgery,,,,,,,Female,,,,,
+534,,,,,,,,,,,,,,,,,,,28.0,,,,,Colon cancer,,,,,,,,,,Surgery,,,,,,,Female,,,,,
+535,,,,,,,,,,,,,,,,,,,42.0,,,,,Colon cancer,,,,,,,,,,Surgery,,,,,,,Female,,,,,
+536,,,,,,,,,,,,,,,,,,,33.0,,,,,Stomach cancer,,,,,,,,,,Chemotherapy,,,,,,,Female,,,,,
+537,,,,,,,,,,,,,,,,,,,60.0,,,,,Colon cancer,,,,,,,,,,Surgery,,,,,,,Female,,,,,
+538,,,,,,,,,,,,,,,,,,,63.0,,,,,Colon cancer,,,,,,,,,,Surgery,,,,,,,Female,,,,,
+539,,,,,,,,,,,,,,,,,,,69.0,,,,,Lung cancer,,,,,,,,,,Surgery,,,,,,,Male,,,,,
+540,,,,,,,,,,,,,,,,,,,46.0,,,,,Colon cancer,,,,,,,,,,Surgery,,,,,,,Female,,,,,
+541,,,,,,,,,,,,,,,,,,,53.0,,,,,Stomach cancer,,,,,,,,,,Surgery,,,,,,,Male,,,,,
+542,,,,,,,,,,,,,,,,,,,65.0,,,,,Colon cancer,,,,,,,,,,Surgery,,,,,,,Female,,,,,
+543,,,,,,,,,,,,,,,,,,,56.0,,,,,Lung cancer,,,,,,,,,,Surgery,,,,,,,Male,,,,,
+544,,,,,Tumor antigen,Yes,,,,,,,,,10.0,,,,58.0,Months,Live,14.0,,,,,,,,,,,,Hormonal therapy,Stable Desease,,,,,,,,,,,
+545,,,,,Tumor antigen,Yes,,,,,,,,,9.0,,,,47.0,Months,Dead,9.0,,,,,,,,,,,,,Stable Desease,,,,,,,,,,,
+546,,,,,Tumor antigen,Yes,,,,,,,,,9.0,,,,46.0,Months,Dead,26.5,,,,,,,,,,,,Hormonal therapy,Stable Desease,,,,,,,,,,,
+547,,,,,Tumor antigen,Yes,,,,,,,,,10.0,,,,64.0,Months,Dead,21.0,,,,,,,,,,,,Hormonal therapy,Stable Desease,,,,,,,,,,,
+548,,,,,Tumor antigen,Yes,,,,,,,,,3010.0,,,,44.0,Months,Dead,12.5,,,,,,,,,,,,Hormonal therapy,Progressive Disease,,,,,,,,,,,
+549,,,,,Tumor antigen,Yes,,,,,,,,,10.0,,,,58.0,Months,Dead,13.0,,,,,,,,,,,,Chemotherapy,Stable Desease,,,,,,,,,,,
+550,,,,,Tumor antigen,Yes,,,,,,,,,10.0,,,,74.0,Months,Live,5.5,,,,,,,,,,,,Chemotherapy,Stable Desease,,,,,,,,,,,
+551,,,,,Tumor antigen,Yes,,,,,,,,,8.0,,,,66.0,Months,Dead,21.0,,,,,,,,,,,,Chemotherapy,Partial Response,,,,,,,,,,,
+552,,,,,Tumor antigen,Yes,,,,,,,,,7.0,,,,72.0,Months,Dead,4.0,,,,,,,,,,,,Chemotherapy,Progressive Disease,,,,,,,,,,,
+553,,,,,Tumor antigen,Yes,,,,,,,,,5.0,,,,54.0,Months,Dead,2.0,,,,,,,,,,,,Chemotherapy,Progressive Disease,,,,,,,,,,,
+554,,,,,Tumor antigen,Yes,,,,,,,,,1006.0,,,,59.0,Months,Dead,7.0,,,,,,,,,,,,Chemotherapy,Progressive Disease,,,,,,,,,,,
+555,,,,,Tumor antigen,Yes,,,,,,,,,5.0,,,,33.0,Months,Dead,2.0,,,,,,,,,,,,Chemotherapy,Progressive Disease,,,,,,,,,,,
+556,,,,,Tumor antigen,Yes,,,,,,,,,7.0,,,,46.0,Months,Dead,13.0,,,,,,,,,,,,Chemotherapy,Progressive Disease,,,,,,,,,,,
+557,,,,,Tumor antigen,Yes,,,,,,,,,6.0,,,,51.0,Months,Dead,10.0,,,,,,,,,,,,Chemotherapy,Progressive Disease,,,,,,,,,,,
+558,,,,,Tumor antigen,Yes,,,,,,,,,6.0,,,,64.0,Months,Dead,2.0,,,,,,,,,,,,Chemotherapy,Progressive Disease,,,,,,,,,,,
+559,,,,,Tumor antigen,Yes,,,,,,,,,505.0,,,,64.0,Months,Dead,2.0,,,,,,,,,,,,Chemotherapy,Progressive Disease,,,,,,,,,,,
+560,,,,,Tumor antigen,Yes,,,,,,,,,7.0,,,,52.0,Months,Dead,3.0,,,,,,,,,,,,Hormonal therapy,Progressive Disease,,,,,,,,,,,
+561,,,,,Tumor antigen,Yes,,,,,,,,,6.0,,,,64.0,Months,Dead,21.0,,,,,,,,,,,,Chemotherapy,Progressive Disease,,,,,,,,,,,
+562,,,,,Tumor antigen,Yes,,,,,,,,,6.0,,,,62.0,Months,Dead,9.0,,,,,,,,,,,,Chemotherapy,Progressive Disease,,,,,,,,,,,
+563,,,,,Tumor antigen,Yes,,,,,,,,,3.0,,,,51.0,Months,Dead,1.0,,,,,,,,,,,,Hormonal therapy,Progressive Disease,,,,,,,,,,,
+564,,,,,Tumor antigen,Yes,,,,,,,,,3.0,,,,61.0,Months,Dead,1.0,,,,,,,,,,,,Chemotherapy,Progressive Disease,,,,,,,,,,,
+565,,,,,Tumor antigen,Yes,,,,,,,,,4.0,,,,56.0,Months,Dead,8.0,,,,,,,,,,,,Chemotherapy,Progressive Disease,,,,,,,,,,,
+566,,,,,Tumor antigen,Yes,,,,,,,,,4.0,,,,36.0,Months,Dead,4.5,,,,,,,,,,,,Chemotherapy,Progressive Disease,,,,,,,,,,,
+567,,,,,Tumor antigen,Yes,,,,,,,,,4.0,,,,44.0,Months,Dead,4.0,,,,,,,,,,,,Chemotherapy,Progressive Disease,,,,,,,,,,,
+568,,,,,Tumor antigen,Yes,,,,,,,,,3.0,,,,58.0,Months,Dead,4.0,,,,,,,,,,,,Hormonal therapy,Progressive Disease,,,,,,,,,,,
+569,,,,,Tumor antigen,Yes,,,,,,,,,4.0,,,,56.0,Months,Dead,1.5,,,,,,,,,,,,Chemotherapy,Progressive Disease,,,,,,,,,,,
+570,,,,,,,,,,,,,,,,,,,70.0,,,,,,,,,,,,,,,Surgery,Complete response,,,,,,,,,,I,
+571,,,,,,,,,,,,,,,,,,,62.0,,,,,,,,,,,,,,,Surgery,Complete response,,,,,,,,,,I,
+572,,,,,,,,,,,,,,,,,,,66.0,,,,,,,,,,,,,,,Surgery,Not evaluable,,,,,,,,,,I,
+573,,,,,,,,,,,,,,,,,,,65.0,,,,,,,,,,,,,,,Surgery,Not evaluable,,,,,,,,,,I,
+574,,,,,,,,,,,,,,,,,,,56.0,,,,,,,,,,,,,,,Surgery,Stable Desease,,,,,,,,,,I,
+575,,,,,,,,,,,,,,,,,,,60.0,,,,,,,,,,,,,,,Surgery,Not evaluable,,,,,,,,,,I,
+576,,,,,,,,,,,,,,,,,,,67.0,,,,,,,,,,,,,,,Surgery,Not evaluable,,,,,,,,,,II,
+577,,,,,,,,,,,,,,,,,,,59.0,,,,,,,,,,,,,,,Chemotherapy,Not evaluable,,,,,,,,,,III,
+578,,,,,,,,,,,,,,,2.0,10000000.0,,,67.0,Days,Dead,,,Lung cancer,,,,,,,,,Monocytes,Chemotherapy,Progressive Disease,Decrease,,,HER-2/Neu,None,,,,Intradermal,III,Protein
+579,,,,,,,,,,,,,,,2.0,10000000.0,,,51.0,Days,Dead,,,Lung cancer,,,,,,,,,Monocytes,Surgery,Progressive Disease,Decrease,,,HER-2/Neu,None,,,,Intradermal,III,Protein
+580,,,,,,,,,,,,,,,,,,,48.0,,,,,,,,,,,,,,,Chemotherapy,Not evaluable,,,,,,,,,,III,
+581,,,,,,,,,,,,,,,,,,,50.0,,,,,,,,,,,,,,,Chemotherapy,Not evaluable,,,,,,,,,,III,
+582,,,,,Tumor antigen,No,,,,,,,,,2.0,10000000.0,,,63.0,Days,Dead,,,Lung cancer,,,,,,,,,Monocytes,Chemotherapy,Progressive Disease,Decrease,,,HER-2/Neu,None,,,,Intradermal,III,Protein
+583,,,,,Tumor antigen,Yes,4.0,34.0,,,,,,,2.0,10000000.0,,,58.0,Days,Dead,,,Lung cancer,,,,,,,,,Monocytes,Chemotherapy,Stable Desease,Decrease,,,HER-2/Neu,None,,,,Intradermal,III,Protein
+584,,,,,,,,,,,,,,,,,,,48.0,,,,,Ovarian cancer,,,,,,,,,,,Stable Desease,,,,,,Female,,,,,
+585,,,,,,,,,,,,,,,,,,,56.0,,,,,Bladder cancer,,,,,,,,,,,Stable Desease,,,,,,Male,,,,,
+586,,,,,,,,,,,,,,,,,,,62.0,,,,,Ovarian cancer,,,,,,,,,,,Stable Desease,,,,,,Female,,,,,
+587,,,,,,,,,,,,,,,,,,,37.0,,,,,Thyroid Cancer,,,,,,,,,,,Partial Response,,,,,,Female,,,,,
+588,,,,,,,,,,,,,,,,,,,42.0,,,,,Solid malignancies,,,,,,,,,,,Stable Desease,,,,,,Male,,,,,
+589,,,,,,,,,,,,,,,,,,,71.0,,,,,Breast cancer,,,,,,,,,,,Stable Desease,,,,,,Male,,,,,
+590,,,,,,,,,,,,,,,,,,,46.0,,,,,Rectum cancer,,,,,,,,,,,Progressive Disease,,,,,,Female,,,,,
+591,,,,,,,,,,,,,,,,,,,53.0,,,,,Ovarian cancer,,,,,,,,,,,Stable Desease,,,,,,Female,,,,,
+592,,,,,,,,,,,,,,,,,,,68.0,,,,,Renal cancer,,,,,,,,,,,Progressive Disease,,,,,,Male,,,,,
+593,,,,,,,,,,,,,,,,,,,47.0,,,,,Cholangiocellular carcinoma,,,,,,,,,,,Stable Desease,,,,,,Male,,,,,
+594,,,,,,,,,,,,,,,,,,,37.0,,,,,Renal cancer,,,,,,,,,,,Stable Desease,,,,,,Male,,,,,
+595,,,,,,,,,,,,,,,,,,,73.0,,,,,Solid malignancies,,,,,,,,,,,Progressive Disease,,,,,,Male,,,,,
+596,,,,,,,,,,,,,,,,,,,66.0,,,,,Pancreatic cancer,,,,,,,,,,,Progressive Disease,,,,,,Female,,,,,
+597,,,,,,,,,,,,,,,,,,,43.0,,,,,Thyroid Cancer,,,,,,,,,,,Stable Desease,,,,,,Male,,,,,
+598,,,,,,,,,,,,,,,,,,,45.0,,,,,Ovarian cancer,,,,,,,,,,,Stable Desease,,,,,,Female,,,,,
+599,Tumor antigen,No,,,,,,,,,,,,,16.0,,,,154.0,Days,Live,1370.0,,,,,,,,,,,,Surgery,Progressive Disease,,,,,,Female,,,,,
+600,Tumor antigen,Yes,,,,,,,,,,,,,5.0,,,,252.0,Days,Live,151.0,,,,,,,,,,,,Surgery,Progressive Disease,,,,,,Female,,,,,
+601,Tumor antigen,Yes,,,,,,,,,,,,,16.0,,,,372.0,Days,Live,379.0,,,,,,,,,,,,Surgery,Progressive Disease,,,,,,Male,,,,,
+602,Tumor antigen,Yes,,,,,,,,,,,,,9.0,,,,446.0,Days,Dead,1313.0,,,,,,,,,,,,Surgery,Progressive Disease,,,,,,Male,,,,,
+603,Tumor antigen,Yes,,,,,,,,,,,,,16.0,,,,568.0,Days,Dead,1174.0,,,,,,,,,,,,Surgery,Stable Desease,,,,,,Female,,,,,
+604,Tumor antigen,Yes,,,,,,,,,,,,,16.0,,,,667.0,Days,Dead,1048.0,,,,,,,,,,,,Surgery,Stable Desease,,,,,,Female,,,,,
+605,Tumor antigen,Yes,,,Tumor antigen,No,,,,,,,,,,,,,61.0,Months,Live,43.0,,,,,,,,,,,,,Stable Desease,,,,,,Female,,,,II,
+606,Tumor antigen,No,,,Tumor antigen,Yes,,,,,,,,,,,,,55.0,Months,Dead,40.0,,,,,,,,,,,,,Partial Response,,,,,,Male,,,,I,
+607,Tumor antigen,No,,,Tumor antigen,No,,,,,,,,,,,,,50.0,Months,Dead,29.0,,,,,,,,,,,,,Progressive Disease,,,,,,Male,,,,III,
+608,Tumor antigen,No,,,Tumor antigen,No,,,,,,,,,,,,,63.0,Months,Dead,43.0,,,,,,,,,,,,,Stable Desease,,,,,,Male,,,,III,
+609,Tumor antigen,No,,,Tumor antigen,Yes,,,,,,,,,,,,,59.0,Months,Dead,10.0,,,,,,,,,,,,,Progressive Disease,,,,,,Female,,,,I,
+610,Tumor antigen,No,,,Tumor antigen,No,,,,,,,,,,,,,55.0,Months,Dead,1.0,,,,,,,,,,,,,Progressive Disease,,,,,,Male,,,,II,
+611,Tumor antigen,Yes,,,Tumor antigen,Yes,,,,,,,,,,,,,54.0,Months,Dead,28.0,,,,,,,,,,,,,Stable Desease,,,,,,Male,,,,I,
+612,Tumor antigen,Yes,,,Tumor antigen,Yes,,,,,,,,,,,,,37.0,Months,Dead,1.0,,,,,,,,,,,,,Progressive Disease,,,,,,Male,,,,III,
+613,Tumor antigen,No,,,Tumor antigen,Yes,,,,,,,,,,,,,59.0,Months,Dead,1.0,,,,,,,,,,,,,Progressive Disease,,,,,,Male,,,,III,
+614,Tumor antigen,No,,,Tumor antigen,Yes,,,,,,,,,,,,,62.0,Months,Dead,24.0,,,,,,,,,,,,,Stable Desease,,,,,,Male,,,,I,
+615,Tumor antigen,No,,,Tumor antigen,No,,,,,,,,,,,,,59.0,Months,Dead,13.0,,,,,,,,,,,,,Stable Desease,,,,,,Male,,,,I,
+616,Tumor antigen,No,,,Tumor antigen,No,,,,,,,,,,,,,68.0,Months,Dead,10.0,,,,,,,,,,,,,Progressive Disease,,,,,,Male,,,,I,
+617,Tumor antigen,No,,,Tumor antigen,No,,,,,,,,,,,,,58.0,Months,Dead,1.0,,,,,,,,,,,,,Progressive Disease,,,,,,Female,,,,I,
+618,Tumor antigen,Yes,,,Tumor antigen,Yes,,,,,,,,,,,,,54.0,Months,Dead,9.0,,,,,,,,,,,,,Stable Desease,,,,,,Female,,,,I,
+619,Tumor antigen,No,,,Tumor antigen,Yes,,,,,,,,,,,,,66.0,Months,Dead,9.0,,,,,,,,,,,,,Stable Desease,,,,,,Male,,,,III,
+620,,,,,,,,,,,,,,,1.0,,,,57.0,Weeks,Dead,16.0,,,,,,1.0,,,,,,Surgery,Progressive Disease,,,,,,Male,,,,,
+621,,,,,,,,,,,,,,,,,,,63.0,,,,,,,,,1.0,,,,,,Surgery,Progressive Disease,,,,,,Male,,,,,
+622,,,,,,,,,,,,,,,,,,,77.0,,,,,,,,,1.0,,,,,,Surgery,Stable Desease,,,,,,Male,,,,,
+623,Tumor antigen,Yes,,,,,,,,,,,,,4.0,3e+14,,,,,,,HLA-A2,Stomach cancer,,2.0,1.0,,,,,OK-432,,Surgery,Progressive Disease,Decrease,,,PSA,Not significant,,,,Subcutaneously,Metastatic,Peptide
+624,,,,,,,,,,,,,,,,,,,,,,,,Hepatocellular carcinoma,,,,,,,,,,Surgery,Partial Response,Decrease,,,PSA,Not significant,,,,,,
+625,,,,,,,,,,,,,,,,,,,,,,,,Hepatocellular carcinoma,,,,,,,,,,Chemotherapy,Progressive Disease,Decrease,,,PSA,Not significant,,,,,,
+626,,,,,,,,,,,,,,,,,,,,,,,,Hepatocellular carcinoma,,,,,,,,,,Chemotherapy,Partial Response,Decrease,,,PSA,Not significant,,,,,,
+627,Tumor antigen,Yes,,,,,,,,,,,,,4.0,3e+14,,,,,,,HLA-A2,Stomach cancer,,2.0,1.0,,,,,OK-432,,Surgery,Progressive Disease,Decrease,,,PSA,Not significant,,,,Subcutaneously,Metastatic,Peptide
+628,,,,,,,,,,,,,,,4.0,3e+14,,,,,,,HLA-A2,Stomach cancer,,2.0,1.0,,,,,OK-432,,Surgery,Progressive Disease,Decrease,,,PSA,Not significant,,,,Subcutaneously,Metastatic,Peptide
+629,,,,,,,,,,,,,,,4.0,3e+14,,,,,,,HLA-A2,Stomach cancer,,2.0,1.0,,,,,OK-432,,Surgery,Progressive Disease,Decrease,,,PSA,Not significant,,,,Subcutaneously,Metastatic,Peptide
+630,Tumor antigen,Yes,,,,,,,,,,,,,4.0,3e+14,,,,,,,HLA-A2,Stomach cancer,,2.0,1.0,,,,,OK-432,,Surgery,Progressive Disease,Decrease,,,PSA,Not significant,,,,Subcutaneously,Metastatic,Peptide
+631,Tumor antigen,Yes,,,,,,,,,,,,,4.0,3e+14,,,,,,,HLA-A2,Stomach cancer,,2.0,1.0,,,,,OK-432,,Surgery,Progressive Disease,Decrease,,,PSA,Not significant,,,,Subcutaneously,Metastatic,Peptide
+632,,,,,,,,,,,,,,,,,,,,,,,,Rectum cancer,,,,,,,,,,Surgery,Partial Response,Decrease,,,PSA,Not significant,,,,,,
+633,,,,,,,,,,,,,,,,,,,,,,,,Rectum cancer,,,,,,,,,,Surgery,Progressive Disease,Decrease,,,PSA,Not significant,,,,,,
+634,,,,,,,,,,,,,,,,,,,,,,,,Rectum cancer,,,,,,,,,,Surgery,Progressive Disease,Decrease,,,PSA,Not significant,,,,,,
+635,,,,,,,,,,Tumor antigen,Yes,,,,4.0,3e+14,,,,,,,HLA-A2,Stomach cancer,,2.0,1.0,,,,,OK-432,,Surgery,Progressive Disease,Decrease,,,PSA,Not significant,,,,Subcutaneously,Metastatic,Peptide
+636,,,,,,,,,,,,,,,4.0,3e+14,,,,,,,HLA-A2,Stomach cancer,,2.0,1.0,,,,,OK-432,,Surgery,Progressive Disease,Decrease,,,PSA,Not significant,,,,Subcutaneously,Metastatic,Peptide
+637,,,,,,,,,,,,,,,4.0,3e+14,,,,,,,HLA-A2,Stomach cancer,,2.0,1.0,,,,,OK-432,,Surgery,Progressive Disease,Decrease,,,PSA,Not significant,,,,Subcutaneously,Metastatic,Peptide
+638,,,,,,,,,,,,,,,,,,,,,,,,Rectum cancer,,,,,,,,,,Surgery,Stable Desease,Decrease,,,PSA,Not significant,,,,,,
+639,,,,,,,,,,,,,,,,,,,,,,,,Bladder cancer,,,,,,,,,,Surgery,Partial Response,Decrease,,,PSA,Not significant,,,,,,
+640,,,,,,,,,,,,,,,,,,,,,,,,Rectum cancer,,,,,,,,,,Surgery,Progressive Disease,Decrease,,,PSA,Not significant,,,,,,
+641,Tumor antigen,Yes,,,,,,,,,,,,,4.0,3e+14,,,,,,,HLA-A2,Stomach cancer,,2.0,1.0,,,,,OK-432,,Surgery,Progressive Disease,Decrease,,,PSA,Not significant,,,,Subcutaneously,Metastatic,Peptide
+642,,,,,,,,,,,,,,,,,,,,,,,,Hepatocellular carcinoma,,,,,,,,,,Surgery,Progressive Disease,Decrease,,,PSA,Not significant,,,,,,
+643,,,,,,,,,,,,,,,,,,,,,,,,Hepatocellular carcinoma,,,,,,,,,,Surgery,Progressive Disease,Decrease,,,PSA,Not significant,,,,,,
+644,,,,,,,,,,,,,,,,,,,,,,,,Rectum cancer,,,,,,,,,,Surgery,Progressive Disease,Decrease,,,PSA,Not significant,,,,,,
+645,,,,,,,,,,,,,,,,,,,,,,,,Pancreatic cancer,,,,,,,,,,Surgery,Progressive Disease,Decrease,,,PSA,Not significant,,,,,,
+646,,,,,,,,,,,,,,,,,,,,,,,,Hepatocellular carcinoma,,,,,,,,,,Chemotherapy,Progressive Disease,Decrease,,,PSA,Not significant,,,,,,
+647,,,,,,,,,,,,,,,,,,,,,,,,Bladder cancer,,,,,,,,,,Surgery,Progressive Disease,Decrease,,,PSA,Not significant,,,,,,
+648,,,,,,,,,,,,,,,,,,,,,,,,Rectum cancer,,,,,,,,,,Surgery,Progressive Disease,Decrease,,,PSA,Not significant,,,,,,
+649,,,,,,,,,,,,,,,,,,,,,,,,Hepatocellular carcinoma,,,,,,,,,,Surgery,Progressive Disease,Decrease,,,PSA,Not significant,,,,,,
+650,,,,,,,,,,,,,,,,,,,,,,,,Hepatocellular carcinoma,,,,,,,,,,Surgery,Progressive Disease,Decrease,,,PSA,Not significant,,,,,,
+651,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+652,,,,,,,,,,,,,,,4.0,5.0,,,42.0,Months,Dead,10.0,,,,,,,,,,,,,Progressive Disease,,,,,,Female,,,,III,
+653,,,,,,,,,,,,,,,4.0,5.0,,,57.0,Months,Dead,62.0,,,,,,,,,,,,,Not evaluable,,,,,,Female,,,,III,
+654,,,,,,,,,,,,,,,4.0,5.0,,,32.0,Months,Dead,43.0,,,,,,,,,,,,,Not evaluable,,,,,,Male,,,,III,
+655,,,,,,,,,,,,,,,4.0,5.0,,,17.0,Months,Dead,53.0,,,,,,,,,,,,,Not evaluable,,,,,,Female,,,,III,
+656,,,,,,,,,,,,,,,4.0,10.0,,,56.0,Months,Dead,4.0,,,,,,,,,,,,,Progressive Disease,,,,,,Male,,,,IV,
+657,,,,,,,,,,,,,,,4.0,3.0,,,60.0,Months,Dead,45.0,,,,,,,,,,,,,Not evaluable,,,,,,Male,,,,III,
+658,,,,,,,,,,,,,,,2.0,10.0,,,27.0,Months,Dead,1.0,,,,,,,,,,,,,Partial Response,,,,,,Male,,,,IV,
+659,,,,,,,,,,,,,,,4.0,10.0,,,26.0,Months,Dead,7.0,,,,,,,,,,,,,Progressive Disease,,,,,,Male,,,,IV,
+660,,,,,,,,,,,,,,,4.0,15.0,,,42.0,Months,Dead,79.0,,,,,,,,,,,,,Not evaluable,,,,,,Female,,,,III,
+661,,,,,,,,,,,,,,,4.0,15.0,,,34.0,Months,Dead,11.0,,,,,,,,,,,,,Progressive Disease,,,,,,Male,,,,IV,
+662,,,,,,,,,,,,,,,4.0,15.0,,,44.0,Months,Dead,4.0,,,,,,,,,,,,,Progressive Disease,,,,,,Male,,,,IV,
+663,,,,,,,,,,,,,,,4.0,15.0,,,56.0,Months,Dead,33.0,,,,,,,,,,,,,Not evaluable,,,,,,Male,,,,III,
+664,,,,,,,,,,,,,,,4.0,20.0,,,47.0,Months,Dead,34.0,,,,,,,,,,,,,Not evaluable,,,,,,Male,,,,II,
+665,,,,,,,,,,,,,,,4.0,20.0,,,30.0,Months,Dead,47.0,,,,,,,,,,,,,Not evaluable,,,,,,Male,,,,III,
+666,,,,,,,,,,,,,,,4.0,20.0,,,52.0,Months,Dead,10.0,,,,,,,,,,,,,Progressive Disease,,,,,,Male,,,,IV,
+667,,,,,,,,,,,,,,,4.0,20.0,,,57.0,Months,Dead,6.0,,,,,,,,,,,,,Progressive Disease,,,,,,Female,,,,IV,
+668,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+669,,,,,,,,,,,,,,,10.0,,,,57.0,Days,Live,29.5,,,,,,,,,,,,,Stable Desease,,,,,,Male,,Immunotherapy,,,
+670,,,,,Tumor antigen,Yes,,,KLH,,,,,,13.0,,79.0,38.0,79.0,Months,Dead,25.0,HLA-A2 negative,Renal cancer,,,,,,,,IL-1β,Monocytes,,Stable Desease,,,,,Not significant,Female,,Immunotherapy,,,Lysate
+671,,,,,Tumor antigen,Yes,,,KLH,,,,,,10.0,,79.0,38.0,61.0,Months,Dead,7.5,HLA-A2 negative,Renal cancer,,,,,,,,IL-1β,Monocytes,,Stable Desease,,,,,Not significant,Male,,Immunotherapy,,,Lysate
+672,,,,,Tumor antigen,Yes,,,KLH,,,,,,6.0,,79.0,38.0,60.0,Months,Dead,5.0,HLA-A2 negative,Renal cancer,,,,,,,,IL-1β,Monocytes,,Stable Desease,,,,,Not significant,Male,,Immunotherapy,,,Lysate
+673,,,,,Tumor antigen,Yes,,,KLH,,,,,,13.0,,79.0,38.0,38.0,Months,Dead,16.5,HLA-A2 negative,Renal cancer,,,,,,,,IL-1β,Monocytes,,Stable Desease,,,,,Not significant,Male,,Immunotherapy,,,Lysate
+674,,,,,Tumor antigen,Yes,,,KLH,,,,,,21.0,,79.0,38.0,61.0,Months,Dead,20.0,HLA-A2 negative,Renal cancer,,,,,,,,IL-1β,Monocytes,,Stable Desease,,,,,Not significant,Male,,Immunotherapy,,,Lysate
+675,,,,,Tumor antigen,Yes,,,KLH,,,,,,13.0,,79.0,38.0,78.0,Months,Dead,11.0,HLA-A2 negative,Renal cancer,,,,,,,,IL-1β,Monocytes,,Stable Desease,,,,,Not significant,Male,,Immunotherapy,,,Lysate
+676,,,,,Tumor antigen,Yes,,,KLH,,,,,,23.0,,79.0,38.0,66.0,Months,Dead,16.0,HLA-A2 negative,Renal cancer,,,,,,,,IL-1β,Monocytes,,Stable Desease,,,,,Not significant,Female,,Immunotherapy,,,Lysate
+677,,,,,Tumor antigen,Yes,,,KLH,,,,,,6.0,,79.0,38.0,59.0,Months,Dead,6.5,HLA-A2 negative,Renal cancer,,,,,,,,IL-1β,Monocytes,,Progressive Disease,,,,,Not significant,Male,,Immunotherapy,,,Lysate
+678,,,,,Tumor antigen,Yes,,,KLH,,,,,,6.0,,79.0,38.0,60.0,Months,Dead,3.0,HLA-A2 negative,Renal cancer,,,,,,,,IL-1β,Monocytes,,Progressive Disease,,,,,Not significant,Male,,Immunotherapy,,,Lysate
+679,,,,,Tumor antigen,Yes,,,KLH,,,,,,6.0,,79.0,38.0,54.0,Months,Dead,5.0,HLA-A2 negative,Renal cancer,,,,,,,,IL-1β,Monocytes,,Progressive Disease,,,,,Not significant,Male,,Immunotherapy,,,Lysate
+680,,,,,Tumor antigen,Yes,,,KLH,,,,,,6.0,,79.0,38.0,42.0,Months,Dead,10.5,HLA-A2 negative,Renal cancer,,,,,,,,IL-1β,Monocytes,,Progressive Disease,,,,,Not significant,Male,,Immunotherapy,,,Lysate
+681,,,,,Tumor antigen,Yes,,,KLH,,,,,,6.0,,79.0,38.0,70.0,Months,Dead,4.5,HLA-A2 negative,Renal cancer,,,,,,,,IL-1β,Monocytes,,Progressive Disease,,,,,Not significant,Male,,Immunotherapy,,,Lysate
+682,,,,,Tumor antigen,Yes,,,KLH,,,,,,6.0,,79.0,38.0,59.0,Months,Dead,13.0,HLA-A2 negative,Renal cancer,,,,,,,,IL-1β,Monocytes,,Progressive Disease,,,,,Not significant,Male,,Immunotherapy,,,Lysate
+683,Tumor antigen,No,,,,,,,,Control antigen,Yes,,,,,30000000.0,,,44.0,Months,Live,41.0,,Glioblastoma,,,,,,,,,,Radiotherapy,,,,,,,Male,,,,,
+684,Tumor antigen,Yes,,,,,,,,Control antigen,Yes,,,,,30000000.0,,,40.0,Months,Dead,12.3,,Glioblastoma,,,,,,,,,,Radiotherapy,,,,,,,Female,,,,,
+685,Tumor antigen,Yes,,,,,,,,Control antigen,Yes,,,,,30000000.0,,,50.0,Months,Dead,17.5,,Glioblastoma,,,,,,,,,,Radiotherapy,,,,,,,Male,,,,,
+686,Tumor antigen,Yes,,,,,,,,Control antigen,Yes,,,,,100000000.0,,,37.0,Months,Dead,15.9,,Glioblastoma,,,,,,,,,,Immunotherapy,,,,,,,Male,,,,,
+687,Tumor antigen,Yes,,,,,,,,Control antigen,Yes,,,,,100000000.0,,,37.0,Months,Dead,6.7,,Glioblastoma,,,,,,,,,,Radiotherapy,,,,,,,Male,,,,,
+688,Tumor antigen,Yes,,,,,,,,Control antigen,Yes,,,,,100000000.0,,,58.0,Months,Dead,20.0,,Glioblastoma,,,,,,,,,,Immunotherapy,,,,,,,Female,,,,,
+689,Tumor antigen,Yes,,,,,,,,Control antigen,Yes,,,,,100000000.0,,,55.0,Months,Dead,19.6,,Glioblastoma,,,,,,,,,,Radiotherapy,,,,,,,Female,,,,,
+690,Tumor antigen,Yes,,,,,,,,Control antigen,Yes,,,,,55000000.0,,,44.0,Months,Dead,40.8,,Glioblastoma,,,,,,,,,,Chemotherapy,,,,,,,Male,,,,,
+691,Tumor antigen,Yes,,,,,,,,Control antigen,Yes,,,,,23000000.0,,,34.0,Months,Dead,65.4,,Glioblastoma,,,,,,,,,,Immunotherapy,,,,,,,Female,,,,,
+692,Tumor antigen,Yes,,,,,,,,Control antigen,Yes,,,,,29000000.0,,,55.0,Months,Dead,25.6,,Glioblastoma,,,,,,,,,,Radiotherapy,,,,,,,Male,,,,,
+693,Tumor antigen,Yes,,,,,,,,Control antigen,Yes,,,,,57000000.0,,,35.0,Months,Dead,28.1,,Glioblastoma,,,,,,,,,,Radiotherapy,,,,,,,Male,,,,,
+694,Tumor antigen,Yes,,,,,,,,Control antigen,Yes,,,,,76000000.0,,,36.0,Months,Dead,46.2,,Glioblastoma,,,,,,,,,,Radiotherapy,,,,,,,Male,,,,,
+695,,,,,,,,,,,,,,,,0.23,,,37.0,,,,,Renal cancer,,,,,,,,,,,,,,,,,Female,,,,III,
+696,,,,,,,,,,,,,,,,5.1,,,55.0,,,,,Renal cancer,,,,,,,,,,,,,,,,,Male,,,,Metastatic,
+697,,,,,,,,,,,,,,,,1.75,,,68.0,,,,,Renal cancer,,,,,,,,,,,,,,,,,Female,,,,III,
+698,,,,,,,,,,,,,,,,2.6,,,56.0,,,,,Renal cancer,,,,,,,,,,,,,,,,,Male,,,,III,
+699,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+700,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+701,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+702,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+703,,,,,,,,,KLH,,,,,5000000.0,,,,,,,,,HLA-A2,Melanoma,,,,,,,,PGE2,Monocytes,,,,,,,,,,,Intravenously,Metastatic,Peptide
+704,,,,,,,,,KLH,,,,,5000000.0,,,,,,,,,HLA-A2,Melanoma,,,,,,,,PGE2,Monocytes,,,,,,,,,,Immunotherapy,Intravenously,Metastatic,Peptide
+705,,,,,,,,,KLH,,,,,5000000.0,,,,,,,,,HLA-A2,Melanoma,,,,,,,,PGE2,Monocytes,,,,,,,,,,Immunotherapy,Intravenously,Metastatic,Peptide
+706,,,,,,,,,KLH,,,,,5000000.0,,,,,,,,,HLA-A2,Melanoma,,,,,,,,PGE2,Monocytes,,,,,,,,,,Immunotherapy,Intravenously,Metastatic,Peptide
+707,,,,,,,,,KLH,,,,,5000000.0,,,,,,,,,HLA-A2,Melanoma,,,,,,,,PGE2,Monocytes,,,,,,,,,,,Intravenously,Metastatic,Peptide
+708,,,,,,,,,KLH,,,,,5000000.0,,,,,,,,,HLA-A2,Melanoma,,,,,,,,PGE2,Monocytes,,,,,,,,,,Immunotherapy,Intravenously,Metastatic,Peptide
+709,,,,,,,,,KLH,,,,,5000000.0,,,,,,,,,HLA-A2,Melanoma,,,,,,,,PGE2,Monocytes,,,,,,,,,,,Intravenously,Metastatic,Peptide
+710,,,,,,,,,KLH,,,,,5000000.0,,,,,,,,,HLA-A2,Melanoma,,,,,,,,PGE2,Monocytes,,,,,,,,,,,Intravenously,Metastatic,Peptide
+711,,,,,,,,,KLH,,,,,5000000.0,,,,,,,,,HLA-A2,Melanoma,,,,,,,,PGE2,Monocytes,,,,,,,,,,Immunotherapy,Intravenously,Metastatic,Peptide
+712,,,,,,,,,KLH,,,,,5000000.0,,,,,,,,,HLA-A2,Melanoma,,,,,,,,PGE2,Monocytes,,,,,,,,,,,Intravenously,Metastatic,Peptide
+713,,,,,,,,,KLH,,,,,5000000.0,,,,,,,,,HLA-A2,Melanoma,,,,,,,,PGE2,Monocytes,,,,,,,,,,,Intravenously,Metastatic,Peptide
+714,,,,,,,,,KLH,,,,,5000000.0,,,,,,,,,HLA-A2,Melanoma,,,,,,,,PGE2,Monocytes,,,,,,,,,,Immunotherapy,Intravenously,Metastatic,Peptide
+715,,,,,,,,,KLH,,,,,5000000.0,,,,,,,,,HLA-A2,Melanoma,,,,,,,,PGE2,Monocytes,,,,,,,,,,Immunotherapy,Intravenously,Metastatic,Peptide
+716,,,,,,,,,KLH,,,,,5000000.0,,,,,,,,,HLA-A2,Melanoma,,,,,,,,PGE2,Monocytes,,,,,,,,,,,Intravenously,Metastatic,Peptide
+717,,,,,,,,,KLH,,,,,5000000.0,,,,,,,,,HLA-A2,Melanoma,,,,,,,,PGE2,Monocytes,,,,,,,,,,Immunotherapy,Intravenously,Metastatic,Peptide
+718,,,,,,,,,KLH,,,,,5000000.0,,,,,,,,,HLA-A2,Melanoma,,,,,,,,PGE2,Monocytes,,,,,,,,,,,Intravenously,Metastatic,Peptide
+719,,,,,,,,,KLH,,,,,5000000.0,,,,,,,,,HLA-A2,Melanoma,,,,,,,,PGE2,Monocytes,,,,,,,,,,,Intravenously,Metastatic,Peptide
+720,,,,,,,,,KLH,,,,,5000000.0,,,,,,,,,HLA-A2,Melanoma,,,,,,,,PGE2,Monocytes,,,,,,,,,,Immunotherapy,Intravenously,Metastatic,Peptide
+721,,,,,,,,,KLH,,,,,5000000.0,,,,,,,,,HLA-A2,Melanoma,,,,,,,,PGE2,Monocytes,,,,,,,,,,Immunotherapy,Intravenously,Metastatic,Peptide
+722,,,,,,,,,KLH,,,,,5000000.0,,,,,,,,,HLA-A2,Melanoma,,,,,,,,PGE2,Monocytes,,,,,,,,,,Immunotherapy,Intravenously,Metastatic,Peptide
+723,,,,,,,,,KLH,,,,,5000000.0,,,,,,,,,HLA-A2,Melanoma,,,,,,,,PGE2,Monocytes,,,,,,,,,,Immunotherapy,Intravenously,Metastatic,Peptide
+724,,,,,,,,,KLH,,,,,5000000.0,,,,,,,,,HLA-A2,Melanoma,,,,,,,,PGE2,Monocytes,,,,,,,,,,Immunotherapy,Intravenously,Metastatic,Peptide
+725,,,,,,,,,KLH,,,,,5000000.0,,,,,,,,,HLA-A2,Melanoma,,,,,,,,PGE2,Monocytes,,,,,,,,,,Immunotherapy,Intravenously,Metastatic,Peptide
+726,,,,,,,,,KLH,,,,,5000000.0,,,,,,,,,HLA-A2,Melanoma,,,,,,,,PGE2,Monocytes,,,,,,,,,,,Intravenously,Metastatic,Peptide
+727,,,,,,,,,KLH,,,,,5000000.0,,,,,,,,,HLA-A2,Melanoma,,,,,,,,PGE2,Monocytes,,,,,,,,,,,Intravenously,Metastatic,Peptide
+728,,,,,,,,,KLH,,,,,5000000.0,,,,,,,,,HLA-A2,Melanoma,,,,,,,,PGE2,Monocytes,,,,,,,,,,,Intravenously,Metastatic,Peptide
+729,,,,,,,,,KLH,,,,,5000000.0,,,,,,,,,HLA-A2,Melanoma,,,,,,,,PGE2,Monocytes,,,,,,,,,,,Intravenously,Metastatic,Peptide
+730,,,,,,,,,KLH,,,,,5000000.0,,,,,,,,,HLA-A2,Melanoma,,,,,,,,PGE2,Monocytes,,,,,,,,,,,Intravenously,Metastatic,Peptide
+731,,,,,,,,,KLH,,,,,5000000.0,,,,,,,,,HLA-A2,Melanoma,,,,,,,,PGE2,Monocytes,,,,,,,,,,Immunotherapy,Intravenously,Metastatic,Peptide
+732,,,,,,,,,KLH,,,,,5000000.0,,,,,,,,,HLA-A2,Melanoma,,,,,,,,PGE2,Monocytes,,,,,,,,,,,Intravenously,Metastatic,Peptide
+733,,,,,,,,,,Tumor antigen,Yes,,,,,,,,61.0,Days,Dead,84.0,,,,,,1.0,,,,,,,Partial Response,,,,,,Male,,,,III,
+734,,,,,,,,,,,,,,,,,,,66.0,Days,Dead,198.0,,,,,,2.0,,,,,,,Stable Desease,,,,,,Male,,,,III,
+735,,,,,,,,,,,,,,,,,,,59.0,Days,Dead,112.0,,,,,,1.0,,,,,,,Stable Desease,,,,,,Male,,,,III,
+736,,,,,,,,,,,,,,,,,,,63.0,Days,Dead,82.0,,,,,,2.0,,,,,,,Stable Desease,,,,,,Female,,,,IV,
+737,,,,,,,,,,,,,,,,,,,50.0,Days,Dead,277.0,,Glioblastoma,,,,,,,,,,,Partial Response,,,,,,Female,,,,I,
+738,,,,,Tumor antigen,No,,,,Tumor antigen,Yes,,,,8.0,106.7,,,62.0,,,,HLA-A*2402,Colorectal cancer,,2.0,1.0,,,,,OK-432,Monocytes,,Stable Desease,Decrease,,,CEA,Not significant,Female,,,Subcutaneously,IV,Peptide
+739,,,,,Tumor antigen,No,,,,Tumor antigen,Yes,,,,8.0,106.7,,,62.0,,,,HLA-A*2402,Colorectal cancer,,2.0,1.0,,,,,OK-432,Monocytes,,Stable Desease,Decrease,,,CEA,Not significant,Female,,,Subcutaneously,IV,Peptide
+740,,,,,Tumor antigen,No,,,,Tumor antigen,Yes,,,,8.0,106.7,,,62.0,,,,HLA-A*2402,Colorectal cancer,,2.0,1.0,,,,,OK-432,Monocytes,,Stable Desease,Decrease,,,CEA,Not significant,Female,,,Subcutaneously,IV,Peptide
+741,,,,,Tumor antigen,No,,,,Tumor antigen,Yes,,,,8.0,106.7,,,62.0,,,,HLA-A*2402,Colorectal cancer,,2.0,1.0,,,,,OK-432,Monocytes,,Stable Desease,Decrease,,,CEA,Not significant,Female,,,Subcutaneously,IV,Peptide
+742,,,,,Tumor antigen,No,,,,Tumor antigen,Yes,,,,8.0,106.7,,,62.0,,,,HLA-A*2402,Colorectal cancer,,2.0,1.0,,,,,OK-432,Monocytes,,Stable Desease,Decrease,,,CEA,Not significant,Female,,,Subcutaneously,IV,Peptide
+743,,,,,Tumor antigen,No,,,,Tumor antigen,Yes,,,,8.0,106.7,,,62.0,,,,HLA-A*2402,Colorectal cancer,,2.0,1.0,,,,,OK-432,Monocytes,,Stable Desease,Decrease,,,CEA,Not significant,Female,,,Subcutaneously,IV,Peptide
+744,,,,,Tumor antigen,No,,,,Tumor antigen,Yes,,,,8.0,106.7,,,62.0,,,,HLA-A*2402,Colorectal cancer,,2.0,1.0,,,,,OK-432,Monocytes,,Stable Desease,Decrease,,,CEA,Not significant,Female,,,Subcutaneously,IV,Peptide
+745,,,,,Tumor antigen,No,,,,Tumor antigen,Yes,,,,8.0,106.7,,,62.0,,,,HLA-A*2402,Colorectal cancer,,2.0,1.0,,,,,OK-432,Monocytes,,Stable Desease,Decrease,,,CEA,Not significant,Female,,,Subcutaneously,IV,Peptide
+746,,,,,Tumor antigen,No,,,,Tumor antigen,Yes,,,,8.0,106.7,,,62.0,,,,HLA-A*2402,Colorectal cancer,,2.0,1.0,,,,,OK-432,Monocytes,,Stable Desease,Decrease,,,CEA,Not significant,Female,,,Subcutaneously,IV,Peptide
+747,,,,,Tumor antigen,No,,,,Tumor antigen,Yes,,,,8.0,106.7,,,62.0,,,,HLA-A*2402,Colorectal cancer,,2.0,1.0,,,,,OK-432,Monocytes,,Stable Desease,Decrease,,,CEA,Not significant,Female,,,Subcutaneously,IV,Peptide
+748,,,,,,,,,,,,,,,,100000.0,,,61.0,,,,,Lung cancer,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+749,,,,,,,,,,,,,,,,100000.0,,,27.0,,,,,Hepatocellular carcinoma,,,,,,,,,,Surgery,Stable Desease,,,,,,Female,,,,,
+750,,,,,,,,,,,,,,,4.0,2000000.0,,,64.0,,,,,Melanoma,,2.0,1.0,,,,,,,Surgery,Partial Response,,,,,Not significant,Male,,,Intravenously,,Peptide
+751,,,,,,,,,,,,,,,,100000.0,,,61.0,,,,,Lung cancer,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+752,,,,,,,,,,,,,,,,100000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Stable Desease,,,,,,Male,,,,,
+753,,,,,,,,,,,,,,,,100000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Stable Desease,,,,,,Male,,,,,
+754,,,,,,,,,,,,,,,,100000.0,,,27.0,,,,,Hepatocellular carcinoma,,,,,,,,,,Surgery,Stable Desease,,,,,,Female,,,,,
+755,,,,,,,,,,,,,,,,100000.0,,,27.0,,,,,Hepatocellular carcinoma,,,,,,,,,,Surgery,Stable Desease,,,,,,Female,,,,,
+756,,,,,,,,,,,,,,,,100000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Stable Desease,,,,,,Male,,,,,
+757,,,,,,,,,,,,,,,,2000000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+758,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+759,,,,,,,,,,,,,,,,100000.0,,,27.0,,,,,Hepatocellular carcinoma,,,,,,,,,,Surgery,Stable Desease,,,,,,Female,,,,,
+760,,,,,,,,,,,,,,,,2000000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+761,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+762,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+763,,,,,,,,,,,,,,,4.0,100000.0,,,61.0,,,,,Lung cancer,,2.0,1.0,,,,,,,Surgery,Partial Response,,,,,Not significant,Male,,,Intravenously,,Peptide
+764,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+765,,,,,,,,,,,,,,,,100000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Stable Desease,,,,,,Male,,,,,
+766,,,,,,,,,,,,,,,,100000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Stable Desease,,,,,,Male,,,,,
+767,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+768,,,,,,,,,,,,,,,,100000.0,,,61.0,,,,,Lung cancer,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+769,,,,,,,,,,,,,,,4.0,100000.0,,,27.0,,,,,Hepatocellular carcinoma,,2.0,1.0,,,,,,,Surgery,Stable Desease,,,,,Not significant,Female,,,Intravenously,,Peptide
+770,,,,,,,,,,,,,,,,100000.0,,,27.0,,,,,Hepatocellular carcinoma,,,,,,,,,,Surgery,Stable Desease,,,,,,Female,,,,,
+771,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+772,,,,,,,,,,,,,,,,2000000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+773,,,,,,,,,,,,,,,,100000.0,,,61.0,,,,,Lung cancer,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+774,,,,,,,,,,,,,,,,2000000.0,,,57.0,,,,,Renal cancer,,,,,,,,,,Surgery,Stable Desease,,,,,,Male,,,,,
+775,,,,,,,,,,,,,,,,100000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Stable Desease,,,,,,Male,,,,,
+776,,,,,,,,,,,,,,,4.0,100000.0,,,61.0,,,,,Lung cancer,,2.0,1.0,,,,,,,Surgery,Partial Response,,,,,Not significant,Male,,,Intravenously,,Peptide
+777,,,,,,,,,,,,,,,,100000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Stable Desease,,,,,,Male,,,,,
+778,,,,,,,,,,,,,,,,2000000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+779,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+780,,,,,,,,,,,,,,,,100000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Stable Desease,,,,,,Male,,,,,
+781,,,,,,,,,,,,,,,,2000000.0,,,39.0,,,,,Pancreatic cancer,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+782,,,,,,,,,,,,,,,,100000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Stable Desease,,,,,,Male,,,,,
+783,,,,,,,,,,,,,,,4.0,2000000.0,,,51.0,,,,,Pancreatic cancer,,2.0,1.0,,,,,,,Immunotherapy,Not evaluable,,,,,Not significant,Male,,,Intravenously,,Peptide
+784,,,,,,,,,,,,,,,,2000000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+785,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+786,,,,,,,,,,,,,,,,100000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Stable Desease,,,,,,Male,,,,,
+787,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+788,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+789,,,,,,,,,,,,,,,,100000.0,,,61.0,,,,,Lung cancer,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+790,,,,,,,,,,,,,,,,2000000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+791,,,,,,,,,,,,,,,,100000.0,,,27.0,,,,,Hepatocellular carcinoma,,,,,,,,,,Surgery,Stable Desease,,,,,,Female,,,,,
+792,,,,,,,,,,,,,,,4.0,100000.0,,,64.0,,,,,Melanoma,,2.0,1.0,,,,,,,Surgery,Stable Desease,Decrease,,,CEA,Not significant,Male,,,Intravenously,,Peptide
+793,,,,,,,,,,,,,,,,2000000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+794,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+795,,,,,,,,,,,,,,,,100000.0,,,27.0,,,,,Hepatocellular carcinoma,,,,,,,,,,Surgery,Stable Desease,,,,,,Female,,,,,
+796,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+797,,,,,,,,,,,,,,,,2000000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+798,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+799,,,,,,,,,,,,,,,4.0,100000.0,,,61.0,,,,,Lung cancer,,2.0,1.0,,,,,,,Surgery,Partial Response,,,,,Not significant,Male,,,Intravenously,,Peptide
+800,,,,,,,,,,,,,,,,2000000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+801,,,,,,,,,,,,,,,,100000.0,,,61.0,,,,,Lung cancer,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+802,,,,,,,,,,,,,,,,100000.0,,,61.0,,,,,Lung cancer,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+803,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+804,,,,,,,,,,,,,,,,2000000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+805,,,,,,,,,,,,,,,,100000.0,,,27.0,,,,,Hepatocellular carcinoma,,,,,,,,,,Surgery,Stable Desease,,,,,,Female,,,,,
+806,,,,,,,,,,,,,,,,100000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Stable Desease,,,,,,Male,,,,,
+807,,,,,,,,,,,,,,,,100000.0,,,27.0,,,,,Hepatocellular carcinoma,,,,,,,,,,Surgery,Stable Desease,,,,,,Female,,,,,
+808,,,,,,,,,,,,,,,,2000000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+809,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+810,,,,,,,,,,,,,,,,2000000.0,,,57.0,,,,,Renal cancer,,,,,,,,,,Surgery,Stable Desease,,,,,,Male,,,,,
+811,,,,,,,,,,,,,,,,2000000.0,,,39.0,,,,,Pancreatic cancer,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+812,,,,,,,,,,,,,,,,100000.0,,,61.0,,,,,Lung cancer,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+813,,,,,,,,,,,,,,,,2000000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+814,,,,,,,,,,,,,,,,2000000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+815,,,,,,,,,,,,,,,,2000000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+816,,,,,,,,,,,,,,,,2000000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+817,,,,,,,,,,,,,,,,100000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Stable Desease,,,,,,Male,,,,,
+818,,,,,,,,,,,,,,,,100000.0,,,61.0,,,,,Lung cancer,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+819,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+820,,,,,,,,,,,,,,,,100000.0,,,61.0,,,,,Lung cancer,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+821,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+822,,,,,,,,,,,,,,,,100000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Stable Desease,,,,,,Male,,,,,
+823,,,,,,,,,,,,,,,,100000.0,,,27.0,,,,,Hepatocellular carcinoma,,,,,,,,,,Surgery,Stable Desease,,,,,,Female,,,,,
+824,,,,,,,,,,,,,,,,100000.0,,,61.0,,,,,Lung cancer,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+825,,,,,,,,,,,,,,,,100000.0,,,27.0,,,,,Hepatocellular carcinoma,,,,,,,,,,Surgery,Stable Desease,,,,,,Female,,,,,
+826,,,,,,,,,,,,,,,,100000.0,,,61.0,,,,,Lung cancer,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+827,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+828,,,,,,,,,,,,,,,,2000000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+829,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+830,,,,,,,,,,,,,,,,100000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Stable Desease,,,,,,Male,,,,,
+831,,,,,,,,,,,,,,,,100000.0,,,61.0,,,,,Lung cancer,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+832,,,,,,,,,,,,,,,,100000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Stable Desease,,,,,,Male,,,,,
+833,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+834,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+835,,,,,,,,,,,,,,,,2000000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+836,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+837,,,,,,,,,,,,,,,,100000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Stable Desease,,,,,,Male,,,,,
+838,,,,,,,,,,,,,,,,2000000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+839,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+840,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+841,,,,,,,,,,,,,,,,2000000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+842,,,,,,,,,,,,,,,,2000000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+843,,,,,,,,,,,,,,,,2000000.0,,,39.0,,,,,Pancreatic cancer,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+844,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+845,,,,,,,,,,,,,,,,100000.0,,,27.0,,,,,Hepatocellular carcinoma,,,,,,,,,,Surgery,Stable Desease,,,,,,Female,,,,,
+846,,,,,,,,,,,,,,,,2000000.0,,,51.0,,,,,Pancreatic cancer,,,,,,,,,,Immunotherapy,Not evaluable,,,,,,Male,,,,,
+847,,,,,,,,,,,,,,,,100000.0,,,61.0,,,,,Lung cancer,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+848,,,,,,,,,,,,,,,,100000.0,,,27.0,,,,,Hepatocellular carcinoma,,,,,,,,,,Surgery,Stable Desease,,,,,,Female,,,,,
+849,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+850,,,,,,,,,,,,,,,,2000000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+851,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+852,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+853,,,,,,,,,,,,,,,,2000000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+854,,,,,,,,,,,,,,,,2000000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+855,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+856,,,,,,,,,,,,,,,,100000.0,,,61.0,,,,,Lung cancer,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+857,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+858,,,,,,,,,,,,,,,4.0,100000.0,,,61.0,,,,,Lung cancer,,2.0,1.0,,,,,,,Surgery,Partial Response,,,,,Not significant,Male,,,Intravenously,,Peptide
+859,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+860,,,,,,,,,,,,,,,,100000.0,,,61.0,,,,,Lung cancer,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+861,,,,,,,,,,,,,,,,100000.0,,,61.0,,,,,Lung cancer,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+862,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+863,,,,,,,,,,,,,,,,100000.0,,,61.0,,,,,Lung cancer,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+864,,,,,,,,,,,,,,,,2000000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+865,,,,,,,,,,,,,,,,100000.0,,,61.0,,,,,Lung cancer,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+866,,,,,,,,,,,,,,,,100000.0,,,61.0,,,,,Lung cancer,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+867,,,,,,,,,,,,,,,,100000.0,,,61.0,,,,,Lung cancer,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+868,,,,,,,,,,,,,,,,100000.0,,,27.0,,,,,Hepatocellular carcinoma,,,,,,,,,,Surgery,Stable Desease,,,,,,Female,,,,,
+869,,,,,,,,,,,,,,,,100000.0,,,27.0,,,,,Hepatocellular carcinoma,,,,,,,,,,Surgery,Stable Desease,,,,,,Female,,,,,
+870,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+871,,,,,,,,,,,,,,,,100000.0,,,27.0,,,,,Hepatocellular carcinoma,,,,,,,,,,Surgery,Stable Desease,,,,,,Female,,,,,
+872,,,,,,,,,,,,,,,,100000.0,,,61.0,,,,,Lung cancer,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+873,,,,,,,,,,,,,,,,100000.0,,,61.0,,,,,Lung cancer,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+874,,,,,,,,,,,,,,,,100000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Stable Desease,,,,,,Male,,,,,
+875,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+876,,,,,,,,,,,,,,,,100000.0,,,61.0,,,,,Lung cancer,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+877,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+878,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+879,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+880,,,,,,,,,,,,,,,,100000.0,,,61.0,,,,,Lung cancer,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+881,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+882,,,,,,,,,,,,,,,,100000.0,,,61.0,,,,,Lung cancer,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+883,,,,,,,,,,,,,,,,100000.0,,,61.0,,,,,Lung cancer,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+884,,,,,,,,,,,,,,,,100000.0,,,61.0,,,,,Lung cancer,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+885,,,,,,,,,,,,,,,,100000.0,,,61.0,,,,,Lung cancer,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+886,,,,,,,,,,,,,,,,2000000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+887,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+888,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+889,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+890,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+891,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+892,,,,,,,,,,,,,,,,2000000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+893,,,,,,,,,,,,,,,,2000000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+894,,,,,,,,,,,,,,,,2000000.0,,,39.0,,,,,Pancreatic cancer,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+895,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+896,,,,,,,,,,,,,,,,100000.0,,,61.0,,,,,Lung cancer,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+897,,,,,,,,,,,,,,,,2000000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+898,,,,,,,,,,,,,,,,100000.0,,,61.0,,,,,Lung cancer,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+899,,,,,,,,,,,,,,,,2000000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+900,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+901,,,,,,,,,,,,,,,,100000.0,,,61.0,,,,,Lung cancer,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+902,,,,,,,,,,,,,,,,100000.0,,,61.0,,,,,Lung cancer,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+903,,,,,,,,,,,,,,,4.0,2000000.0,,,64.0,,,,,Melanoma,,2.0,1.0,,,,,,,Surgery,Partial Response,,,,,Not significant,Male,,,Intravenously,,Peptide
+904,,,,,,,,,,,,,,,,2000000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+905,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+906,,,,,,,,,,,,,,,,2000000.0,,,39.0,,,,,Pancreatic cancer,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+907,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+908,,,,,,,,,,,,,,,,100000.0,,,27.0,,,,,Hepatocellular carcinoma,,,,,,,,,,Surgery,Stable Desease,,,,,,Female,,,,,
+909,,,,,,,,,,,,,,,,100000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Stable Desease,,,,,,Male,,,,,
+910,,,,,,,,,,,,,,,,100000.0,,,61.0,,,,,Lung cancer,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+911,,,,,,,,,,,,,,,,2000000.0,,,39.0,,,,,Pancreatic cancer,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+912,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+913,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+914,,,,,,,,,,,,,,,,100000.0,,,61.0,,,,,Lung cancer,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+915,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+916,,,,,,,,,,,,,,,,100000.0,,,61.0,,,,,Lung cancer,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+917,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+918,,,,,,,,,,,,,,,,2000000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+919,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+920,,,,,,,,,,,,,,,,2000000.0,,,39.0,,,,,Pancreatic cancer,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+921,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+922,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+923,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+924,,,,,,,,,,,,,,,,2000000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+925,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+926,,,,,,,,,,,,,,,,100000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Stable Desease,,,,,,Male,,,,,
+927,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+928,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+929,,,,,,,,,,,,,,,,2000000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+930,,,,,,,,,,,,,,,,2000000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+931,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+932,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+933,,,,,,,,,,,,,,,,100000.0,,,61.0,,,,,Lung cancer,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+934,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+935,,,,,,,,,,,,,,,,2000000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+936,,,,,,,,,,,,,,,4.0,100000.0,,,61.0,,,,,Lung cancer,,2.0,1.0,,,,,,,Surgery,Partial Response,,,,,Not significant,Male,,,Intravenously,,Peptide
+937,,,,,,,,,,,,,,,,100000.0,,,61.0,,,,,Lung cancer,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+938,,,,,,,,,,,,,,,,100000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Stable Desease,,,,,,Male,,,,,
+939,,,,,,,,,,,,,,,,100000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Stable Desease,,,,,,Male,,,,,
+940,,,,,,,,,,,,,,,,100000.0,,,27.0,,,,,Hepatocellular carcinoma,,,,,,,,,,Surgery,Stable Desease,,,,,,Female,,,,,
+941,,,,,,,,,,,,,,,,2000000.0,,,39.0,,,,,Pancreatic cancer,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+942,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+943,,,,,,,,,,,,,,,,100000.0,,,61.0,,,,,Lung cancer,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+944,,,,,,,,,,,,,,,,100000.0,,,61.0,,,,,Lung cancer,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+945,,,,,,,,,,,,,,,,100000.0,,,61.0,,,,,Lung cancer,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+946,,,,,,,,,,,,,,,,100000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Stable Desease,,,,,,Male,,,,,
+947,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+948,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+949,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+950,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+951,,,,,,,,,,,,,,,,2000000.0,,,39.0,,,,,Pancreatic cancer,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+952,,,,,,,,,,,,,,,,2000000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+953,,,,,,,,,,,,,,,,2000000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+954,,,,,,,,,,,,,,,,100000.0,,,61.0,,,,,Lung cancer,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+955,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+956,,,,,,,,,,,,,,,,2000000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+957,,,,,,,,,,,,,,,,100000.0,,,61.0,,,,,Lung cancer,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+958,,,,,,,,,,,,,,,,100000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Stable Desease,,,,,,Male,,,,,
+959,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+960,,,,,,,,,,,,,,,,2000000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+961,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+962,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,2.0,1.0,,,,,,,Surgery,Not evaluable,,,,,Not significant,Female,,,Intravenously,,Peptide
+963,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+964,,,,,,,,,,,,,,,,100000.0,,,27.0,,,,,Hepatocellular carcinoma,,,,,,,,,,Surgery,Stable Desease,,,,,,Female,,,,,
+965,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,2.0,1.0,,,,,,,Surgery,Not evaluable,,,,,Not significant,Female,,,Intravenously,,Peptide
+966,,,,,,,,,,,,,,,,100000.0,,,27.0,,,,,Hepatocellular carcinoma,,,,,,,,,,Surgery,Stable Desease,,,,,,Female,,,,,
+967,,,,,,,,,,,,,,,,100000.0,,,61.0,,,,,Lung cancer,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+968,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+969,,,,,,,,,,,,,,,,100000.0,,,61.0,,,,,Lung cancer,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+970,,,,,,,,,,,,,,,,100000.0,,,27.0,,,,,Hepatocellular carcinoma,,,,,,,,,,Surgery,Stable Desease,,,,,,Female,,,,,
+971,,,,,,,,,,,,,,,,2000000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+972,,,,,,,,,,,,,,,,100000.0,,,61.0,,,,,Lung cancer,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+973,,,,,,,,,,,,,,,,100000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Stable Desease,,,,,,Male,,,,,
+974,,,,,,,,,,,,,,,,100000.0,,,61.0,,,,,Lung cancer,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+975,,,,,,,,,,,,,,,,2000000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+976,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+977,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+978,,,,,,,,,,,,,,,,2000000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+979,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+980,,,,,,,,,,,,,,,,100000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Stable Desease,,,,,,Male,,,,,
+981,,,,,,,,,,,,,,,,2000000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+982,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+983,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,2.0,1.0,,,,,,,Surgery,Not evaluable,,,,,Not significant,Female,,,Intravenously,,Peptide
+984,,,,,,,,,,,,,,,4.0,100000.0,,,64.0,,,,,Melanoma,,2.0,1.0,,,,,,,Surgery,Stable Desease,,,,,Not significant,Male,,,Intravenously,,Peptide
+985,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+986,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+987,,,,,,,,,,,,,,,,100000.0,,,27.0,,,,,Hepatocellular carcinoma,,,,,,,,,,Surgery,Stable Desease,,,,,,Female,,,,,
+988,,,,,,,,,,,,,,,,2000000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+989,,,,,,,,,,,,,,,,2000000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+990,,,,,,,,,,,,,,,,100000.0,,,27.0,,,,,Hepatocellular carcinoma,,,,,,,,,,Surgery,Stable Desease,,,,,,Female,,,,,
+991,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+992,,,,,,,,,,,,,,,,2000000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+993,,,,,,,,,,,,,,,,100000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Stable Desease,,,,,,Male,,,,,
+994,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+995,,,,,,,,,,,,,,,,2000000.0,,,57.0,,,,,Renal cancer,,,,,,,,,,Surgery,Stable Desease,,,,,,Male,,,,,
+996,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,2.0,1.0,,,,,,,Surgery,Not evaluable,,,,,Not significant,Female,,,Intravenously,,Peptide
+997,,,,,,,,,,,,,,,,100000.0,,,61.0,,,,,Lung cancer,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+998,,,,,,,,,,,,,,,,100000.0,,,61.0,,,,,Lung cancer,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+999,,,,,,,,,,,,,,,,100000.0,,,61.0,,,,,Lung cancer,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+1000,,,,,,,,,,,,,,,,100000.0,,,61.0,,,,,Lung cancer,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+1001,,,,,,,,,,,,,,,,100000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Stable Desease,,,,,,Male,,,,,
+1002,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+1003,,,,,,,,,,,,,,,,100000.0,,,61.0,,,,,Lung cancer,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+1004,,,,,,,,,,,,,,,,2000000.0,,,51.0,,,,,Pancreatic cancer,,,,,,,,,,Immunotherapy,Not evaluable,,,,,,Male,,,,,
+1005,,,,,,,,,,,,,,,,100000.0,,,61.0,,,,,Lung cancer,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+1006,,,,,,,,,,,,,,,,2000000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+1007,,,,,,,,,,,,,,,,100000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Stable Desease,,,,,,Male,,,,,
+1008,,,,,,,,,,,,,,,,100000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Stable Desease,,,,,,Male,,,,,
+1009,,,,,,,,,,,,,,,,100000.0,,,27.0,,,,,Hepatocellular carcinoma,,,,,,,,,,Surgery,Stable Desease,,,,,,Female,,,,,
+1010,,,,,,,,,,,,,,,,100000.0,,,61.0,,,,,Lung cancer,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+1011,,,,,,,,,,,,,,,,100000.0,,,61.0,,,,,Lung cancer,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+1012,,,,,,,,,,,,,,,,100000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Stable Desease,,,,,,Male,,,,,
+1013,,,,,,,,,,,,,,,,2000000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+1014,,,,,,,,,,,,,,,,100000.0,,,27.0,,,,,Hepatocellular carcinoma,,,,,,,,,,Surgery,Stable Desease,,,,,,Female,,,,,
+1015,,,,,,,,,,,,,,,,2000000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+1016,,,,,,,,,,,,,,,,100000.0,,,27.0,,,,,Hepatocellular carcinoma,,,,,,,,,,Surgery,Stable Desease,,,,,,Female,,,,,
+1017,,,,,,,,,,,,,,,,100000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Stable Desease,,,,,,Male,,,,,
+1018,,,,,,,,,,,,,,,,100000.0,,,27.0,,,,,Hepatocellular carcinoma,,,,,,,,,,Surgery,Stable Desease,,,,,,Female,,,,,
+1019,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+1020,,,,,,,,,,,,,,,,100000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Stable Desease,,,,,,Male,,,,,
+1021,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+1022,,,,,,,,,,,,,,,,100000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Stable Desease,,,,,,Male,,,,,
+1023,,,,,,,,,,,,,,,,100000.0,,,27.0,,,,,Hepatocellular carcinoma,,,,,,,,,,Surgery,Stable Desease,,,,,,Female,,,,,
+1024,,,,,,,,,,,,,,,,100000.0,,,27.0,,,,,Hepatocellular carcinoma,,,,,,,,,,Surgery,Stable Desease,,,,,,Female,,,,,
+1025,,,,,,,,,,,,,,,,100000.0,,,27.0,,,,,Hepatocellular carcinoma,,,,,,,,,,Surgery,Stable Desease,,,,,,Female,,,,,
+1026,,,,,,,,,,,,,,,,2000000.0,,,39.0,,,,,Pancreatic cancer,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+1027,,,,,,,,,,,,,,,,100000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Stable Desease,,,,,,Male,,,,,
+1028,,,,,,,,,,,,,,,,2000000.0,,,57.0,,,,,Renal cancer,,,,,,,,,,Surgery,Stable Desease,,,,,,Male,,,,,
+1029,,,,,,,,,,,,,,,,100000.0,,,61.0,,,,,Lung cancer,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+1030,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+1031,,,,,,,,,,,,,,,,100000.0,,,27.0,,,,,Hepatocellular carcinoma,,,,,,,,,,Surgery,Stable Desease,,,,,,Female,,,,,
+1032,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+1033,,,,,,,,,,,,,,,,100000.0,,,27.0,,,,,Hepatocellular carcinoma,,,,,,,,,,Surgery,Stable Desease,,,,,,Female,,,,,
+1034,,,,,,,,,,,,,,,,100000.0,,,61.0,,,,,Lung cancer,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+1035,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+1036,,,,,,,,,,,,,,,,2000000.0,,,57.0,,,,,Renal cancer,,,,,,,,,,Surgery,Stable Desease,,,,,,Male,,,,,
+1037,,,,,,,,,,,,,,,,2000000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+1038,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+1039,,,,,,,,,,,,,,,,100000.0,,,61.0,,,,,Lung cancer,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+1040,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+1041,,,,,,,,,,,,,,,,100000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Stable Desease,,,,,,Male,,,,,
+1042,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+1043,,,,,,,,,,,,,,,,100000.0,,,61.0,,,,,Lung cancer,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+1044,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+1045,,,,,,,,,,,,,,,,2000000.0,,,39.0,,,,,Pancreatic cancer,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+1046,,,,,,,,,,,,,,,,100000.0,,,61.0,,,,,Lung cancer,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+1047,,,,,,,,,,,,,,,,100000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Stable Desease,,,,,,Male,,,,,
+1048,,,,,,,,,,,,,,,4.0,500000.0,,,53.0,,,,,Breast cancer,,,,,,,,,,Surgery,Not evaluable,,,,,,Female,,,,,
+1049,,,,,,,,,,,,,,,,100000.0,,,27.0,,,,,Hepatocellular carcinoma,,,,,,,,,,Surgery,Stable Desease,,,,,,Female,,,,,
+1050,,,,,,,,,,,,,,,,100000.0,,,61.0,,,,,Lung cancer,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+1051,,,,,,,,,,,,,,,,2000000.0,,,64.0,,,,,Melanoma,,,,,,,,,,Surgery,Partial Response,,,,,,Male,,,,,
+1052,Tumor antigen,Not done,,,Tumor antigen,Not done,,,,,,,,,2.0,33000000.0,,,49.0,,,,,Melanoma,,,,,,,,,,Surgery,Not applicable,,,,,Not applicable,Female,,,Subcutaneously,IV,RNA
+1053,Tumor antigen,Yes,,,Tumor antigen,Yes,,,,,,,,,4.0,22000000.0,,,81.0,,,,,Glioblastoma,,,,,,,,,,Surgery,Progressive Disease,,,,,,Female,,,,IV,
+1054,Tumor antigen,Yes,,,Tumor antigen,Yes,,,,,,,,,4.0,40000000.0,,,39.0,,,,,Glioblastoma,,,,,,,,,,Surgery,Progressive Disease,,,,,,Male,,,,IV,
+1055,Tumor antigen,Yes,,,Tumor antigen,Yes,,,,,,,,,4.0,44000000.0,,,50.0,,,,,Breast cancer,,,,,,,,,,Surgery,Progressive Disease,,,,,,Male,,,,IV,
+1056,Tumor antigen,Yes,,,,,,,,,,,,,4.0,40000000.0,,,71.0,,,,,Glioblastoma,,,,,,,,,,Surgery,Progressive Disease,,,,,,Male,,,,IV,
+1057,Tumor antigen,Yes,,,,,,,,,,,,,3.0,37000000.0,,,60.0,,,,,Colon cancer,,,,,,,,,,Surgery,,,,,,,Male,,,,II,
+1058,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1059,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1060,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1061,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1062,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1063,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1064,,,,,Tumor antigen,Yes,,,,,,,,,4.0,,,,,,,,HLA-A2,Ovarian cancer,,2.0,1.0,,,,,Microorganisms and their fragments,Monocytes,Surgery,,,,,,Not significant,,,Immunotherapy,Intradermal,,Peptide
+1065,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1066,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1067,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1068,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1069,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1070,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1071,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1072,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1073,,,,,Tumor antigen,Yes,,,,,,,,,4.0,,,,,,,,HLA-A2,Ovarian cancer,,2.0,1.0,,,,,Microorganisms and their fragments,Monocytes,Surgery,,,,,,Not significant,,,Immunotherapy,Intradermal,,Peptide
+1074,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1075,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1076,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1077,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1078,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1079,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1080,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1081,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1082,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1083,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1084,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1085,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1086,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1087,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1088,,,,,Tumor antigen,Yes,,,,,,,,,4.0,,,,,,,,HLA-A2,Ovarian cancer,,2.0,1.0,,,,,Microorganisms and their fragments,Monocytes,Surgery,,,,,,Not significant,,,Immunotherapy,Intradermal,,Peptide
+1089,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1090,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1091,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1092,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1093,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1094,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1095,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1096,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1097,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1098,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1099,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1100,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1101,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1102,,,,,,,,,,,,,,,4.0,,61.0,18.0,51.0,,,,,,,,,,,,,,,Chemotherapy,Not evaluable,,,,,,,,Chemotherapy,,III,
+1103,,,,,Tumor antigen,Yes,,,,,,,,,4.0,,,,,,,,HLA-A2,Ovarian cancer,,2.0,1.0,,,,,Microorganisms and their fragments,Monocytes,Surgery,,,,,,Not significant,,,Immunotherapy,Intradermal,,Peptide
+1104,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1105,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1106,,,,,Tumor antigen,Yes,,,,,,,,,4.0,,,,,,,,HLA-A2,Ovarian cancer,,2.0,1.0,,,,,Microorganisms and their fragments,Monocytes,Surgery,,,,,,Not significant,,,Immunotherapy,Intradermal,,Peptide
+1107,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1108,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1109,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1110,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1111,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1112,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1113,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1114,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1115,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1116,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1117,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1118,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1119,,,,,,,,,,,,,,,4.0,,61.0,18.0,51.0,,,,,,,,,,,,,,,Chemotherapy,Not evaluable,,,,,,,,Chemotherapy,,III,
+1120,,,,,Tumor antigen,Yes,,,,,,,,,4.0,,,,,,,,HLA-A2,Ovarian cancer,,2.0,1.0,,,,,Microorganisms and their fragments,Monocytes,Surgery,,,,,,Not significant,,,Immunotherapy,Intradermal,,Peptide
+1121,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1122,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1123,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1124,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1125,,,,,Tumor antigen,Yes,,,,,,,,,4.0,,,,,,,,HLA-A2,Ovarian cancer,,2.0,1.0,,,,,Microorganisms and their fragments,Monocytes,Surgery,,,,,,Not significant,,,Immunotherapy,Intradermal,,Peptide
+1126,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1127,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1128,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1129,,,,,Tumor antigen,Yes,,,,,,,,,4.0,,,,,,,,HLA-A2,Ovarian cancer,,2.0,1.0,,,,,Microorganisms and their fragments,Monocytes,Surgery,,,,,,Not significant,,,Immunotherapy,Intradermal,,Peptide
+1130,,,,,Tumor antigen,Yes,,,,,,,,,4.0,,,,,,,,HLA-A2,Ovarian cancer,,2.0,1.0,,,,,Microorganisms and their fragments,Monocytes,Surgery,,,,,,Not significant,,,Immunotherapy,Intradermal,,Peptide
+1131,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1132,,,,,,,,,,,,,,,4.0,,61.0,18.0,51.0,,,,,,,,,,,,,,,Chemotherapy,Not evaluable,,,,,,,,Chemotherapy,,III,
+1133,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1134,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1135,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1136,,,,,Tumor antigen,Yes,,,,,,,,,4.0,,,,,,,,HLA-A2,Ovarian cancer,,2.0,1.0,,,,,Microorganisms and their fragments,Monocytes,Surgery,,,,,,Not significant,,,Immunotherapy,Intradermal,,Peptide
+1137,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1138,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1139,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1140,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1141,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1142,,,,,Tumor antigen,Yes,,,,,,,,,4.0,,,,,,,,HLA-A2,Ovarian cancer,,2.0,1.0,,,,,Microorganisms and their fragments,Monocytes,Surgery,,,,,,Not significant,,,Immunotherapy,Intradermal,,Peptide
+1143,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1144,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1145,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1146,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1147,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1148,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1149,,,,,,,,,,,,,,,4.0,,61.0,18.0,51.0,,,,,,,,,,,,,,,Chemotherapy,Not evaluable,,,,,,,,Chemotherapy,,III,
+1150,,,,,Tumor antigen,Yes,,,,,,,,,4.0,,,,,,,,HLA-A2,Ovarian cancer,,2.0,1.0,,,,,Microorganisms and their fragments,Monocytes,Surgery,,,,,,Not significant,,,Immunotherapy,Intradermal,,Peptide
+1151,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1152,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1153,,,,,,,,,,,,,,,4.0,,,,61.0,,,,,,,,,,,,,,,Chemotherapy,Complete response,,,,,,,,,,I,
+1154,,,,,Tumor antigen,Yes,,,,,,,,,4.0,,,,,,,,HLA-A2,Ovarian cancer,,2.0,1.0,,,,,Microorganisms and their fragments,Monocytes,Surgery,,,,,,Not significant,,,Immunotherapy,Intradermal,,Peptide
+1155,,,,,,,,,,,,,,,4.0,,61.0,18.0,51.0,,,,,,,,,,,,,,,Chemotherapy,Not evaluable,,,,,,,,Chemotherapy,,III,
+1156,,,,,Tumor antigen,No,,,,,,,,,2.0,50000000.0,,,62.0,,,,,Renal cancer,,,,,,,,,,,Progressive Disease,,,,,,Male,,,,IV,
+1157,,,,,,,,,,,,,,,2.0,50000000.0,,,56.0,,,,,Renal cancer,,,,,,,,,,,Stable Desease,,,,,,Male,,,,IV,
+1158,,,,,,,,,,,,,,,3.0,50000000.0,,,67.0,,,,,Renal cancer,,,,,,,,,,,Progressive Disease,,,,,,Male,,,,IV,
+1159,,,,,,,,,,,,,,,2.0,50000000.0,,,29.0,,,,,Renal cancer,,,,,,,,,,,Progressive Disease,,,,,,Male,,,,II,
+1160,,,,,,,,,,,,,,,2.0,50000000.0,,,24.0,,,,,Renal cancer,,,,,,,,,,,Progressive Disease,,,,,,Female,,,,IV,
+1161,,,,,,,,,,,,,,,2.0,50000000.0,,,62.0,,,,,Renal cancer,,,,,,,,,,,,,,,,,Male,,,,IV,
+1162,,,,,,,,,,,,,,,2.0,50000000.0,,,43.0,,,,,Breast cancer,,,,,,,,,,,Progressive Disease,,,,,,Female,,,,IV,
+1163,,,,,,,,,,,,,,,2.0,50000000.0,,,29.0,,,,,Breast cancer,,,,,,,,,,,Progressive Disease,,,,,,Female,,,,IV,
+1164,,,,,,,,,,,,,,,2.0,50000000.0,,,59.0,,,,,Breast cancer,,,,,,,,,,,Progressive Disease,,,,,,Female,,,,III,
+1165,,,,,,,,,,,,,,,2.0,50000000.0,,,66.0,,,,,Breast cancer,,,,,,,,,,,Progressive Disease,,,,,,Female,,,,II,
+1166,,,,,,,,,,,,,,,,,,,60.0,Years,Live,5.0,,,,,,,,,,,,,,,,,,,Male,,,,I,
+1167,,,,,,,,,,,,,,,,,,,60.0,Years,Live,5.0,,,,,,,,,,,,,,,,,,,Male,,,,I,
+1168,,,,,,,,,,,,,,,,,,,60.0,Years,Live,5.0,,,,,,,,,,,,,,,,,,,Male,,,,I,
+1169,,,,,,,,,,,,,,,,,,,60.0,Years,Live,5.0,,,,,,,,,,,,,,,,,,,Male,,,,I,
+1170,,,,,,,,,,,,,,,,,,,60.0,Years,Live,5.0,,,,,,,,,,,,,,,,,,,Male,,,,I,
+1171,,,,,,,,,,,,,,,,,,,60.0,Years,Live,5.0,,,,,,,,,,,,,,,,,,,Male,,,,I,
+1172,,,,,,,,,,,,,,,,,,,60.0,Years,Live,5.0,,,,,,,,,,,,,,,,,,,Male,,,,I,
+1173,,,,,,,,,,,,,,,,,,,60.0,Years,Live,5.0,,,,,,,,,,,,,,,,,,,Male,,,,I,
+1174,,,,,,,,,,,,,,,,,,,60.0,Years,Live,5.0,,,,,,,,,,,,,,,,,,,Male,,,,I,
+1175,,,,,,,,,,,,,,,,1000000.0,,,,,,,,Hepatocellular carcinoma,,,,,,,,Microorganisms and their fragments,Monocytes,Chemotherapy,Progressive Disease,,,,,,,,,,IV,Peptide
+1176,,,,,,,,,,,,,,,,1000000.0,,,,,,,,Hepatocellular carcinoma,,,,,,,,Microorganisms and their fragments,Monocytes,Chemotherapy,Progressive Disease,,,,,,,,,,IV,Peptide
+1177,,,,,,,,,,,,,,,,1000000.0,,,,,,,,Hepatocellular carcinoma,,,,,,,,Microorganisms and their fragments,Monocytes,Radiotherapy,,,,,,,,,,,IV,Peptide
+1178,,,,,,,,,,,,,,,,1000000.0,,,,,,,,Hepatocellular carcinoma,,,,,,,,Microorganisms and their fragments,Monocytes,,,,,,,,,,,,IV,Peptide
+1179,,,,,,,,,,,,,,,,1000000.0,,,,,,,,Hepatocellular carcinoma,,,,,,,,Microorganisms and their fragments,Monocytes,Surgery,Progressive Disease,,,,,,,,,,IV,Peptide
+1180,,,,,,,,,,,,,,,,5000000.0,,,,,,,,Hepatocellular carcinoma,,,,,,,,Microorganisms and their fragments,Monocytes,Chemotherapy,Not evaluable,,,,,,,,,,IV,Peptide
+1181,,,,,,,,,,,,,,,,5000000.0,,,,,,,,Hepatocellular carcinoma,,,,,,,,Microorganisms and their fragments,Monocytes,Chemotherapy,Progressive Disease,,,,,,,,,,IV,Peptide
+1182,,,,,,,,,,,,,,,,5000000.0,,,,,,,,Hepatocellular carcinoma,,,,,,,,Microorganisms and their fragments,Monocytes,Chemotherapy,Progressive Disease,,,,,,,,,,IV,Peptide
+1183,,,,,,,,,,,,,,,4.0,6.0,,,59.0,,,,,,,,,,,,,,,Surgery,Progressive Disease,,,,,None,Male,,,,IV,
+1184,,,,,,,,,,,,,,,4.0,6.0,,,59.0,,,,,,,,,,,,,,,Surgery,Progressive Disease,,,,,None,Male,,,,IV,
+1185,,,,,,,,,,,,,,,4.0,6.0,,,59.0,,,,,,,,,,,,,,,Surgery,Progressive Disease,,,,,None,Male,,,,IV,
+1186,,,,,,,,,,,,,,,4.0,6.0,,,59.0,,,,,,,,,,,,,,,Surgery,Progressive Disease,,,,,None,Male,,,,IV,
+1187,,,,,,,,,,,,,,,4.0,6.0,,,59.0,,,,,,,,,,,,,,,Surgery,Progressive Disease,,,,,None,Male,,,,IV,
+1188,,,,,,,,,,,,,,,4.0,6.0,,,59.0,,,,,,,,,,,,,,,Surgery,Progressive Disease,,,,,None,Male,,,,IV,
+1189,,,,,,,,,,,,,,,4.0,6.0,,,59.0,,,,,,,,,,,,,,,Surgery,Progressive Disease,,,,,None,Male,,,,IV,
+1190,,,,,,,,,,,,,,,5.0,24970000.0,,,46.0,Months,Dead,12.54,,,,,,1.0,,,,,,Chemotherapy,Partial Response,,,,,,Male,,,,,
+1191,,,,,,,,,,,,,,,5.0,24100000.0,,,47.0,Months,Dead,7.75,,,,,,1.0,,,,,,Surgery,Progressive Disease,,,,,,Male,,,,,
+1192,,,,,,,,,,,,,,,5.0,24970000.0,,,46.0,Months,Dead,12.54,,,,,,1.0,,,,,,Chemotherapy,Partial Response,,,,,,Male,,,,,
+1193,,,,,,,,,,,,,,,5.0,24100000.0,,,47.0,Months,Dead,7.75,,,,,,1.0,,,,,,Surgery,Progressive Disease,,,,,,Male,,,,,
+1194,,,,,,,,,,,,,,,5.0,24970000.0,,,46.0,Months,Dead,12.54,,,,,,1.0,,,,,,Chemotherapy,Partial Response,,,,,,Male,,,,,
+1195,,,,,,,,,,,,,,,5.0,24100000.0,,,47.0,Months,Dead,7.75,,,,,,1.0,,,,,,Surgery,Progressive Disease,,,,,,Male,,,,,
+1196,,,,,,,,,,,,,,,5.0,24970000.0,,,46.0,Months,Dead,12.54,,,,,,1.0,,,,,,Chemotherapy,Partial Response,,,,,,Male,,,,,
+1197,,,,,,,,,,,,,,,5.0,24100000.0,,,47.0,Months,Dead,7.75,,,,,,1.0,,,,,,Surgery,Progressive Disease,,,,,,Male,,,,,
+1198,,,,,,,,,,,,,,,5.0,24970000.0,,,46.0,Months,Dead,12.54,,,,,,1.0,,,,,,Chemotherapy,Partial Response,,,,,,Male,,,,,
+1199,,,,,,,,,,,,,,,5.0,24100000.0,,,47.0,Months,Dead,7.75,,,,,,1.0,,,,,,Surgery,Progressive Disease,,,,,,Male,,,,,
+1200,,,,,,,,,,,,,,,5.0,24970000.0,,,46.0,Months,Dead,12.54,,,,,,1.0,,,,,,Chemotherapy,Partial Response,,,,,,Male,,,,,
+1201,,,,,,,,,,,,,,,5.0,24100000.0,,,47.0,Months,Dead,7.75,,,,,,1.0,,,,,,Surgery,Progressive Disease,,,,,,Male,,,,,
+1202,,,,,,,,,,,,,,,5.0,24970000.0,,,46.0,Months,Dead,12.54,,,,,,1.0,,,,,,Chemotherapy,Partial Response,,,,,,Male,,,,,
+1203,,,,,,,,,,,,,,,5.0,24100000.0,,,47.0,Months,Dead,7.75,,,,,,1.0,,,,,,Surgery,Progressive Disease,,,,,,Male,,,,,
+1204,,,,,,,,,,,,,,,5.0,24970000.0,,,46.0,Months,Dead,12.54,,,,,,1.0,,,,,,Chemotherapy,Partial Response,,,,,,Male,,,,,
+1205,,,,,,,,,,,,,,,5.0,24100000.0,,,47.0,Months,Dead,7.75,,,,,,1.0,,,,,,Surgery,Progressive Disease,,,,,,Male,,,,,
+1206,,,,,,,,,,,,,,25000000.0,10.0,,,,18.0,Weeks,Dead,204.0,,Glioma,,,,,,,90.0,,,,,,,,,Not significant,Female,,,,,
+1207,,,,,,,,,,,,,,11000000.0,10.0,,,,38.0,Weeks,Dead,305.0,,Glioblastoma,,,,,,,90.0,,,,,,,,,Significant,Male,,,,,
+1208,,,,,,,,,,,,,,21000000.0,8.0,,,,60.0,Weeks,Dead,48.0,,Glioblastoma,,,,,,,80.0,,,,,,,,,None,Male,,,,,
+1209,,,,,,,,,,,,,,25000000.0,10.0,,,,24.0,Weeks,Dead,47.0,,Glioblastoma,,,,,,,80.0,,,,,,,,,Not significant,Male,,,,,
+1210,,,,,,,,,,,,,,50000000.0,10.0,,,,23.0,Weeks,Dead,286.0,,Glioblastoma,,,,,,,90.0,,,,,,,,,Not significant,Male,,,,,
+1211,,,,,,,,,,,,,,58000000.0,10.0,,,,50.0,Weeks,Dead,90.0,,Glioblastoma,,,,,,,90.0,,,,,,,,,None,Female,,,,,
+1212,,,,,,,,,,,,,,30000000.0,10.0,,,,61.0,Weeks,Dead,89.0,,Glioblastoma,,,,,,,90.0,,,,,,,,,None,Female,,,,,
+1213,,,,,,,,,,,,,,10000000.0,10.0,,,,41.0,Weeks,Dead,281.0,,Colorectal cancer,,,,,,,80.0,,,,,,,,,Not significant,Male,,,,,
+1214,,,,,,,,,,,,,,35000000.0,10.0,,,,25.0,Weeks,Dead,182.0,,Renal cancer,,,,,,,90.0,,,,,,,,,None,Female,,,,,
+1215,,,,,,,,,,,,,,42000000.0,10.0,,,,45.0,Weeks,Dead,45.0,,Glioblastoma,,,,,,,90.0,,,,,,,,,Not significant,Female,,,,,
+1216,,,,,,,,,,,,,,38000000.0,6.0,,,,60.0,Weeks,Dead,44.0,,Glioblastoma,,,,,,,90.0,,,,,,,,,None,Female,,,,,
+1217,,,,,,,,,,,,,,25000000.0,10.0,,,,42.0,Weeks,Dead,45.0,,Renal cancer,,,,,,,70.0,,,,,,,,,Not significant,Female,,,,,
+1218,,,,,,,,,,,,,,23000000.0,6.0,,,,34.0,Weeks,Dead,23.0,,Glioblastoma,,,,,,,90.0,,,,,,,,,Not significant,Female,,,,,
+1219,,,,,,,,,,,,,,30000000.0,10.0,,,,55.0,Weeks,Dead,121.0,,Glioblastoma,,,,,,,70.0,,,,,,,,,Not significant,Female,,,,,
+1220,,,,,,,,,,,,,,61000000.0,10.0,,,,69.0,Weeks,Dead,61.0,,Glioblastoma,,,,,,,70.0,,,,,,,,,None,Male,,,,,
+1221,,,,,,,,,,,,,,61000000.0,10.0,,,,47.0,Weeks,Dead,155.0,,Glioblastoma,,,,,,,80.0,,,,,,,,,None,Male,,,,,
+1222,,,,,,,,,,,,,,25000000.0,10.0,,,,18.0,Weeks,Dead,204.0,,Glioma,,,,,,,90.0,,,,,,,,,Not significant,Female,,,,,
+1223,Tumor antigen,Yes,,,,,,,,,,,,1.0,12.0,,,,69.0,,,,HLA-A*2402,Glioblastoma,,,,,,,1.0,,,Surgery,Progressive Disease,,,,,,Male,,,,IV,
+1224,Tumor antigen,Yes,,,,,,,,,,,,1.0,12.0,,,,69.0,,,,HLA-A*2402,Glioblastoma,,,,,,,1.0,,,Surgery,Progressive Disease,,,,,,Male,,,,IV,
+1225,Tumor antigen,Yes,,,,,,,,,,,,1.0,12.0,,,,69.0,,,,HLA-A*2402,Glioblastoma,,,,,,,1.0,,,Surgery,Progressive Disease,,,,,,Male,,,,IV,
+1226,Tumor antigen,Yes,,,,,,,,,,,,1.0,12.0,,,,69.0,,,,HLA-A*2402,Glioblastoma,,,,,,,1.0,,,Surgery,Progressive Disease,,,,,,Male,,,,IV,
+1227,Tumor antigen,Yes,,,,,,,,,,,,1.0,12.0,,,,69.0,,,,HLA-A*2402,Glioblastoma,,,,,,,1.0,,,Surgery,Progressive Disease,,,,,,Male,,,,IV,
+1228,Tumor antigen,Yes,,,,,,,,,,,,1.0,12.0,,,,69.0,,,,HLA-A*2402,Glioblastoma,,,,,,,1.0,,,Surgery,Progressive Disease,,,,,,Male,,,,IV,
+1229,Tumor antigen,Yes,,,,,,,,,,,,1.0,12.0,,,,69.0,,,,HLA-A*2402,Glioblastoma,,,,,,,1.0,,,Surgery,Progressive Disease,,,,,,Male,,,,IV,
+1230,Tumor antigen,Yes,,,,,,,,,,,,1.0,12.0,,,,69.0,,,,HLA-A*2402,Glioblastoma,,,,,,,1.0,,,Surgery,Progressive Disease,,,,,,Male,,,,IV,
+1231,Tumor antigen,Yes,,,,,,,,,,,,1.0,12.0,,,,69.0,,,,HLA-A*2402,Glioblastoma,,,,,,,1.0,,,Surgery,Progressive Disease,,,,,,Male,,,,IV,
+1232,,,,,,,,,,,,,,,,,,,65.0,,,,,,,,,,,,,,,Target therapy,Progressive Disease,Increase,23.0,56.0,AFP,,Male,,,,III,
+1233,,,,,,,,,,,,,,,,,,,65.0,,,,,,,,,,,,,,,Target therapy,Progressive Disease,Increase,23.0,56.0,AFP,,Male,,,,III,
+1234,,,,,,,,,,,,,,,,,,,65.0,,,,,,,,,,,,,,,Target therapy,Progressive Disease,Increase,23.0,56.0,AFP,,Male,,,,III,
+1235,,,,,,,,,,,,,,,,,,,65.0,,,,,,,,,,,,,,,Target therapy,Progressive Disease,Increase,23.0,56.0,AFP,,Male,,,,III,
+1236,,,,,,,,,,,,,,,,,,,65.0,,,,,,,,,,,,,,,Target therapy,Progressive Disease,Increase,23.0,56.0,AFP,,Male,,,,III,
+1237,Tumor antigen,Yes,,,,,,,,,,,,10000000.0,10.0,40000000.0,,,53.0,Days,Live,7.0,HLA-A*2402,,,,,,,,,,,,Stable Desease,,,,,Not significant,Female,,,,,
+1238,Tumor antigen,Yes,,,,,,,,,,,,10000000.0,10.0,40000000.0,,,53.0,Days,Live,7.0,HLA-A*2402,,,,,,,,,,,,Stable Desease,,,,,Not significant,Female,,,,,
+1239,Tumor antigen,Yes,,,,,,,,,,,,10000000.0,10.0,40000000.0,,,53.0,Days,Live,7.0,HLA-A*2402,,,,,,,,,,,,Stable Desease,,,,,Not significant,Female,,,,,
+1240,Tumor antigen,Yes,,,,,,,,,,,,10000000.0,10.0,40000000.0,,,53.0,Days,Live,7.0,HLA-A*2402,,,,,,,,,,,,Stable Desease,,,,,Not significant,Female,,,,,
+1241,Tumor antigen,Yes,,,,,,,,,,,,10000000.0,10.0,40000000.0,,,53.0,Days,Live,7.0,HLA-A*2402,,,,,,,,,,,,Stable Desease,,,,,Not significant,Female,,,,,
+1242,Tumor antigen,Yes,,,,,,,,,,,,10000000.0,10.0,40000000.0,,,53.0,Days,Live,7.0,HLA-A*2402,,,,,,,,,,,,Stable Desease,,,,,Not significant,Female,,,,,
+1243,Tumor antigen,Yes,,,,,,,,,,,,10000000.0,10.0,40000000.0,,,53.0,Days,Live,7.0,HLA-A*2402,,,,,,,,,,,,Stable Desease,,,,,Not significant,Female,,,,,
+1244,Tumor antigen,Yes,,,,,,,,,,,,10000000.0,10.0,40000000.0,,,53.0,Days,Live,7.0,HLA-A*2402,,,,,,,,,,,,Stable Desease,,,,,Not significant,Female,,,,,
+1245,Tumor antigen,Yes,,,,,,,,,,,,10000000.0,10.0,40000000.0,,,53.0,Days,Live,7.0,HLA-A*2402,,,,,,,,,,,,Stable Desease,,,,,Not significant,Female,,,,,
+1246,Tumor antigen,Yes,,,,,,,,,,,,10000000.0,10.0,40000000.0,,,53.0,Days,Live,7.0,HLA-A*2402,,,,,,,,,,,,Stable Desease,,,,,Not significant,Female,,,,,
+1247,Tumor antigen,Yes,,,,,,,,,,,,10000000.0,10.0,40000000.0,,,53.0,Days,Live,7.0,HLA-A*2402,,,,,,,,,,,,Stable Desease,,,,,Not significant,Female,,,,,
+1248,Tumor antigen,Yes,,,,,,,,,,,,10000000.0,10.0,40000000.0,,,53.0,Days,Live,7.0,HLA-A*2402,,,,,,,,,,,,Stable Desease,,,,,Not significant,Female,,,,,
+1249,Tumor antigen,Yes,,,,,,,,,,,,10000000.0,10.0,40000000.0,,,53.0,Days,Live,7.0,HLA-A*2402,,,,,,,,,,,,Stable Desease,,,,,Not significant,Female,,,,,
+1250,Tumor antigen,Yes,,,,,,,,,,,,10000000.0,10.0,40000000.0,,,53.0,Days,Live,7.0,HLA-A*2402,,,,,,,,,,,,Stable Desease,,,,,Not significant,Female,,,,,
+1251,Tumor antigen,Yes,,,,,,,,,,,,10000000.0,10.0,40000000.0,,,53.0,Days,Live,7.0,HLA-A*2402,,,,,,,,,,,,Stable Desease,,,,,Not significant,Female,,,,,
+1252,Tumor antigen,Yes,,,,,,,,,,,,10000000.0,10.0,40000000.0,,,53.0,Days,Live,7.0,HLA-A*2402,,,,,,,,,,,,Stable Desease,,,,,Not significant,Female,,,,,
+1253,Tumor antigen,Yes,,,,,,,,,,,,10000000.0,10.0,40000000.0,,,53.0,Days,Live,7.0,HLA-A*2402,,,,,,,,,,,,Stable Desease,,,,,Not significant,Female,,,,,
+1254,Tumor antigen,Yes,,,,,,,,,,,,10000000.0,10.0,40000000.0,,,53.0,Days,Live,7.0,HLA-A*2402,,,,,,,,,,,,Stable Desease,,,,,Not significant,Female,,,,,
+1255,Tumor antigen,Yes,,,,,,,,,,,,10000000.0,10.0,40000000.0,,,53.0,Days,Live,7.0,HLA-A*2402,,,,,,,,,,,,Stable Desease,,,,,Not significant,Female,,,,,
+1256,Tumor antigen,Yes,,,,,,,,,,,,10000000.0,10.0,40000000.0,,,53.0,Days,Live,7.0,HLA-A*2402,,,,,,,,,,,,Stable Desease,,,,,Not significant,Female,,,,,
+1257,Tumor antigen,Yes,,,,,,,,,,,,10000000.0,10.0,40000000.0,,,53.0,Days,Live,7.0,HLA-A*2402,,,,,,,,,,,,Stable Desease,,,,,Not significant,Female,,,,,
+1258,Tumor antigen,Yes,,,,,,,,,,,,10000000.0,10.0,40000000.0,,,53.0,Days,Live,7.0,HLA-A*2402,,,,,,,,,,,,Stable Desease,,,,,Not significant,Female,,,,,
+1259,Tumor antigen,Yes,,,,,,,,,,,,10000000.0,10.0,40000000.0,,,53.0,Days,Live,7.0,HLA-A*2402,,,,,,,,,,,,Stable Desease,,,,,Not significant,Female,,,,,
+1260,Tumor antigen,Yes,,,,,,,,,,,,10000000.0,10.0,40000000.0,,,53.0,Days,Live,7.0,HLA-A*2402,,,,,,,,,,,,Stable Desease,,,,,Not significant,Female,,,,,
+1261,Tumor antigen,Yes,,,,,,,,,,,,,1.0,,,,90.0,Weeks,Dead,18.0,,,,,,,,,70.0,,,,Progressive Disease,,,,,None,Female,,,,,
+1262,Tumor antigen,Yes,,,,,,,,,,,,,1.0,,,,90.0,Weeks,Dead,18.0,,,,,,,,,70.0,,,,Progressive Disease,,,,,None,Female,,,,,
+1263,Tumor antigen,Yes,,,,,,,,,,,,,1.0,,,,90.0,Weeks,Dead,18.0,,,,,,,,,70.0,,,,Progressive Disease,,,,,None,Female,,,,,
+1264,Tumor antigen,Yes,,,,,,,,,,,,,1.0,,,,90.0,Weeks,Dead,18.0,,,,,,,,,70.0,,,,Progressive Disease,,,,,None,Female,,,,,
+1265,Tumor antigen,Yes,,,,,,,,,,,,,1.0,,,,90.0,Weeks,Dead,18.0,,,,,,,,,70.0,,,,Progressive Disease,,,,,None,Female,,,,,
+1266,Tumor antigen,Yes,,,,,,,,,,,,,1.0,,,,90.0,Weeks,Dead,18.0,,,,,,,,,70.0,,,,Progressive Disease,,,,,None,Female,,,,,
+1267,Tumor antigen,Yes,,,,,,,,,,,,,1.0,,,,90.0,Weeks,Dead,18.0,,,,,,,,,70.0,,,,Progressive Disease,,,,,None,Female,,,,,
+1268,Tumor antigen,Yes,,,,,,,,,,,,,1.0,,,,90.0,Weeks,Dead,18.0,,,,,,,,,70.0,,,,Progressive Disease,,,,,None,Female,,,,,
+1269,Tumor antigen,Yes,,,,,,,,,,,,,1.0,,,,90.0,Weeks,Dead,18.0,,,,,,,,,70.0,,,,Progressive Disease,,,,,None,Female,,,,,
+1270,Tumor antigen,Yes,,,,,,,,,,,,,1.0,,,,90.0,Weeks,Dead,18.0,,,,,,,,,70.0,,,,Progressive Disease,,,,,None,Female,,,,,
+1271,Tumor antigen,Yes,,,,,,,,,,,,,1.0,,,,90.0,Weeks,Dead,18.0,,,,,,,,,70.0,,,,Progressive Disease,,,,,None,Female,,,,,
+1272,Tumor antigen,Yes,,,,,,,,,,,,,1.0,,,,90.0,Weeks,Dead,18.0,,,,,,,,,70.0,,,,Progressive Disease,,,,,None,Female,,,,,
+1273,Tumor antigen,Yes,,,,,,,,,,,,,1.0,,,,90.0,Weeks,Dead,18.0,,,,,,,,,70.0,,,,Progressive Disease,,,,,None,Female,,,,,
+1274,Tumor antigen,Yes,,,,,,,,,,,,,1.0,,,,90.0,Weeks,Dead,18.0,,,,,,,,,70.0,,,,Progressive Disease,,,,,None,Female,,,,,
+1275,,,,,,,,,,,,,,,4.0,,,,41.0,Months,Dead,9.9,,,,,,,,,2.0,,,Radiotherapy,Progressive Disease,,,,,,Male,,,,IV,
+1276,,,,,,,,,,,,,,,4.0,,,,41.0,Months,Dead,9.9,,,,,,,,,2.0,,,Radiotherapy,Progressive Disease,,,,,,Male,,,,IV,
+1277,,,,,,,,,,,,,,,4.0,,,,42.0,Months,Dead,8.6,,,,,,,,,1.0,,,Surgery,Progressive Disease,,,,,,Female,,,,IV,
+1278,,,,,,,,,,,,,,,4.0,,,,42.0,Months,Dead,8.6,,,,,,,,,1.0,,,Surgery,Progressive Disease,,,,,,Female,,,,IV,
+1279,,,,,,,,,,,,,,,5.0,,,,42.0,Months,Dead,18.8,,,,,,,,,1.0,,,Surgery,Stable Desease,,,,,,Female,,,,IV,
+1280,,,,,,,,,,,,,,,4.0,,,,42.0,Months,Dead,8.6,,,,,,,,,1.0,,,Surgery,Progressive Disease,,,,,,Female,,,,IV,
+1281,,,,,,,,,,,,,,,5.0,,,,42.0,Months,Dead,18.8,,,,,,,,,1.0,,,Surgery,Stable Desease,,,,,,Female,,,,IV,
+1282,,,,,,,,,,,,,,,4.0,,,,41.0,Months,Dead,9.9,,,,,,,,,2.0,,,Radiotherapy,Progressive Disease,,,,,,Male,,,,IV,
+1283,,,,,,,,,,,,,,,4.0,,,,41.0,Months,Dead,9.9,,,,,,,,,2.0,,,Radiotherapy,Progressive Disease,,,,,,Male,,,,IV,
+1284,,,,,,,,,,,,,,,4.0,,,,41.0,Months,Dead,9.9,,,,,,,,,2.0,,,Radiotherapy,Progressive Disease,,,,,,Male,,,,IV,
+1285,,,,,,,,,,,,,,,5.0,,,,,Months,Live,14.0,,Melanoma,,,,,,,,,Monocytes,,Stable Desease,,,,,Not significant,,,,Intravenously,,RNA
+1286,,,,,,,,,,,,,,,4.0,,,,42.0,Months,Dead,8.6,,,,,,,,,1.0,,,Surgery,Progressive Disease,,,,,,Female,,,,IV,
+1287,,,,,,,,,,,,,,,5.0,,,,,Months,Live,14.0,,Melanoma,,,,,,,,,Monocytes,,,,,,,Not significant,,,,Intravenously,,RNA
+1288,,,,,,,,,,,,,,,4.0,,,,41.0,Months,Dead,9.9,,,,,,,,,2.0,,,Radiotherapy,Progressive Disease,,,,,,Male,,,,IV,
+1289,,,,,,,,,,,,,,,5.0,,,,42.0,Months,Dead,18.8,,,,,,,,,1.0,,,Surgery,Stable Desease,,,,,,Female,,,,IV,
+1290,,,,,,,,,,,,,,,4.0,,,,41.0,Months,Dead,9.9,,,,,,,,,2.0,,,Radiotherapy,Progressive Disease,,,,,,Male,,,,IV,
+1291,,,,,,,,,,,,,,,4.0,,,,41.0,Months,Dead,9.9,,,,,,,,,2.0,,,Radiotherapy,Progressive Disease,,,,,,Male,,,,IV,
+1292,,,,,,,,,,,,,,,5.0,,,,,Months,Dead,28.0,,Melanoma,,,,,,,,,Monocytes,,,,,,,Not significant,,,,Intravenously,,RNA
+1293,,,,,,,,,,,,,,,4.0,,,,41.0,Months,Dead,9.9,,,,,,,,,2.0,,,Radiotherapy,Progressive Disease,,,,,,Male,,,,IV,
+1294,,,,,,,,,,,,,,,5.0,,,,46.0,Months,Dead,33.0,,,,,,,,,1.0,,,Immunotherapy,Complete response,,,,,,Male,,,,IV,
+1295,,,,,,,,,,,,,,,5.0,,,,46.0,Months,Dead,33.0,,,,,,,,,1.0,,,Immunotherapy,Complete response,,,,,,Male,,,,IV,
+1296,,,,,,,,,,,,,,,4.0,,,,42.0,Months,Dead,8.6,,,,,,,,,1.0,,,Surgery,Progressive Disease,,,,,,Female,,,,IV,
+1297,,,,,,,,,,,,,,,4.0,,,,41.0,Months,Dead,9.9,,,,,,,,,2.0,,,Radiotherapy,Progressive Disease,,,,,,Male,,,,IV,
+1298,,,,,,,,,,,,,,,4.0,,,,42.0,Months,Dead,8.6,,,,,,,,,1.0,,,Surgery,Progressive Disease,,,,,,Female,,,,IV,
+1299,,,,,,,,,,,,,,,4.0,,,,42.0,Months,Dead,8.6,,,,,,,,,1.0,,,Surgery,Progressive Disease,,,,,,Female,,,,IV,
+1300,,,,,,,,,,,,,,,4.0,,,,41.0,Months,Dead,9.9,,,,,,,,,2.0,,,Radiotherapy,Progressive Disease,,,,,,Male,,,,IV,
+1301,,,,,,,,,,,,,,,5.0,,,,42.0,Months,Dead,18.8,,,,,,,,,1.0,,,Surgery,Stable Desease,,,,,,Female,,,,IV,
+1302,,,,,,,,,,,,,,,4.0,,,,41.0,Months,Dead,9.9,,,,,,,,,2.0,,,Radiotherapy,Progressive Disease,,,,,,Male,,,,IV,
+1303,,,,,,,,,,,,,,,4.0,,,,41.0,Months,Dead,9.9,,,,,,,,,2.0,,,Radiotherapy,Progressive Disease,,,,,,Male,,,,IV,
+1304,,,,,,,,,,,,,,,4.0,,,,41.0,Months,Dead,9.9,,,,,,,,,2.0,,,Radiotherapy,Progressive Disease,,,,,,Male,,,,IV,
+1305,,,,,,,,,,,,,,,4.0,,,,41.0,Months,Dead,9.9,,,,,,,,,2.0,,,Radiotherapy,Progressive Disease,,,,,,Male,,,,IV,
+1306,,,,,,,,,,,,,,,4.0,,,,41.0,Months,Dead,9.9,,,,,,,,,2.0,,,Radiotherapy,Progressive Disease,,,,,,Male,,,,IV,
+1307,,,,,,,,,,,,,,,4.0,,,,42.0,Months,Dead,8.6,,,,,,,,,1.0,,,Surgery,Progressive Disease,,,,,,Female,,,,IV,
+1308,,,,,,,,,,,,,,,4.0,,,,41.0,Months,Dead,9.9,,,,,,,,,2.0,,,Radiotherapy,Progressive Disease,,,,,,Male,,,,IV,
+1309,,,,,,,,,,,,,,,4.0,,,,41.0,Months,Dead,9.9,,,,,,,,,2.0,,,Radiotherapy,Progressive Disease,,,,,,Male,,,,IV,
+1310,,,,,,,,,,,,,,,4.0,,,,42.0,Months,Dead,8.6,,,,,,,,,1.0,,,Surgery,Progressive Disease,,,,,,Female,,,,IV,
+1311,,,,,,,,,,,,,,,4.0,,,,42.0,Months,Dead,8.6,,,,,,,,,1.0,,,Surgery,Progressive Disease,,,,,,Female,,,,IV,
+1312,,,,,,,,,,,,,,,4.0,,,,41.0,Months,Dead,9.9,,,,,,,,,2.0,,,Radiotherapy,Progressive Disease,,,,,,Male,,,,IV,
+1313,,,,,,,,,,,,,,,4.0,,,,41.0,Months,Dead,9.9,,,,,,,,,2.0,,,Radiotherapy,Progressive Disease,,,,,,Male,,,,IV,
+1314,,,,,,,,,,,,,,,4.0,,,,42.0,Months,Dead,8.6,,,,,,,,,1.0,,,Surgery,Progressive Disease,,,,,,Female,,,,IV,
+1315,,,,,,,,,,,,,,,4.0,,,,41.0,Months,Dead,9.9,,,,,,,,,2.0,,,Radiotherapy,Progressive Disease,,,,,,Male,,,,IV,
+1316,,,,,,,,,,,,,,,4.0,,,,42.0,Months,Dead,8.6,,,,,,,,,1.0,,,Surgery,Progressive Disease,,,,,,Female,,,,IV,
+1317,,,,,,,,,,,,,,,4.0,,,,42.0,Months,Dead,8.6,,,,,,,,,1.0,,,Surgery,Progressive Disease,,,,,,Female,,,,IV,
+1318,,,,,,,,,,,,,,,4.0,,,,41.0,Months,Dead,9.9,,,,,,,,,2.0,,,Radiotherapy,Progressive Disease,,,,,,Male,,,,IV,
+1319,,,,,,,,,,,,,,,4.0,,,,41.0,Months,Dead,9.9,,,,,,,,,2.0,,,Radiotherapy,Progressive Disease,,,,,,Male,,,,IV,
+1320,,,,,,,,,,,,,,,4.0,,,,42.0,Months,Dead,8.6,,,,,,,,,1.0,,,Surgery,Progressive Disease,,,,,,Female,,,,IV,
+1321,,,,,,,,,,,,,,,5.0,,,,42.0,Months,Dead,18.8,,,,,,,,,1.0,,,Surgery,Stable Desease,,,,,,Female,,,,IV,
+1322,,,,,,,,,,,,,,,4.0,,,,,Months,Dead,28.0,,Melanoma,,,,,,,,,Monocytes,,,,,,,Not significant,,,,Intravenously,,RNA
+1323,,,,,,,,,,,,,,,4.0,,,,41.0,Months,Dead,9.9,,,,,,,,,2.0,,,Radiotherapy,Progressive Disease,,,,,,Male,,,,IV,
+1324,,,,,,,,,,,,,,,4.0,,,,41.0,Months,Dead,9.9,,,,,,,,,2.0,,,Radiotherapy,Progressive Disease,,,,,,Male,,,,IV,
+1325,,,,,,,,,,,,,,,4.0,,,,41.0,Months,Dead,9.9,,,,,,,,,2.0,,,Radiotherapy,Progressive Disease,,,,,,Male,,,,IV,
+1326,,,,,,,,,,,,,,,4.0,,,,41.0,Months,Dead,9.9,,,,,,,,,2.0,,,Radiotherapy,Progressive Disease,,,,,,Male,,,,IV,
+1327,,,,,,,,,,,,,,,4.0,,,,41.0,Months,Dead,9.9,,,,,,,,,2.0,,,Radiotherapy,Progressive Disease,,,,,,Male,,,,IV,
+1328,,,,,,,,,,,,,,,4.0,,,,42.0,Months,Dead,8.6,,,,,,,,,1.0,,,Surgery,Progressive Disease,,,,,,Female,,,,IV,
+1329,,,,,,,,,,,,,,,5.0,,,,46.0,Months,Dead,33.0,,,,,,,,,1.0,,,Immunotherapy,Complete response,,,,,,Male,,,,IV,
+1330,,,,,,,,,,,,,,,4.0,,,,42.0,Months,Dead,8.6,,,,,,,,,1.0,,,Surgery,Progressive Disease,,,,,,Female,,,,IV,
+1331,,,,,,,,,,,,,,,4.0,,,,41.0,Months,Dead,9.9,,,,,,,,,2.0,,,Radiotherapy,Progressive Disease,,,,,,Male,,,,IV,
+1332,,,,,,,,,,,,,,,4.0,,,,41.0,Months,Dead,9.9,,,,,,,,,2.0,,,Radiotherapy,Progressive Disease,,,,,,Male,,,,IV,
+1333,,,,,,,,,,,,,,,4.0,,,,41.0,Months,Dead,9.9,,,,,,,,,2.0,,,Radiotherapy,Progressive Disease,,,,,,Male,,,,IV,
+1334,,,,,,,,,,,,,,,5.0,,,,,Months,Dead,28.0,,Melanoma,,,,,,,,,Monocytes,,,,,,,Not significant,,,,Intravenously,,RNA
+1335,,,,,,,,,,,,,,,4.0,,,,41.0,Months,Dead,9.9,,,,,,,,,2.0,,,Radiotherapy,Progressive Disease,,,,,,Male,,,,IV,
+1336,,,,,,,,,,,,,,,4.0,,,,41.0,Months,Dead,9.9,,,,,,,,,2.0,,,Radiotherapy,Progressive Disease,,,,,,Male,,,,IV,
+1337,,,,,,,,,,,,,,,4.0,,,,41.0,Months,Dead,9.9,,,,,,,,,2.0,,,Radiotherapy,Progressive Disease,,,,,,Male,,,,IV,
+1338,,,,,,,,,,,,,,,4.0,,,,42.0,Months,Dead,8.6,,,,,,,,,1.0,,,Surgery,Progressive Disease,,,,,,Female,,,,IV,
+1339,,,,,,,,,,,,,,,4.0,,,,42.0,Months,Dead,8.6,,,,,,,,,1.0,,,Surgery,Progressive Disease,,,,,,Female,,,,IV,
+1340,,,,,,,,,,,,,,,5.0,,,,42.0,Months,Dead,18.8,,,,,,,,,1.0,,,Surgery,Stable Desease,,,,,,Female,,,,IV,
+1341,,,,,,,,,,,,,,,4.0,,,,42.0,Months,Dead,8.6,,,,,,,,,1.0,,,Surgery,Progressive Disease,,,,,,Female,,,,IV,
+1342,,,,,,,,,,,,,,,4.0,,,,41.0,Months,Dead,9.9,,,,,,,,,2.0,,,Radiotherapy,Progressive Disease,,,,,,Male,,,,IV,
+1343,,,,,,,,,,,,,,,4.0,,,,41.0,Months,Dead,9.9,,,,,,,,,2.0,,,Radiotherapy,Progressive Disease,,,,,,Male,,,,IV,
+1344,,,,,,,,,,,,,,,5.0,,,,42.0,Months,Dead,14.4,,,,,,,,,1.0,,,Immunotherapy,Stable Desease,,,,,,Male,,,,IV,
+1345,,,,,,,,,,,,,,,5.0,,,,42.0,Months,Dead,18.8,,,,,,,,,1.0,,,Surgery,Stable Desease,,,,,,Female,,,,IV,
+1346,,,,,,,,,,,,,,,4.0,,,,42.0,Months,Dead,8.6,,,,,,,,,1.0,,,Surgery,Progressive Disease,,,,,,Female,,,,IV,
+1347,,,,,,,,,,,,,,,4.0,,,,42.0,Months,Dead,8.6,,,,,,,,,1.0,,,Surgery,Progressive Disease,,,,,,Female,,,,IV,
+1348,,,,,,,,,,,,,,,4.0,,,,41.0,Months,Dead,9.9,,,,,,,,,2.0,,,Radiotherapy,Progressive Disease,,,,,,Male,,,,IV,
+1349,,,,,,,,,,,,,,,5.0,,,,,Months,Dead,28.0,,Melanoma,,,,,,,,,Monocytes,,,,,,,Not significant,,,,Intravenously,,RNA
+1350,,,,,,,,,,,,,,,4.0,,,,41.0,Months,Dead,9.9,,,,,,,,,2.0,,,Radiotherapy,Progressive Disease,,,,,,Male,,,,IV,
+1351,,,,,,,,,,,,,,,4.0,,,,41.0,Months,Dead,9.9,,,,,,,,,2.0,,,Radiotherapy,Progressive Disease,,,,,,Male,,,,IV,
+1352,,,,,,,,,,,,,,,4.0,,,,41.0,Months,Dead,9.9,,,,,,,,,2.0,,,Radiotherapy,Progressive Disease,,,,,,Male,,,,IV,
+1353,,,,,,,,,,,,,,,5.0,,,,42.0,Months,Dead,18.8,,,,,,,,,1.0,,,Surgery,Stable Desease,,,,,,Female,,,,IV,
+1354,,,,,,,,,,,,,,,5.0,,,,,Months,Dead,28.0,,Melanoma,,,,,,,,,Monocytes,,Complete response,,,,,Not significant,,,,Intravenously,,RNA
+1355,,,,,,,,,,,,,,,4.0,,,,,Months,Dead,28.0,,Melanoma,,,,,,,,,Monocytes,,,,,,,Not significant,,,,Intravenously,,RNA
+1356,,,,,,,,,,,,,,,4.0,,,,41.0,Months,Dead,9.9,,,,,,,,,2.0,,,Radiotherapy,Progressive Disease,,,,,,Male,,,,IV,
+1357,,,,,,,,,,,,,,,4.0,,,,41.0,Months,Dead,9.9,,,,,,,,,2.0,,,Radiotherapy,Progressive Disease,,,,,,Male,,,,IV,
+1358,,,,,,,,,,,,,,,4.0,,,,41.0,Months,Dead,9.9,,,,,,,,,2.0,,,Radiotherapy,Progressive Disease,,,,,,Male,,,,IV,
+1359,,,,,,,,,,,,,,,5.0,,,,46.0,Months,Dead,33.0,,,,,,,,,1.0,,,Immunotherapy,Complete response,,,,,,Male,,,,IV,
+1360,,,,,,,,,,,,,,,4.0,,,,42.0,Months,Dead,8.6,,,,,,,,,1.0,,,Surgery,Progressive Disease,,,,,,Female,,,,IV,
+1361,,,,,,,,,,,,,,,5.0,,,,42.0,Months,Dead,18.8,,,,,,,,,1.0,,,Surgery,Stable Desease,,,,,,Female,,,,IV,
+1362,,,,,,,,,,,,,,,5.0,,,,46.0,Months,Dead,33.0,,,,,,,,,1.0,,,Immunotherapy,Complete response,,,,,,Male,,,,IV,
+1363,,,,,,,,,,,,,,,4.0,,,,41.0,Months,Dead,9.9,,,,,,,,,2.0,,,Radiotherapy,Progressive Disease,,,,,,Male,,,,IV,
+1364,,,,,,,,,,,,,,,4.0,,,,41.0,Months,Dead,9.9,,,,,,,,,2.0,,,Radiotherapy,Progressive Disease,,,,,,Male,,,,IV,
+1365,,,,,,,,,,,,,,,4.0,,,,42.0,Months,Dead,8.6,,,,,,,,,1.0,,,Surgery,Progressive Disease,,,,,,Female,,,,IV,
+1366,,,,,,,,,,,,,,,4.0,,,,42.0,Months,Dead,8.6,,,,,,,,,1.0,,,Surgery,Progressive Disease,,,,,,Female,,,,IV,
+1367,,,,,,,,,,,,,,,4.0,,,,41.0,Months,Dead,9.9,,,,,,,,,2.0,,,Radiotherapy,Progressive Disease,,,,,,Male,,,,IV,
+1368,,,,,,,,,,,,,,,5.0,,,,,Months,Dead,28.0,,Melanoma,,,,,,,,,Monocytes,,,,,,,Not significant,,,,Intravenously,,RNA
+1369,,,,,,,,,,,,,,,5.0,,,,42.0,Months,Dead,18.8,,,,,,,,,1.0,,,Surgery,Stable Desease,,,,,,Female,,,,IV,
+1370,,,,,,,,,,,,,,,5.0,,,,42.0,Months,Dead,18.8,,,,,,,,,1.0,,,Surgery,Stable Desease,,,,,,Female,,,,IV,
+1371,,,,,,,,,,,,,,,4.0,,,,41.0,Months,Dead,9.9,,,,,,,,,2.0,,,Radiotherapy,Progressive Disease,,,,,,Male,,,,IV,
+1372,,,,,,,,,,,,,,,4.0,,,,41.0,Months,Dead,9.9,,,,,,,,,2.0,,,Radiotherapy,Progressive Disease,,,,,,Male,,,,IV,
+1373,,,,,,,,,,,,,,,4.0,,,,41.0,Months,Dead,9.9,,,,,,,,,2.0,,,Radiotherapy,Progressive Disease,,,,,,Male,,,,IV,
+1374,,,,,,,,,,,,,,,5.0,,,,42.0,Months,Dead,18.8,,,,,,,,,1.0,,,Surgery,Stable Desease,,,,,,Female,,,,IV,
+1375,,,,,,,,,,,,,,,5.0,,,,,Months,Dead,28.0,,Melanoma,,,,,,,,,Monocytes,,,,,,,Not significant,,,,Intravenously,,RNA
+1376,,,,,,,,,,,,,,,4.0,,,,42.0,Months,Dead,8.6,,,,,,,,,1.0,,,Surgery,Progressive Disease,,,,,,Female,,,,IV,
+1377,,,,,,,,,,,,,,,4.0,,,,41.0,Months,Dead,9.9,,,,,,,,,2.0,,,Radiotherapy,Progressive Disease,,,,,,Male,,,,IV,
+1378,,,,,,,,,,,,,,,4.0,,,,41.0,Months,Dead,9.9,,,,,,,,,2.0,,,Radiotherapy,Progressive Disease,,,,,,Male,,,,IV,
+1379,,,,,,,,,,,,,,,4.0,,,,41.0,Months,Dead,9.9,,,,,,,,,2.0,,,Radiotherapy,Progressive Disease,,,,,,Male,,,,IV,
+1380,,,,,,,,,,,,,,,4.0,,,,41.0,Months,Dead,9.9,,,,,,,,,2.0,,,Radiotherapy,Progressive Disease,,,,,,Male,,,,IV,
+1381,,,,,,,,,,,,,,,4.0,,,,42.0,Months,Dead,8.6,,,,,,,,,1.0,,,Surgery,Progressive Disease,,,,,,Female,,,,IV,
+1382,,,,,,,,,,,,,,,5.0,,,,46.0,Months,Dead,33.0,,,,,,,,,1.0,,,Immunotherapy,Complete response,,,,,,Male,,,,IV,
+1383,,,,,,,,,,,,,,,5.0,,,,42.0,Months,Dead,18.8,,,,,,,,,1.0,,,Surgery,Stable Desease,,,,,,Female,,,,IV,
+1384,,,,,,,,,,,,,,,4.0,,,,41.0,Months,Dead,9.9,,,,,,,,,2.0,,,Radiotherapy,Progressive Disease,,,,,,Male,,,,IV,
+1385,,,,,,,,,,,,,,,4.0,,,,42.0,Months,Dead,8.6,,,,,,,,,1.0,,,Surgery,Progressive Disease,,,,,,Female,,,,IV,
+1386,,,,,,,,,,,,,,,5.0,,,,42.0,Months,Dead,18.8,,,,,,,,,1.0,,,Surgery,Stable Desease,,,,,,Female,,,,IV,
+1387,,,,,,,,,,,,,,,4.0,,,,41.0,Months,Dead,9.9,,,,,,,,,2.0,,,Radiotherapy,Progressive Disease,,,,,,Male,,,,IV,
+1388,,,,,,,,,,,,,,,4.0,,,,42.0,Months,Dead,8.6,,,,,,,,,1.0,,,Surgery,Progressive Disease,,,,,,Female,,,,IV,
+1389,,,,,,,,,,,,,,,4.0,,,,41.0,Months,Dead,9.9,,,,,,,,,2.0,,,Radiotherapy,Progressive Disease,,,,,,Male,,,,IV,
+1390,,,,,,,,,,,,,,,4.0,,,,41.0,Months,Dead,9.9,,,,,,,,,2.0,,,Radiotherapy,Progressive Disease,,,,,,Male,,,,IV,
+1391,,,,,,,,,,,,,,,5.0,,,,46.0,Months,Dead,33.0,,,,,,,,,1.0,,,Immunotherapy,Complete response,,,,,,Male,,,,IV,
+1392,,,,,,,,,,,,,,,5.0,,,,42.0,Months,Dead,18.8,,,,,,,,,1.0,,,Surgery,Stable Desease,,,,,,Female,,,,IV,
+1393,,,,,,,,,,,,,,,4.0,,,,41.0,Months,Dead,9.9,,,,,,,,,2.0,,,Radiotherapy,Progressive Disease,,,,,,Male,,,,IV,
+1394,,,,,,,,,,,,,,,4.0,,,,42.0,Months,Dead,8.6,,,,,,,,,1.0,,,Surgery,Progressive Disease,,,,,,Female,,,,IV,
+1395,,,,,,,,,,,,,,,4.0,,,,42.0,Months,Dead,8.6,,,,,,,,,1.0,,,Surgery,Progressive Disease,,,,,,Female,,,,IV,
+1396,,,,,,,,,,,,,,,5.0,,,,46.0,Months,Dead,33.0,,,,,,,,,1.0,,,Immunotherapy,Complete response,,,,,,Male,,,,IV,
+1397,,,,,,,,,,,,,,,4.0,,,,41.0,Months,Dead,9.9,,,,,,,,,2.0,,,Radiotherapy,Progressive Disease,,,,,,Male,,,,IV,
+1398,,,,,,,,,,,,,,,5.0,,,,42.0,Months,Dead,18.8,,,,,,,,,1.0,,,Surgery,Stable Desease,,,,,,Female,,,,IV,
+1399,,,,,,,,,,,,,,,5.0,,,,42.0,Months,Dead,18.8,,,,,,,,,1.0,,,Surgery,Stable Desease,,,,,,Female,,,,IV,
+1400,,,,,,,,,,,,,,,5.0,,,,59.0,Days,Dead,95.0,,Head and neck,,,,,,,,,,,Progressive Disease,,,,,,Male,,,,,Lysate
+1401,,,,,,,,,,,,,,,5.0,,,,64.0,Days,Dead,157.0,,Head and neck,,,,,,,,,,,Progressive Disease,,,,,,Male,,,,,RNA
+1402,,,,,,,,,,,,,,,3.0,,,,63.0,Days,Dead,72.0,,Colon cancer,,,,,,,,,,,Progressive Disease,,,,,,Male,,,,,RNA
+1403,,,,,,,,,,,,,,,6.0,,,,38.0,Days,Live,397.0,,Melanoma,,,,,,,,,,,Progressive Disease,,,,,,Male,,,,,RNA
+1404,,,,,,,,,,,,,,,3.0,,,,31.0,Days,Dead,81.0,,Ovarian cancer,,,,,,,,,,,Progressive Disease,,,,,,Female,,,,,RNA
+1405,,,,,,,,,,,,,,,4.0,,,,56.0,Days,Dead,117.0,,Head and neck,,,,,,,,,,,Progressive Disease,,,,,,Female,,,,,RNA
+1406,,,,,,,,,,,,,,,4.0,,,,50.0,Days,Dead,74.0,,Cervical cancer,,,,,,,,,,,Progressive Disease,,,,,,Female,,,,,RNA
+1407,,,,,,,,,,,,,,,6.0,,,,69.0,Days,Live,342.0,,Head and neck,,,,,,,,,,,Progressive Disease,,,,,,Male,,,,,RNA
+1408,,,,,,,,,,,,,,,4.0,,,,62.0,Days,Dead,184.0,,Lung cancer,,,,,,,,,,,Progressive Disease,,,,,,Male,,,,,RNA
+1409,,,,,,,,,,,,,,,4.0,,,,70.0,Days,Dead,116.0,,Colon cancer,,,,,,,,,,,Progressive Disease,,,,,,Male,,,,,RNA
+1410,,,,,,,,,,,,,,,6.0,,,,51.0,Days,Dead,136.0,,Breast cancer,,,,,,,,,,,Progressive Disease,,,,,,Female,,,,,RNA
+1411,,,,,,,,,,,,,,,3.0,,,,59.0,Days,Dead,149.0,,Prostate cancer,,,,,,,,,,,Progressive Disease,,,,,,Male,,,,,RNA
+1412,,,,,,,,,,,,,,,4.0,,,,70.0,Days,Dead,123.0,,Stomach cancer,,,,,,,,,,,Progressive Disease,,,,,,Male,,,,,RNA
+1413,,,,,,,,,,,,,,,6.0,,,,71.0,Days,Dead,171.0,,Colon cancer,,,,,,,,,,,Progressive Disease,,,,,,Male,,,,,RNA
+1414,,,,,,,,,,,,,,,6.0,,,,66.0,Days,Dead,173.0,,Ovarian cancer,,,,,,,,,,,Stable Desease,,,,,,Female,,,,,RNA
+1415,,,,,,,,,,,,,,,6.0,,,,55.0,Days,Dead,315.0,,Prostate cancer,,,,,,,,,,,Progressive Disease,,,,,,Male,,,,,RNA
+1416,,,,,,,,,,,,,,,6.0,,,,57.0,Days,Dead,152.0,,Melanoma,,,,,,,,,,,Progressive Disease,,,,,,Female,,,,,RNA
+1417,,,,,,,,,,,,,,,6.0,,,,54.0,Days,Dead,198.0,,Ovarian cancer,,,,,,,,,,,Progressive Disease,,,,,,Female,,,,,RNA
+1418,,,,,,,,,,,,,,,5.0,,,,51.0,Days,Dead,176.0,,Ovarian cancer,,,,,,,,,,,Progressive Disease,,,,,,Female,,,,,RNA
+1419,,,,,,,,,,,,,,,6.0,,,,67.0,Days,Dead,356.0,,Prostate cancer,,,,,,,,,,,Stable Desease,,,,,,Male,,,,,RNA
+1420,,,,,,,,,,,,,,,6.0,,,,62.0,Days,Dead,207.0,,Melanoma,,,,,,,,,,,Progressive Disease,,,,,,Male,,,,,RNA
+1421,,,,,,,,,,,,,,,6.0,,,,70.0,Days,Live,450.0,,Melanoma,,,,,,,,,,,Progressive Disease,,,,,,Female,,,,,RNA
+1422,,,,,,,,,,,,,,,6.0,,,,40.0,Days,Live,528.0,,Lung cancer,,,,,,,,,,,Stable Desease,,,,,,Female,,,,,RNA
+1423,,,,,,,,,,,,,,,6.0,,,,42.0,Days,Live,454.0,,Ovarian cancer,,,,,,,,,,,Progressive Disease,,,,,,Female,,,,,RNA
+1424,,,,,,,,,,,,,,,6.0,,,,73.0,Days,Live,458.0,,Prostate cancer,,,,,,,,,,,Stable Desease,,,,,,Male,,,,,RNA
+1425,,,,,,,,,,,,,,,4.0,,,,36.0,Days,Dead,87.0,,Colon cancer,,,,,,,,,,,Stable Desease,,,,,,Female,,,,,RNA
+1426,,,,,,,,,,,,,,,5.0,,,,60.0,Days,Live,498.0,,Ovarian cancer,,,,,,,,,,,Stable Desease,,,,,,Female,,,,,RNA
+1427,,,,,,,,,,,,,,,6.0,,,,60.0,Days,Live,462.0,,Ovarian cancer,,,,,,,,,,,Partial Response,,,,,,Female,,,,,RNA
+1428,,,,,,,,,,,,,,,6.0,,,,68.0,Days,Live,463.0,,Prostate cancer,,,,,,,,,,,Stable Desease,,,,,,Male,,,,,RNA
+1429,,,,,,,,,,,,,,,5.0,,,,42.0,Days,Dead,246.0,,Cervical cancer,,,,,,,,,,,Progressive Disease,,,,,,Female,,,,,RNA
+1430,,,,,,,,,,,,,,,6.0,,,,56.0,Days,Dead,193.0,,Head and neck,,,,,,,,,,,Progressive Disease,,,,,,Male,,,,,RNA
+1431,,,,,,,,,,,,,,,6.0,,,,61.0,Days,Live,493.0,,Head and neck,,,,,,,,,,,Progressive Disease,,,,,,Female,,,,,RNA
+1432,,,,,,,,,,,,,,,6.0,,,,33.0,Days,Live,485.0,,Head and neck,,,,,,,,,,,Progressive Disease,,,,,,Female,,,,,RNA
+1433,,,,,,,,,,,,,,,6.0,,,,38.0,Days,Live,451.0,,Breast cancer,,,,,,,,,,,Progressive Disease,,,,,,Female,,,,,RNA
+1434,,,,,,,,,,,,,,,6.0,,,,57.0,Days,Dead,417.0,,Lung cancer,,,,,,,,,,,Stable Desease,,,,,,Male,,,,,RNA
+1435,,,,,,,,,,,,,,,6.0,,,,54.0,Days,Live,383.0,,Cervical cancer,,,,,,,,,,,Stable Desease,,,,,,Female,,,,,RNA
+1436,,,,,,,,,,,,,,,2.0,,,,54.0,Days,Live,397.0,,Renal cancer,,,,,,,,,,,Progressive Disease,,,,,,Female,,,,,RNA
+1437,,,,,,,,,,,,,,,3.0,,,,54.0,Days,Dead,439.0,,Colon cancer,,,,,,,,,,,Stable Desease,,,,,,Female,,,,,RNA
+1438,,,,,,,,,,,,,,,5.0,,,,59.0,Days,Dead,95.0,,Head and neck,,,,,,,,,,,Progressive Disease,,,,,,Male,,,,,Lysate
+1439,,,,,,,,,,,,,,,5.0,,,,64.0,Days,Dead,157.0,,Head and neck,,,,,,,,,,,Progressive Disease,,,,,,Male,,,,,RNA
+1440,,,,,,,,,,,,,,,3.0,,,,63.0,Days,Dead,72.0,,Colon cancer,,,,,,,,,,,Progressive Disease,,,,,,Male,,,,,RNA
+1441,,,,,,,,,,,,,,,6.0,,,,38.0,Days,Live,397.0,,Melanoma,,,,,,,,,,,Progressive Disease,,,,,,Male,,,,,RNA
+1442,,,,,,,,,,,,,,,3.0,,,,31.0,Days,Dead,81.0,,Ovarian cancer,,,,,,,,,,,Progressive Disease,,,,,,Female,,,,,RNA
+1443,,,,,,,,,,,,,,,4.0,,,,56.0,Days,Dead,117.0,,Head and neck,,,,,,,,,,,Progressive Disease,,,,,,Female,,,,,RNA
+1444,,,,,,,,,,,,,,,4.0,,,,50.0,Days,Dead,74.0,,Cervical cancer,,,,,,,,,,,Progressive Disease,,,,,,Female,,,,,RNA
+1445,,,,,,,,,,,,,,,6.0,,,,69.0,Days,Live,342.0,,Head and neck,,,,,,,,,,,Progressive Disease,,,,,,Male,,,,,RNA
+1446,,,,,,,,,,,,,,,4.0,,,,62.0,Days,Dead,184.0,,Lung cancer,,,,,,,,,,,Progressive Disease,,,,,,Male,,,,,RNA
+1447,,,,,,,,,,,,,,,4.0,,,,70.0,Days,Dead,116.0,,Colon cancer,,,,,,,,,,,Progressive Disease,,,,,,Male,,,,,RNA
+1448,,,,,,,,,,,,,,,6.0,,,,51.0,Days,Dead,136.0,,Breast cancer,,,,,,,,,,,Progressive Disease,,,,,,Female,,,,,RNA
+1449,,,,,,,,,,,,,,,3.0,,,,59.0,Days,Dead,149.0,,Prostate cancer,,,,,,,,,,,Progressive Disease,,,,,,Male,,,,,RNA
+1450,,,,,,,,,,,,,,,4.0,,,,70.0,Days,Dead,123.0,,Stomach cancer,,,,,,,,,,,Progressive Disease,,,,,,Male,,,,,RNA
+1451,,,,,,,,,,,,,,,3.0,4500000.0,72.0,43.0,51.0,Months,Live,13.0,HLA-A2,Lung cancer,,2.0,0.0,,,,,,Monocytes,Not done,,,,,,Not significant,Female,,Immunotherapy,Intravenously,III,Peptide
+1452,,,,,,,,,,,,,,,,8900000.0,,,,,,,,,,,,,,,,,,,,,,,,None,,,Immunotherapy,,,
+1453,,,,,,,,,,,,,,,,9500000.0,,,,,,,,,,,,,,,,,,,,,,,,None,,,Immunotherapy,,,
+1454,,,,,,,,,,,,,,,,4700000.0,,,,,,,,,,,,,,,,,,,,,,,,None,,,Immunotherapy,,,
+1455,,,,,,,,,,,,,,,,10600000.0,,,,,,,,,,,,,,,,,,,,,,,,None,,,Immunotherapy,,,
+1456,,,,,,,,,,,,,,,,11.2,,,,,,,,,,,,,,,,,,,,,,,,None,,,Immunotherapy,,,
+1457,,,,,,,,,,,,,,,,6.5,,,,,,,,,,,,,,,,,,,,,,,,None,,,Immunotherapy,,,
+1458,,,,,,,,,,,,,,,,6.9,,,,,,,,,,,,,,,,,,,,,,,,None,,,Immunotherapy,,,
+1459,,,,,,,,,,,,,,,,9.4,,,,,,,,,,,,,,,,,,,,,,,,None,,,Immunotherapy,,,
+1460,,,,,,,,,,,,,,,,5.2,,,,,,,,,,,,,,,,,,,,,,,,None,,,Immunotherapy,,,
+1461,,,,,,,,,,,,,,,,10.7,,,,,,,,,,,,,,,,,,,,,,,,Significant,,,Immunotherapy,,,
+1462,,,,,,,,,,,,,,,,8.9,,,,,,,,,,,,,,,,,,,,,,,,None,,,Immunotherapy,,,
+1463,,,,,,,,,,,,,,,,12.1,,,,,,,,,,,,,,,,,,,,,,,,Significant,,,Immunotherapy,,,
+1464,,,,,,,,,,,,,,,,4.8,,,,,,,,,,,,,,,,,,,,,,,,None,,,Immunotherapy,,,
+1465,,,,,,,,,,,,,,,,4.8,,,,,,,,,,,,,,,,,,,,,,,,None,,,Immunotherapy,,,
+1466,,,,,,,,,,,,,,,,7.9,,,,,,,,,,,,,,,,,,,,,,,,None,,,Immunotherapy,,,
+1467,,,,,,,,,,,,,,,,12.5,,,,,,,,,,,,,,,,,,,,,,,,Significant,,,Immunotherapy,,,
+1468,,,,,,,,,,,,,,,,5.1,,,,,,,,,,,,,,,,,,,,,,,,None,,,Immunotherapy,,,
+1469,,,,,,,,,,,,,,,,5.6,,,,,,,,,,,,,,,,,,,,,,,,None,,,Immunotherapy,,,
+1470,,,,,,,,,,,,,,,,4.3,,,,,,,,,,,,,,,,,,,,,,,,None,,,Immunotherapy,,,
+1471,,,,,,,,,,,,,,,,7.8,,,,,,,,,,,,,,,,,,,,,,,,None,,,Immunotherapy,,,
+1472,,,,,,,,,,,,,,,,6.5,,,,,,,,,,,,,,,,,,,,,,,,None,,,Immunotherapy,,,
+1473,,,,,,,,,,,,,,,,11.0,,,,,,,,,,,,,,,,,,,,,,,,None,,,Immunotherapy,,,
+1474,,,,,,,,,,,,,,,,9.8,,,,,,,,,,,,,,,,,,,,,,,,Significant,,,Immunotherapy,,,
+1475,,,,,,,,,,,,,,,,10.2,,,,,,,,,,,,,,,,,,,,,,,,Significant,,,Immunotherapy,,,
+1476,,,,,,,,,,,,,,,,7.0,,,,,,,,,,,,,,,,,,,,,,,,None,,,Immunotherapy,,,
+1477,,,,,,,,,,,,,,,,4.9,,,,,,,,,,,,,,,,,,,,,,,,None,,,Immunotherapy,,,
+1478,,,,,,,,,,,,,,,,4500000.0,72.0,43.0,51.0,Months,Live,13.0,HLA-A2,Lung cancer,,2.0,0.0,,,,,,Monocytes,Not done,,,,,,Not significant,Female,,Immunotherapy,Intravenously,III,Peptide
+1479,,,,,,,,,,,,,,,,8900000.0,,,,,,,,,,,,,,,,,,,,,,,,None,,,Immunotherapy,,,
+1480,,,,,,,,,,,,,,,,9500000.0,,,,,,,,,,,,,,,,,,,,,,,,None,,,Immunotherapy,,,
+1481,,,,,,,,,,,,,,,,4700000.0,,,,,,,,,,,,,,,,,,,,,,,,None,,,Immunotherapy,,,
+1482,,,,,,,,,,,,,,,,10600000.0,,,,,,,,,,,,,,,,,,,,,,,,None,,,Immunotherapy,,,
+1483,,,,,,,,,,,,,,,,11.2,,,,,,,,,,,,,,,,,,,,,,,,None,,,Immunotherapy,,,
+1484,,,,,,,,,,,,,,,,6.5,,,,,,,,,,,,,,,,,,,,,,,,None,,,Immunotherapy,,,
+1485,,,,,,,,,,,,,,,,6.9,,,,,,,,,,,,,,,,,,,,,,,,None,,,Immunotherapy,,,
+1486,,,,,,,,,,,,,,,,9.4,,,,,,,,,,,,,,,,,,,,,,,,None,,,Immunotherapy,,,
+1487,,,,,,,,,,,,,,,,5.2,,,,,,,,,,,,,,,,,,,,,,,,None,,,Immunotherapy,,,
+1488,,,,,,,,,,,,,,,,10.7,,,,,,,,,,,,,,,,,,,,,,,,Significant,,,Immunotherapy,,,
+1489,,,,,,,,,,,,,,,,8.9,,,,,,,,,,,,,,,,,,,,,,,,None,,,Immunotherapy,,,
+1490,,,,,,,,,,,,,,,,12.1,,,,,,,,,,,,,,,,,,,,,,,,Significant,,,Immunotherapy,,,
+1491,,,,,,,,,,,,,,,,4.8,,,,,,,,,,,,,,,,,,,,,,,,None,,,Immunotherapy,,,
+1492,,,,,,,,,,,,,,,,4.8,,,,,,,,,,,,,,,,,,,,,,,,None,,,Immunotherapy,,,
+1493,,,,,,,,,,,,,,,,7.9,,,,,,,,,,,,,,,,,,,,,,,,None,,,Immunotherapy,,,
+1494,,,,,,,,,,,,,,,,12.5,,,,,,,,,,,,,,,,,,,,,,,,Significant,,,Immunotherapy,,,
+1495,,,,,,,,,,,,,,,,5.1,,,,,,,,,,,,,,,,,,,,,,,,None,,,Immunotherapy,,,
+1496,,,,,,,,,,,,,,,,5.6,,,,,,,,,,,,,,,,,,,,,,,,None,,,Immunotherapy,,,
+1497,,,,,,,,,,,,,,,,4.3,,,,,,,,,,,,,,,,,,,,,,,,None,,,Immunotherapy,,,
+1498,,,,,,,,,,,,,,,,7.8,,,,,,,,,,,,,,,,,,,,,,,,None,,,Immunotherapy,,,
+1499,,,,,,,,,,,,,,,,6.5,,,,,,,,,,,,,,,,,,,,,,,,None,,,Immunotherapy,,,
+1500,,,,,,,,,,,,,,,,11.0,,,,,,,,,,,,,,,,,,,,,,,,None,,,Immunotherapy,,,
+1501,,,,,,,,,,,,,,,,9.8,,,,,,,,,,,,,,,,,,,,,,,,Significant,,,Immunotherapy,,,
+1502,,,,,,,,,,,,,,,,10.2,,,,,,,,,,,,,,,,,,,,,,,,Significant,,,Immunotherapy,,,
+1503,,,,,,,,,,,,,,,,7.0,,,,,,,,,,,,,,,,,,,,,,,,None,,,Immunotherapy,,,
+1504,,,,,,,,,,,,,,,,4.9,,,,,,,,,,,,,,,,,,,,,,,,None,,,Immunotherapy,,,
+1505,,,,,,,,,,,,,,,4.0,4500000.0,72.0,43.0,51.0,Months,Live,13.0,HLA-A2,Lung cancer,,2.0,0.0,,,,,,Monocytes,Not done,,,,,,Not significant,Female,,Immunotherapy,Intravenously,,Peptide
+1506,,,,,,,,,,,,,,,,8900000.0,,,,,,,,,,,,,,,,,,,,,,,,None,,,Immunotherapy,,,
+1507,,,,,,,,,,,,,,,,9500000.0,,,,,,,,,,,,,,,,,,,,,,,,None,,,Immunotherapy,,,
+1508,,,,,,,,,,,,,,,,4700000.0,,,,,,,,,,,,,,,,,,,,,,,,None,,,Immunotherapy,,,
+1509,,,,,,,,,,,,,,,,10600000.0,,,,,,,,,,,,,,,,,,,,,,,,None,,,Immunotherapy,,,
+1510,,,,,,,,,,,,,,,,11.2,,,,,,,,,,,,,,,,,,,,,,,,None,,,Immunotherapy,,,
+1511,,,,,,,,,,,,,,,1.0,,,,,Months,Live,20.0,,,,,,,,,,,,Chemotherapy,Progressive Disease,,,,,None,Female,,,,,
+1512,,,,,,,,,,,,,,,1.0,,,,,Months,Dead,20.0,,,,,,,,,,,,Chemotherapy,Progressive Disease,,,,,Not significant,Male,,,,,
+1513,,,,,,,,,,,,,,,1.0,,,,,Months,Dead,20.0,,,,,,,,,,,,Chemotherapy,Partial Response,,,,,Not significant,Male,,,,,
+1514,,,,,,,,,,,,,,,2.0,,,,,Months,Dead,19.0,,,,,,,,,,,,,Stable Desease,,,,,Not significant,Male,,,,,
+1515,,,,,,,,,,,,,,,6.0,,,,,Months,Dead,19.0,,,,,,,,,,,,,Partial Response,,,,,Not significant,Male,,,,,
+1516,,,,,,,,,,Tumor antigen,No,,,20000000.0,4.0,,,,51.0,Months,Dead,18.0,,Renal cancer,Normal,1.0,1.0,,,,,TNF-α,Monocytes,,Stable Desease,,,,,Not significant,Male,,Immunotherapy,Subcutaneously,,
+1517,,,,,,,,,,,,,,,1.0,,,,,Months,Dead,17.0,,,,,,,,,,,,,Stable Desease,,,,,,Male,,,,,
+1518,,,,,,,,,,Tumor antigen,No,,,20000000.0,4.0,,,,51.0,Months,Dead,18.0,,Renal cancer,Normal,1.0,1.0,,,,,TNF-α,Monocytes,,Partial Response,,,,,Not significant,Male,,Immunotherapy,Subcutaneously,,
+1519,,,,,,,,,,,,,,,2.0,,,,,Months,Dead,21.0,,,,,,,,,,,,,Stable Desease,,,,,,Male,,,,,
+1520,,,,,,,,,,,,,,,3.0,,,,,Months,Dead,16.0,,,,,,,,,,,,,Stable Desease,,,,,,Male,,,,,
+1521,,,,,,,,,,,,,,,1.0,,,,,Months,Dead,16.0,,,,,,,,,,,,,Partial Response,,,,,,Male,,,,,
+1522,,,,,,,,,,,,,,,1.0,,,,,Months,Dead,15.0,,,,,,,,,,,,,Progressive Disease,,,,,None,Male,,,,,
+1523,,,,,,,,,,,,,,,1.0,,,,,Months,Dead,10.0,,,,,,,,,,,,,Complete response,,,,,,Male,,,,,
+1524,,,,,,,,,,,,,,,1.0,,,,,Months,Dead,10.0,,,,,,,,,,,,,Stable Desease,,,,,,Male,,,,,
+1525,,,,,,,,,,,,,,,3.0,,,,,Months,Dead,9.0,,,,,,,,,,,,,Partial Response,,,,,,Male,,,,,
+1526,,,,,,,,,,,,,,,3.0,,,,,Months,Dead,10.0,,,,,,,,,,,,,Complete response,,,,,,Male,,,,,
+1527,,,,,,,,,,,,,,,1.0,,,,,Months,Dead,15.0,,,,,,,,,,,,,Complete response,,,,,,Male,,,,,
+1528,,,,,,,,,,,,,,,1.0,,,,,Months,Dead,12.0,,,,,,,,,,,,,Progressive Disease,,,,,,Male,,,,,
+1529,,,,,,,,,,,,,,,1.0,,,,,Months,Dead,21.0,,,,,,,,,,,,,Partial Response,,,,,,Male,,,,,
+1530,,,,,,,,,,,,,,,1.0,,,,,Months,Dead,15.0,,,,,,,,,,,,,Progressive Disease,,,,,,Female,,,,,
+1531,,,,,,,,,,,,,,,2.0,,,,,Months,Dead,16.0,,,,,,,,,,,,,Progressive Disease,,,,,,Female,,,,,
+1532,,,,,,,,,,,,,,,2.0,,,,,Months,Dead,20.0,,,,,,,,,,,,Immunotherapy,Complete response,,,,,,Male,,,,,
+1533,,,,,,,,,,,,,,,3.0,,,,,Months,Dead,6.0,,,,,,,,,,,,,Stable Desease,,,,,,Male,,,,,
+1534,,,,,,,,,,,,,,,1.0,,,,,Months,Dead,4.0,,,,,,,,,,,,,Death,,,,,,Female,,,,,
+1535,,,,,,,,,,,,,,,3.0,,,,,Months,Dead,6.0,,,,,,,,,,,,Chemotherapy,Partial Response,,,,,,Male,,,,,
+1536,,,,,,,,,,,,,,,2.0,,,,,Months,Dead,11.0,,,,,,,,,,,,,Stable Desease,,,,,,Female,,,,,
+1537,,,,,,,,,,,,,,,2.0,,,,,Months,Dead,5.0,,,,,,,,,,,,,Stable Desease,,,,,,Male,,,,,
+1538,,,,,,,,,,,,,,,2.0,,,,,Months,Dead,5.0,,,,,,,,,,,,Immunotherapy,Stable Desease,,,,,,Male,,,,,
+1539,,,,,,,,,,,,,,,,,,,66.0,,,,,,,,,,,,80.0,,,Surgery,,,,,,,Female,,,,,
+1540,,,,,,,,,,,,,,,,,,,59.0,,,,,,,,,,,,80.0,,,Surgery,,,,,,,Female,,,,,
+1541,Tumor antigen,No,,,Tumor antigen,Yes,1.0,44.0,,Tumor antigen,Yes,,,10000000.0,3.0,,,,66.0,Months,Live,6.0,,Glioblastoma,Normal,,,,100.0,60.0,70.0,TNF-α,Monocytes,Radiotherapy,,,,,,Not significant,Female,,,Intralymphatically,,Lysate
+1542,,,,,,,,,,,,,,,,,,,66.0,,,,,,,,,,,,80.0,,,Surgery,,,,,,,Male,,,,,
+1543,,,,,,,,,,,,,,,,,,,78.0,,,,,,,,,,,,70.0,,,Surgery,,,,,,,Male,,,,,
+1544,,,,,,,,,,,,,,,,,,,54.0,,,,,,,,,,,,80.0,,,Surgery,,,,,,,Female,,,,,
+1545,,,,,,,,,,,,,,,,,,,61.0,,,,,,,,,,,,90.0,,,Surgery,,,,,,,Female,,,,,
+1546,Tumor antigen,No,,,Tumor antigen,Yes,1.0,44.0,,Tumor antigen,Yes,,,10000000.0,3.0,,,,57.0,Months,Live,6.0,,Glioblastoma,Normal,,,,100.0,60.0,70.0,TNF-α,Monocytes,Radiotherapy,,,,,,Not significant,Male,,,Intralymphatically,,Lysate
+1547,Tumor antigen,No,,,Tumor antigen,Yes,1.0,44.0,,Tumor antigen,Yes,,,10000000.0,3.0,,,,48.0,Months,Live,6.0,,Glioblastoma,Normal,,,,100.0,60.0,90.0,TNF-α,Monocytes,Chemotherapy,,,,,,Not significant,Male,,,Intralymphatically,,Lysate
+1548,,,,,,,,,,,,,,,,,,,59.0,,,,,,,,,,,,90.0,,,Surgery,,,,,,,Male,,,,,
