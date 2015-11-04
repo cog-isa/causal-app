@@ -22,7 +22,7 @@ import java.util.*;
 public class GAAQClassifier extends AbstractClassifier {
 
     private static final Logger logger = LogManager.getLogger(GAAQClassifier.class.getSimpleName());
-    private static final int RESTART_NUMBER = 2;
+    private static final int RESTART_NUMBER = 1;
 
     private List<String> classes;
     private Map<String, AQClassDescription> classMapDescriptions = new HashMap<>();
@@ -61,6 +61,19 @@ public class GAAQClassifier extends AbstractClassifier {
         buildRules(testData);
     }
 
+    private ArrayList<Integer> getOnesPositions(int number) {
+        int buff = number, ed = 1;
+        ArrayList<Integer> ones_pos = new ArrayList<>();
+        int shift = 0;
+        while (buff != 0) {
+            ++shift;
+            if ((buff & ed) == 1)
+                ones_pos.add(shift);
+            buff = buff >> 1;
+        }
+        return ones_pos;
+    }
+
     private void buildRules(Instances testData) throws IOException {
         Enumeration classEnum = testData.classAttribute().enumerateValues();
         while (classEnum.hasMoreElements()) {
@@ -73,7 +86,7 @@ public class GAAQClassifier extends AbstractClassifier {
             int numObjectsPos = testData.attributeStats(testData.classIndex()).nominalCounts[classIndex];
             int numAttr = testData.numAttributes() - 1;
 
-            long start, finish;
+            long start, finish, prev_finish;
             double truthvalue;
             int cn;
             int n;
@@ -94,13 +107,12 @@ public class GAAQClassifier extends AbstractClassifier {
             truthvalue = 2;
 
             start = System.currentTimeMillis();
-            logger.info("Loading...");
 
             cn = 5;
-            n = 500;
+            n = 400;//500
             numgen = numAttr;//data 13, data2 31
-            sizegen = 4;
-            ngen = 50;
+            sizegen = 24;
+            ngen = 40;//50
             nadapt = 8;
             socialcard = (int) (0.05 * (n));//социальная карта
             socialfine = (int) (0.04 * (n / cn));//штраф
@@ -133,6 +145,7 @@ public class GAAQClassifier extends AbstractClassifier {
 
                                 if (!featureMap.containsKey(attrCounter)) {
                                     CRFeature feature = new CRFeature(attr.name());
+                                    feature.setNumValues(attr.numValues());
                                     featureMap.put(attrCounter, feature);
                                 }
                                 break;
@@ -148,6 +161,7 @@ public class GAAQClassifier extends AbstractClassifier {
                                     feature.getCutPoints().add(min + inter / 3);
                                     feature.getCutPoints().add(min + 2 * inter / 3);
                                     feature.getCutPoints().add(max);
+                                    feature.setNumValues(3);
                                     featureMap.put(attrCounter, feature);
                                 }
                                 break;
@@ -165,7 +179,7 @@ public class GAAQClassifier extends AbstractClassifier {
                     objCounter++;
             }
 
-            logger.info("Data is loaded.");
+            logger.info("Data is loaded. Class Index: " + classIndex + ", positive: " + numObjectsPos + ", negative: " + (numObjects - numObjectsPos));
 
             boolean found;
             //////////////////////////////////////////////
@@ -198,6 +212,7 @@ public class GAAQClassifier extends AbstractClassifier {
             //////////////////////////////////////////////
 
             logger.info("Searching...");
+            prev_finish = System.currentTimeMillis();
             Population[] BestPop = new Population[2000];
             int num_ob, num_new_ob, num_ob_miss;
             int covered_objects = 0;
@@ -233,7 +248,8 @@ public class GAAQClassifier extends AbstractClassifier {
 
                     //генетический алгоритм
                     finish = System.currentTimeMillis();
-                    logger.info("Search was finished for  " + (finish - start) + "ms");
+                    logger.info("Search was finished for  " + ((finish - prev_finish)/1000) + "s. The whole time: " + ((finish-start)/60000) + "min");
+                    prev_finish = finish;
 
                     double bg = mainCpop.pop[0].bestgenotype.fit;
                     mainCpop.bestpop = mainCpop.pop[0];
@@ -356,25 +372,16 @@ public class GAAQClassifier extends AbstractClassifier {
                 BestPop[sizeBestPop - 1] = new Population(1, numgen, sizegen, tobj0, tobj, fobj);
             }
 
-            //Integer[][] map_atr = new Integer[8][];
-            Integer[][] map_atr = new Integer[16][];
+            /*double grade = Math.pow(2.0, (double)sizegen);
+            int igrade = (int)grade;
+            Integer[][] map_atr = new Integer[igrade][];
             map_atr[0] = new Integer[]{0};
-            map_atr[1] = new Integer[]{1};
-            map_atr[2] = new Integer[]{2};
-            map_atr[3] = new Integer[]{1, 2};
-            map_atr[4] = new Integer[]{3};
-            map_atr[5] = new Integer[]{1, 3};
-            map_atr[6] = new Integer[]{2, 3};
-            map_atr[7] = new Integer[]{1, 2, 3};
-
-            map_atr[8] = new Integer[]{4};
-            map_atr[9] = new Integer[]{1, 4};
-            map_atr[10] = new Integer[]{2, 4};
-            map_atr[11] = new Integer[]{1, 2, 4};
-            map_atr[12] = new Integer[]{3, 4};
-            map_atr[13] = new Integer[]{1, 3, 4};
-            map_atr[14] = new Integer[]{2, 3, 4};
-            map_atr[15] = new Integer[]{1, 2, 3, 4};
+            for(int f = 1; f < igrade; ++f) {
+                ArrayList<Integer> ones_pos = getOnesPositions(f);
+                map_atr[f] = new Integer[ones_pos.size()];
+                for(int j=0; j<map_atr[f].length; ++j)
+                    map_atr[f][j] = ones_pos.get(j);
+            }*/
 
 
             StringBuilder result = new StringBuilder();
@@ -389,8 +396,18 @@ public class GAAQClassifier extends AbstractClassifier {
                 result.append("RULE_").append(bp + 1).append(":\n");
                 for (int i = 0; i < BestPop[bp].bestgenotype.numGenes; ++i) {
                     if (essential.get(bp).get(i)) {
-                        rule.getTokens().put(featureMap.get(i), Arrays.asList(map_atr[BestPop[bp].bestgenotype.genes[i]]));
-                        result.append("attr_").append(i + 1).append("=").append(Arrays.toString(map_atr[BestPop[bp].bestgenotype.genes[i]])).append("\n");
+                        ArrayList<Integer> ones_pos = getOnesPositions(BestPop[bp].bestgenotype.genes[i]);
+                        ArrayList<Integer> ones_pos_limited = new ArrayList<>();;
+                        for(int j=0; j<ones_pos.size(); ++j) {
+                            if (ones_pos.get(j) <= featureMap.get(i).getNumValues()) {
+                                ones_pos_limited.add(ones_pos.get(j));
+                            } else
+                                break;
+                        }
+                        if(ones_pos_limited.size()==0)
+                            continue;
+                        rule.getTokens().put(featureMap.get(i), ones_pos_limited);
+                        result.append("attr_").append(i + 1).append("=").append(ones_pos_limited.toString()).append("\n");
                     }
                 }
                 classRules.add(rule);

@@ -23,6 +23,8 @@ public class CRFeature {
     private double upLimit;
     @XmlAttribute
     private double downLimit;
+    @XmlAttribute
+    private int numValues;
 
     public CRFeature() {
     }
@@ -61,6 +63,14 @@ public class CRFeature {
 
     public void setDownLimit(double downLimit) {
         this.downLimit = downLimit;
+    }
+
+    public double getNumValues() {
+        return numValues;
+    }
+
+    public void setNumValues(int numValues) {
+        this.numValues = numValues;
     }
 
     @Override
