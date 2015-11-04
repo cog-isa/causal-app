@@ -21,9 +21,10 @@ public class Genotype {
 
     private Random rand = new Random(System.currentTimeMillis());
 
-    public void init() {
-        for (int i = 0; i < numGenes; ++i)
-            genes[i] = rand.nextInt(DEG[sizeGen]);
+    public void init(int [] numvalgen) {
+        for (int i = 0; i < numGenes; ++i) {
+            genes[i] = rand.nextInt(DEG[numvalgen[i]]);
+        }
         setCoords();
     }
 
@@ -35,12 +36,12 @@ public class Genotype {
     }
 
     //lambda - сколько в среднем должно мутировать
-    public void mutation(double lambda) {
+    public void mutation(double lambda, int [] numvalgen) {
         double r, puass, el;
         long factor;
         int m, intr, j, h;
 
-        r = rand.nextDouble() / 32767.0;
+        r = rand.nextDouble();// / 32767.0;
         m = 0;
         el = Math.exp(-lambda);
         puass = Math.pow(lambda, m) * el;
@@ -52,9 +53,11 @@ public class Genotype {
         }
 
         for (int i = 0; i < m; ++i) {
-            intr = rand.nextInt(numpoints);
-            j = intr / sizeGen;
-            h = intr % sizeGen;
+            //intr = rand.nextInt(numpoints);
+            //j = intr / sizeGen;
+            //h = intr % sizeGen;
+            j = rand.nextInt(numGenes);
+            h = rand.nextInt(numvalgen[j]);
             if ((genes[j] & DEG[h]) != 0)
                 genes[j] -= DEG[h];
             else
