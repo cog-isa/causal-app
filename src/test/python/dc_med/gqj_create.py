@@ -37,9 +37,11 @@ data = data.dropna(subset=[target_column])
 data = data.dropna(axis=1, how='all')
 
 f = open(output_file, 'w')
+# in weka indexes of nominal columns (from 1)
 f.write(str(data.columns.get_loc(target_column)) + '\n' +
         ','.join([str(data.columns.get_loc(x) + 1) for x in saved_category_names if x in data.columns]) + '\n')
-f.write(';'.join([str(str(data.columns.get_loc(x))) + ':' +
+# in weka indexes of nominal columns (from 1)
+f.write(';'.join([str(str(data.columns.get_loc(x) + 1)) + ':' +
                   ','.join(list(data[x].cat.categories)) for x in saved_category_names if x in data.columns]) + '\n')
 f.flush()
 
