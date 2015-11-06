@@ -63,27 +63,30 @@ public abstract class AbstractJSMAnalyzer {
     private void factBaseAnalyze(JSMFactBase factBase, CRProperty property, List<JSMHypothesis> causes, List<CRProperty> otherProps) {
         factBase.reduceEquals();
 
-        if (!factBase.isConflicted()) {
-            logger.info("Start search causes for " + property.toString() + " [plus_ex=" + factBase.plusExamples.size() +
-                    ", minus_ex=" + factBase.minusExamples.size() + ", univer=" + factBase.universe.size() + "]");
+        logger.info("Start search causes for " + property.toString() + " [plus_ex=" + factBase.plusExamples.size() +
+                ", minus_ex=" + factBase.minusExamples.size() + ", univer=" + factBase.universe.size() + "]");
 
-            JSMHypothesis cause = new JSMHypothesis(property);
-            List<JSMIntersection> hypothesis = reasons(factBase, 0);
-            for (JSMIntersection intersection : hypothesis) {
-                Set<CRProperty> causeProps = new HashSet<>();
-                for (int i = 0; i < intersection.value.length(); i++)
-                    if (intersection.value.get(i))
-                        causeProps.add(otherProps.get(i));
-                if (causeProps.size() > 0)
-                    cause.addValue(intersection.generators.size(), causeProps);
-            }
-            if (cause.size() > 0) {
-                causes.add(cause);
-                logger.info(cause.toString());
-            }
-        } else {
+        if (factBase.isConflicted()) {
+            int deleted = factBase.clearConflicts();
             logger.warn("Fact base is conflicted for property " + property.toString());
+            logger.info("Was deleted " + deleted + " negative examples");
         }
+
+        JSMHypothesis cause = new JSMHypothesis(property);
+        List<JSMIntersection> hypothesis = reasons(factBase, 0);
+        for (JSMIntersection intersection : hypothesis) {
+            Set<CRProperty> causeProps = new HashSet<>();
+            for (int i = 0; i < intersection.value.length(); i++)
+                if (intersection.value.get(i))
+                    causeProps.add(otherProps.get(i));
+            if (causeProps.size() > 0)
+                cause.addValue(intersection.generators.size(), causeProps);
+        }
+        if (cause.size() > 0) {
+            causes.add(cause);
+            logger.info(cause.toString());
+        }
+
     }
 
     public void setMaxHypothesisLength(int maxHypothesisLength) {

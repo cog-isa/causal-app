@@ -124,4 +124,21 @@ public class JSMFactBase {
         }
         return false;
     }
+
+    public int clearConflicts(){
+        List<Integer> toDelete = new LinkedList<>();
+
+        for (Integer plusKey : plusExamples.keySet()) {
+            for (Integer minusKey : minusExamples.keySet()) {
+                if (BooleanArrayUtils.equals(plusExamples.get(plusKey), minusExamples.get(minusKey)))
+                    toDelete.add(minusKey);
+            }
+        }
+
+        for(Integer toDel : toDelete){
+            minusExamples.remove(toDel);
+        }
+
+        return toDelete.size();
+    }
 }

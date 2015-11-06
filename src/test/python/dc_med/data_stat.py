@@ -31,4 +31,6 @@ for x in data.columns:
         # elif not x == 0:
         #     data[x], saved_bins[x] = pd.cut(column, 3, retbins=True, labels=['1', '2', '3'])
         print(x, '->', saved_column_names[x], '->', *saved_category_names[x])
+    else:
+        print(x, '->', saved_column_names[x])
 

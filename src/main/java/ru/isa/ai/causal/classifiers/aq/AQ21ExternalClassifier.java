@@ -258,11 +258,24 @@ public class AQ21ExternalClassifier extends AbstractClassifier {
             }
             builderRuns.append("\trules_for_").append(val.toString()).append("\n");
             builderRuns.append("\t{\n");
+            builderRuns.append("\t\tAmbiguity = IgnoreForLearning\n");
+            builderRuns.append("\t\tDisplay_selectors_coverage = false\n");
+            builderRuns.append("\t\tDisplay_events_covered = true\n");
             builderRuns.append("\t\tConsequent = [class=").append(val.toString()).append("]\n");
-            builderRuns.append("\t\tMode = TF\n");
-            builderRuns.append("\tAmbiguity = IgnoreForLearning\n");
-            builderRuns.append("\tDisplay_selectors_coverage = false\n");
-            builderRuns.append("\tDisplay_events_covered = true\n");
+            builderRuns.append("\t\tMaxrule = 5\n"); // количество ветвлений (чем меньше, тем быстрее работает)
+            builderRuns.append("\t\tMaxstar = 2\n"); // количество правил в памяти
+            /*
+            Learning mode is used to select which algorithm will be used for rule learning. In TF (Theory
+            Formation) mode, learned rules are complete and consistent, while in PD (Pattern Discovery)
+            and ATF (Approximate Theory Formation) modes, they may be neither complete nor consistent.
+            Rules learned in PD and ATF modes are optimized according to value of Q(w). In the PD mode,
+            AQ21 optimizes rules while learning them (in the star generation phase), while in the ATF mode
+            initially complete and consistent rules are learned (as in the TF mode), but later the rules are
+            optimized according to their Q(w) measure, which may cause a loss of completeness and/or
+            consistency.
+            */
+            builderRuns.append("\t\tMode = ATF\n");
+
             builderRuns.append("\t}\n");
             i++;
         }
@@ -296,6 +309,7 @@ public class AQ21ExternalClassifier extends AbstractClassifier {
         // Условия запуска aq21
         builder.append("Runs\n");
         builder.append("{\n");
+        builder.append("\tAttribute_selection_method = promise\n");
         builder.append(builderRuns);
         builder.append("}\n");
 
