@@ -15,6 +15,7 @@ def load_data(input_name, goal_column):
     saved_column_names.extend(list(data.columns))
     data.columns = [x for x in range(col_len)]
 
+    # convert different types to days items
     for i in range(len(data[21].values)):
         value = data[19][i]
         if value == 'Months':
@@ -23,9 +24,19 @@ def load_data(input_name, goal_column):
             data.loc[i, 21] *= 7
         elif value == 'Years':
             data.loc[i, 21] *= 365
-
     data = data.drop(19, axis=1)
 
+    row_to_drop = []
+    for i in range(len(data[34].values)):
+        y = data[34][i]
+        if y == 'Complete response' or y == 'Partial Response':
+            data.loc[i, 34] = 'Success'
+        elif y == 'Progressive Disease' or y == 'Stable Disease' or y == 'Death':
+            data.loc[i, 34] = 'Fail'
+        elif y == 'Not applicable' or y == 'Not evaluable':
+            row_to_drop.append(i)
+
+    data = data.drop(row_to_drop)
     # replace '-' to NaN and rename categories to floats
 
     single_cat_columns = []
@@ -57,8 +68,8 @@ def load_data(input_name, goal_column):
 
 if __name__ == "__main__":
     input_file = 'real_sample_2.csv'
-    output_file = 'real_class_20.gqj'
-    target_column = 20  # 34
+    output_file = 'real_merged_34.gqj'
+    target_column = 34  # 20
 
     data = load_data(input_file, target_column)
 
