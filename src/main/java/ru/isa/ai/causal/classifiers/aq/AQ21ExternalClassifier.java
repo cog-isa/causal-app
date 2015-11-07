@@ -161,6 +161,7 @@ public class AQ21ExternalClassifier extends AbstractClassifier {
             throw new AQClassifierException("Cannot read output of aq command", e);
         }
         classRules = new HashMap<>();
+        logger.info("AQ result:\n" + resultBuilder.toString());
         parseResult(resultBuilder.toString(), data);
     }
 
