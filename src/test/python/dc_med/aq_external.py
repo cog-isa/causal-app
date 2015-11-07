@@ -1,6 +1,7 @@
 __author__ = 'Aleksandr Panov'
 
 import subprocess
+import sys
 import pandas as pd
 import numpy as np
 
@@ -124,6 +125,7 @@ if __name__ == "__main__":
     f.write(input_text)
     f.flush()
 
+    ex_name = 'aq21' if sys.platfrom == 'linux' else 'aq21.exe'
     output = subprocess.Popen(['aq21.exe', file_name], stdout=subprocess.PIPE).communicate()[0]
 
     print(output)
