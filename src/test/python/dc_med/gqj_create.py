@@ -31,7 +31,7 @@ def load_data(input_name, goal_column):
         y = data[34][i]
         if y == 'Complete response' or y == 'Partial Response':
             data.loc[i, 34] = 'Success'
-        elif y == 'Progressive Disease' or y == 'Stable Disease' or y == 'Death':
+        elif y == 'Progressive Disease' or y == 'Stable Disease' or y =='Stable Desease' or y == 'Death':
             data.loc[i, 34] = 'Fail'
         elif y == 'Not applicable' or y == 'Not evaluable':
             row_to_drop.append(i)
