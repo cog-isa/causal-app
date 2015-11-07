@@ -552,8 +552,8 @@ public class AQ21ExternalClassifier extends AbstractClassifier {
 //                        next_value = end_line + 1;
 //                    }
 //                }
-
-                classRules.add(rule);
+                if (rule.getTokens().size() > 0)
+                    classRules.add(rule);
             }
             this.classRules.put(className, classRules);
         }
