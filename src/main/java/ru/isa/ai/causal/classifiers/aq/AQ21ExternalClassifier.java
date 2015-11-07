@@ -275,7 +275,7 @@ public class AQ21ExternalClassifier extends AbstractClassifier {
             optimized according to their Q(w) measure, which may cause a loss of completeness and/or
             consistency.
             */
-            builderRuns.append("\t\tMode = ATF\n");
+            builderRuns.append("\t\tMode = TF\n");
 
             builderRuns.append("\t}\n");
             i++;
