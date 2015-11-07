@@ -126,6 +126,6 @@ if __name__ == "__main__":
     f.flush()
 
     ex_name = 'aq21' if sys.platform == 'linux' else 'aq21.exe'
-    output = subprocess.Popen(['aq21.exe', file_name], stdout=subprocess.PIPE).communicate()[0]
+    output = subprocess.Popen([ex_name, file_name], stdout=subprocess.PIPE).communicate()[0]
 
     print(output)
