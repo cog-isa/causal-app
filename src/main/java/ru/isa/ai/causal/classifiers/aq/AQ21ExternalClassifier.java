@@ -427,6 +427,8 @@ public class AQ21ExternalClassifier extends AbstractClassifier {
                         List<Integer> values = new ArrayList<>();
                         float top = Float.MAX_VALUE;
                         float bottom = Float.MAX_VALUE;
+                        float top2 = Float.MAX_VALUE;
+                        float bottom2 = Float.MAX_VALUE;
                         if (partString.contains(">=")) {
                             Scanner scanner = getScanner(partString, Pattern.compile("_|>="));
                             scanner.next();
@@ -439,8 +441,16 @@ public class AQ21ExternalClassifier extends AbstractClassifier {
                             attrIndex = scanner.nextInt();
                             top = scanner.nextFloat();
                             bottom = Float.MIN_VALUE;
-                        } else if (partString.contains("=") && partString.contains("..")) {
-                            Scanner scanner = getScanner(partString, Pattern.compile("_|=|\\.{2}"));
+                        } else if (partString.contains("=") && partString.contains("..") && partString.contains(",")) {
+                            Scanner scanner = getScanner(partString, Pattern.compile("_|=|\\.{2}|,"));
+                            scanner.next();
+                            attrIndex = scanner.nextInt();
+                            bottom = scanner.nextFloat();
+                            top = scanner.nextFloat();
+                            bottom2 = scanner.nextFloat();
+                            top2 = scanner.nextFloat();
+                        } else if (partString.contains("=") && partString.contains("..")){
+                            Scanner scanner = getScanner(partString, Pattern.compile("_|=|\\.{2}|,"));
                             scanner.next();
                             attrIndex = scanner.nextInt();
                             bottom = scanner.nextFloat();
@@ -471,7 +481,21 @@ public class AQ21ExternalClassifier extends AbstractClassifier {
                                     break;
                                 }
                             }
-
+                            if(bottom2 != Float.MAX_VALUE && top2 != Float.MAX_VALUE){
+                                for (int j = 0; j < attribute.getCutPoints().size() - 1; j++) {
+                                    if (Math.abs(attribute.getCutPoints().get(j) - bottom2) < PRESICION) {
+                                        for (int k = j + 1; k < attribute.getCutPoints().size(); k++) {
+                                            if (top2 <= (attribute.getCutPoints().get(k) + PRESICION)) {
+                                                for (int l = 0; l < k - j; l++) {
+                                                    values.add(j + l + 1);
+                                                }
+                                                break;
+                                            }
+                                        }
+                                        break;
+                                    }
+                                }
+                            }
                         } else if (top != Float.MIN_VALUE) {
                             values.add(1);
                             values.add(2);
