@@ -49,7 +49,7 @@ def _generate_attrs(data):
     result = ''
     for column in data.columns:
         result += data[column].name
-        if hasattr(data[column], 'cat'):
+        if data[column].dtype.name == 'category':
             result += ' nominal {' + ', '.join(data[column].cat.categories) + '}'
         else:
             result += ' continuous ChiMerge 3'
