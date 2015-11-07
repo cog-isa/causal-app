@@ -449,7 +449,7 @@ public class AQ21ExternalClassifier extends AbstractClassifier {
                             top = scanner.nextFloat();
                             bottom2 = scanner.nextFloat();
                             top2 = scanner.nextFloat();
-                        } else if (partString.contains("=") && partString.contains("..")){
+                        } else if (partString.contains("=") && partString.contains("..")) {
                             Scanner scanner = getScanner(partString, Pattern.compile("_|=|\\.{2}|,"));
                             scanner.next();
                             attrIndex = scanner.nextInt();
@@ -466,26 +466,13 @@ public class AQ21ExternalClassifier extends AbstractClassifier {
                             bottom = Float.MIN_VALUE;
                         }
 
-                        CRFeature attribute = attributeMap.get(attrIndex);
-                        if (top != Float.MIN_VALUE && bottom != Float.MIN_VALUE) {
-                            for (int j = 0; j < attribute.getCutPoints().size() - 1; j++) {
-                                if (Math.abs(attribute.getCutPoints().get(j) - bottom) < PRESICION) {
-                                    for (int k = j + 1; k < attribute.getCutPoints().size(); k++) {
-                                        if (top <= (attribute.getCutPoints().get(k) + PRESICION)) {
-                                            for (int l = 0; l < k - j; l++) {
-                                                values.add(j + l + 1);
-                                            }
-                                            break;
-                                        }
-                                    }
-                                    break;
-                                }
-                            }
-                            if(bottom2 != Float.MAX_VALUE && top2 != Float.MAX_VALUE){
+                        if (attrIndex != -1) {
+                            CRFeature attribute = attributeMap.get(attrIndex);
+                            if (top != Float.MIN_VALUE && bottom != Float.MIN_VALUE) {
                                 for (int j = 0; j < attribute.getCutPoints().size() - 1; j++) {
-                                    if (Math.abs(attribute.getCutPoints().get(j) - bottom2) < PRESICION) {
+                                    if (Math.abs(attribute.getCutPoints().get(j) - bottom) < PRESICION) {
                                         for (int k = j + 1; k < attribute.getCutPoints().size(); k++) {
-                                            if (top2 <= (attribute.getCutPoints().get(k) + PRESICION)) {
+                                            if (top <= (attribute.getCutPoints().get(k) + PRESICION)) {
                                                 for (int l = 0; l < k - j; l++) {
                                                     values.add(j + l + 1);
                                                 }
@@ -495,18 +482,34 @@ public class AQ21ExternalClassifier extends AbstractClassifier {
                                         break;
                                     }
                                 }
+                                if (bottom2 != Float.MAX_VALUE && top2 != Float.MAX_VALUE) {
+                                    for (int j = 0; j < attribute.getCutPoints().size() - 1; j++) {
+                                        if (Math.abs(attribute.getCutPoints().get(j) - bottom2) < PRESICION) {
+                                            for (int k = j + 1; k < attribute.getCutPoints().size(); k++) {
+                                                if (top2 <= (attribute.getCutPoints().get(k) + PRESICION)) {
+                                                    for (int l = 0; l < k - j; l++) {
+                                                        values.add(j + l + 1);
+                                                    }
+                                                    break;
+                                                }
+                                            }
+                                            break;
+                                        }
+                                    }
+                                }
+                            } else if (top != Float.MIN_VALUE) {
+                                values.add(1);
+                                values.add(2);
+                            } else if (bottom != Float.MIN_VALUE) {
+                                values.add(2);
+                                values.add(3);
                             }
-                        } else if (top != Float.MIN_VALUE) {
-                            values.add(1);
-                            values.add(2);
-                        } else if (bottom != Float.MIN_VALUE) {
-                            values.add(2);
-                            values.add(3);
+                            rule.getTokens().put(attribute, values);
                         }
-                        rule.getTokens().put(attribute, values);
                     } else {
                         endOfRule = true;
                     }
+
                 }
                 // считываем количество покрытых положительных примеров
                 int startInfo = result.indexOf(info_start_indicator, startRule);
