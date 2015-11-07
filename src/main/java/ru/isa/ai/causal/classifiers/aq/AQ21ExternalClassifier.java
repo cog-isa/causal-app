@@ -540,8 +540,8 @@ public class AQ21ExternalClassifier extends AbstractClassifier {
                     int counter = 0;
                     while(counter < coverage) {
                         int end_line = result.indexOf("\n", next_value);
-                        int last_part = result.lastIndexOf(",", end_line);
-                        if (last_part != -1) {
+                        if(end_line - next_value > 1) {
+                            int last_part = result.lastIndexOf(",", end_line);
                             int event_number = getScanner(result.substring(last_part + 1, end_line), Pattern.compile("\\s")).nextInt();
                             rule.addCoveredInstance(testData.get(event_number - 1));
                             counter++;
