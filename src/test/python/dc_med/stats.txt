@@ -1,0 +1,46 @@
+0 -> DTH/Антиген -> b'Control antigen' b'Tumor antigen'
+1 -> DTH/Качественное значение -> b'No' b'Not done' b'Yes'
+2 -> DTH/Количественное значение до иммунизации
+3 -> DTH/Количественное значение после иммунизации
+4 -> ELISPOT/Антиген -> b'Control antigen' b'Tumor antigen'
+5 -> ELISPOT/Качественное значение -> b'No' b'Not done' b'Yes'
+6 -> ELISPOT/Количественное значение до иммунизации
+7 -> ELISPOT/Количественное значение после иммунизации
+8 -> Адъювант в составе вакцины/Значение -> b'Flt3L' b'KLH' b'None'
+9 -> Антиген-специфические лимфоциты in vitro/Антиген -> b'Control antigen' b'Tumor antigen'
+10 -> Антиген-специфические лимфоциты in vitro/Качественное значение -> b'No' b'Yes'
+11 -> Вакцинация/ГРУППА: наибольшее значение кол-ва введенных клеток
+12 -> Вакцинация/ГРУППА: наименьшее значение кол-ва введенных клеток
+13 -> Вакцинация/Кол-во клеток введенных за одну вакцинацию
+14 -> Вакцинация/Количество вакцинаций
+15 -> Вакцинация/Общее количество введенных клеток
+16 -> Возраст/ГРУППА: наибольшее значение
+17 -> Возраст/ГРУППА: наименьшее значение
+18 -> Возраст/Точное значение или медиана (для группы)
+19 -> Выживаемость/Единицы измерения -> b'Days' b'Months' b'Weeks' b'Years'
+20 -> Выживаемость/Результат -> b'Dead' b'Live'
+21 -> Выживаемость/Срок дожития/наблюдения
+22 -> Гаплотип/Значение -> b'HLA-11' b'HLA-24' b'HLA-A*0201' b'HLA-A*2402' b'HLA-A1' b'HLA-A2' b'HLA-A2 negative' b'HLA-A201' b'HLA-A24' b'HLA-A30'
+23 -> Диагноз/Значение -> b'Bladder cancer' b'Breast cancer' b'Cervical cancer' b'Cholangiocellular carcinoma' b'Colon cancer' b'Colorectal cancer' b'Fibrosarcoma' b'Glioblastoma' b'Glioma' b'Head and neck' b'Hepatocellular carcinoma' b'Lung cancer' b'Melanoma' b'Nasopharyngeal carcinoma' b'Ovarian cancer' b'Pancreatic cancer' b'Prostate cancer' b'Rectum cancer' b'Renal cancer' b'Solid malignancies' b'Stomach cancer' b'Thyroid Cancer'
+24 -> Иммунный статус до иммунизации/Значение -> b'Abnormal' b'Normal'
+25 -> Индекс ECOG/ГРУППА: наибольшее значение
+26 -> Индекс ECOG/ГРУППА: наименьшее значение
+27 -> Индекс ECOG/Точное значение или медиана (для группы)
+28 -> Индекс Карновского/ГРУППА: наибольшее значение
+29 -> Индекс Карновского/ГРУППА: наименьшее значение
+30 -> Индекс Карновского/Точное значение или медиана (для группы)
+31 -> Индукторы созревания ДК/Значение -> b'Flt3L' b'GM-CSF' b'IL-1\xce\xb2' b'Microorganisms and their fragments' b'OK-432' b'PGE2' b'TNF-\xce\xb1'
+32 -> Источник дендритных клеток/Значение -> b'HSC' b'Monocytes'
+33 -> Лечение до иммунизации/Значение -> b'Chemotherapy' b'Hormonal therapy' b'Immunotherapy' b'Not done' b'Radiotherapy' b'Surgery' b'Target therapy'
+34 -> Объективный клинический ответ/Значение -> b'Complete response' b'Death' b'Not applicable' b'Not evaluable' b'Partial Response' b'Progressive Disease' b'Stable Desease'
+35 -> Опухолевые маркеры/Качественное значение -> b'Decrease' b'Increase' b'Yes'
+36 -> Опухолевые маркеры/Количественное значение до вакцинации
+37 -> Опухолевые маркеры/Количественное значение после вакцинации
+38 -> Опухолевые маркеры/Тип маркера -> b'AFP' b'CA-125' b'CA-19' b'CEA' b'HER-2/Neu' b'HPV16/18 E7' b'PSA'
+39 -> Побочные эффекты/Значение -> b'None' b'Not applicable' b'Not significant' b'Significant'
+40 -> Пол/Значение -> b'Female' b'Male'
+41 -> Раса/Значение -> b'Caucasoid'
+42 -> Сопутствующая терапия/Значение -> b'Chemotherapy' b'Immunotherapy' b'None' b'Radiotherapy' b'Surgery'
+43 -> Способ введения вакцины/Значение -> b'Intracutaneously' b'Intradermal' b'Intralymphatically' b'Intravenously' b'Subcutaneously'
+44 -> Стадия заболевания/Значение -> b'I' b'II' b'III' b'IV' b'Metastatic' b'Recurrent'
+45 -> Тип вакцины/Значение -> b'Co-culture' b'Expression vector' b'Lysate' b'Peptide' b'Protein' b'RNA'

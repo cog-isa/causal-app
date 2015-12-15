@@ -1,0 +1,43 @@
+Problem_description
+{
+	Building rules for classes
+}
+Attributes
+{
+	class nominal {1,2}
+	x2 continuous ChiMerge 3
+	x3 continuous ChiMerge 3
+	x4 continuous ChiMerge 3
+}
+Runs
+{
+	rules_for_1
+	{
+		Consequent = [class=1]
+		Mode = TF
+		Ambiguity = IgnoreForLearning
+		Display_selectors_coverage = false
+		Display_events_covered = true
+	}
+	rules_for_2
+	{
+		Consequent = [class=2]
+		Mode = TF
+		Ambiguity = IgnoreForLearning
+		Display_selectors_coverage = false
+		Display_events_covered = true
+	}
+}
+Events
+{
+	1,1,1,1
+	1,2,2,1
+	1,1,1,2
+	1,2,1,1
+	2,2,2,2
+	2,1,2,3
+	2,1,1,3
+	2,3,1,3
+	2,3,1,1
+	2,2,1,2
+}

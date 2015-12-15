@@ -79,8 +79,6 @@ def _generate_runs(data):
 
 
 def _generate_events(data):
-#    columns = list(data.columns)
-#    columns.remove(class_column)
     result = data.to_csv(None, sep=',', na_rep='?', index=False, header=False)
     return result
 
@@ -126,6 +124,6 @@ if __name__ == "__main__":
     f.flush()
 
     ex_name = './aq21' if sys.platform == 'linux' else 'aq21.exe'
-    output = subprocess.Popen([ex_name, file_name], stdout=subprocess.PIPE).communicate()[0]
+    output = subprocess.Popen([ex_name, file_name], stdout=subprocess.PIPE).communicate()[0].decode('utf-8')
 
     print(output)
