@@ -79,7 +79,7 @@ public abstract class AbstractJSMAnalyzer {
             for (int i = 0; i < intersection.value.length(); i++)
                 if (intersection.value.get(i))
                     causeProps.add(otherProps.get(i));
-            if (causeProps.size() > 0)
+            if (causeProps.size() > 0 && causeProps.size() <= maxHypothesisLength)
                 cause.addValue(intersection.generators.size(), causeProps);
         }
         if (cause.size() > 0) {
