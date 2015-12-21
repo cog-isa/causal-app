@@ -171,6 +171,10 @@ public class AQJSM {
                     case jsm:
                         for (AQClassDescription description : classDescriptions) {
                             if (classes.isEmpty() || classes.contains(description.getClassName())) {
+                                if (description.getDescription().size() > maxUniverseSize) {
+                                    logger.info("Reduce description size to " + maxUniverseSize);
+                                    description.setDescription(description.getDescription().subList(0, maxUniverseSize));
+                                }
                                 AbstractJSMAnalyzer analyzer = new NorrisJSMAnalyzer(description, data);
                                 analyzer.setMaxHypothesisLength(maxHypothesisLength);
                                 List<JSMHypothesis> hypothesises = analyzer.evaluateCauses();

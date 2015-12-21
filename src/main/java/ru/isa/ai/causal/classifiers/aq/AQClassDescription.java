@@ -26,6 +26,10 @@ public class AQClassDescription {
         return description;
     }
 
+    public void setDescription(List<CRProperty> description) {
+        this.description = description;
+    }
+
     public String getClassName() {
         return className;
     }
