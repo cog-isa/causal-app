@@ -3,12 +3,35 @@ class Fact:
         self.attr_id = attr_id
         self.values = values
         self.attr_name = attr_name
+        self.coverage = 0
 
     def __str__(self):
         return '{0}={1}'.format(self.attr_name, self.values)
 
     def __repr__(self):
         return 'attr_{0}={1}'.format(self.attr_id, self.values)
+
+    def __hash__(self):
+        return 3 * hash(self.attr_id) + 5 * hash(self.values)
+
+    def __eq__(self, other):
+        if not self.attr_id == other.attr_id:
+            return False
+        elif not self.values == other.values:
+            return False
+        return True
+
+    def __gt__(self, other):
+        if self.attr_id == other.attr_id and self.values > other.values:
+            return True
+        else:
+            return False
+
+    def __lt__(self, other):
+        if self.attr_id == other.attr_id and self.values < other.values:
+            return True
+        else:
+            return False
 
 
 class Rule:
@@ -45,11 +68,32 @@ class ClassDescription:
             self.rules = rules
         else:
             self.rules = []
+        self.properties = []
 
     def __str__(self):
-        s = sum([len(r.facts) for r in self.rules])
-        return 'Description of class {0} ({1} rules, {2} facts):\n'.format(self.class_name, len(self.rules),
-                                                                           s) + '\n'.join([str(r) for r in self.rules])
+        return 'Description of class {0} ({1} properties):\n\t'.format(self.class_name,
+                                                                       len(self.properties)) + '\n\t'.join(
+            ['{0:>3}: '.format(r.coverage) + str(r) for r in self.properties])
 
     def __repr__(self):
-        return '[{0}]'.format(' '.join([repr(r) for r in self.rules]))
+        return '[{0}]'.format(' '.join([repr(r) for r in self.properties]))
+
+    def build(self):
+        for rule in self.rules:
+            coverage = rule.covered_positives
+            for fact in rule.facts:
+                to_delete = []
+                for old_fact in self.properties:
+                    if fact == old_fact and fact.coverage >= coverage:
+                        break
+                    if old_fact > fact:
+                        break
+                    if old_fact < fact:
+                        to_delete.append(old_fact)
+                else:
+                    fact.coverage = coverage
+                    self.properties.append(fact)
+                    for to_del in to_delete:
+                        self.properties.remove(to_del)
+
+        self.properties.sort(key=lambda x: x.coverage, reverse=True)

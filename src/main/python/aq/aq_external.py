@@ -112,15 +112,15 @@ def _parse_result(result, column_names):
 
         for i, ((rule_id, rule), (p, np, n, q, cx, c, s)) in enumerate(zip(rule_matcher, stat_matcher)):
             r = Rule(int(rule_id), [])
-            r.covered_positives = p
-            r.covered_negatives = n
-            r.complexity = cx
-            r.cost = c
-            r.significance = s
+            r.covered_positives = int(p)
+            r.covered_negatives = int(n)
+            r.complexity = int(cx)
+            r.cost = int(c)
+            r.significance = int(s)
             part_matcher = part_regex.findall(rule)
             if part_matcher:
                 for (attr_id, value) in part_matcher:
-                    f = Fact(int(attr_id), list(map(int, value.split(','))), column_names[int(attr_id)])
+                    f = Fact(int(attr_id), set(map(int, value.split(','))), column_names[int(attr_id)])
                     r.facts.append(f)
 
             classes_for_rules[i].rules.append(r)
