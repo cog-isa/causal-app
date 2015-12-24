@@ -1,9 +1,10 @@
 import subprocess
 import sys
 import re
+from aq.aq_description import Fact, Rule, ClassDescription
 
 
-def run_aq(data, class_column):
+def run_aq(data, class_column, column_names):
     input_text = _generate_input(data, class_column)
 
     file_name = 'input.aq21'
@@ -14,7 +15,9 @@ def run_aq(data, class_column):
     ex_name = './aq/aq21' if sys.platform == 'linux' else 'aq/aq21.exe'
     output = subprocess.Popen([ex_name, file_name], stdout=subprocess.PIPE).communicate()[0].decode('utf-8')
 
-    _parse_result(output)
+    descriptions = _parse_result(output, column_names)
+
+    return descriptions
 
 
 def _generate_attrs(data):
@@ -84,21 +87,42 @@ Events
     return text
 
 
-def _parse_result(result):
+def _parse_result(result, column_names):
+    class_regex = re.compile(r'Output_Hypotheses rules_for_(\d+)\s+')
     num_regex = re.compile(r'Number of rules in the cover = (\d+)\s+')
     rule_regex = re.compile(r'# Rule (\d+)\s+<--([^:]+)')
     part_regex = re.compile(r'\s*\[attr_(\d+)=(\S+)\]')
+    stat_regex = re.compile(r': p=(\d+),np=(\d+),n=(\d+),q=(\d+\.\d+),cx=(\d+),c=(\d+),s=(\d+) #')
 
+    class_matcher = class_regex.findall(result)
     num_matcher = num_regex.findall(result)
     rule_matcher = rule_regex.findall(result)
+    stat_matcher = stat_regex.findall(result)
 
-    if num_matcher and rule_matcher:
+    descriptions = {}
+    if class_matcher and num_matcher and rule_matcher and stat_matcher:
+        class_names = list(map(int, class_matcher))
         rule_nums = list(map(int, num_matcher))
-        rule_ids = [int(x) for (x, _) in rule_matcher]
-        rules = [y for (_, y) in rule_matcher]
 
-        for rule in rules:
+        classes_for_rules = []
+        for (name, nums) in zip(class_names, rule_nums):
+            d = ClassDescription(name, [])
+            descriptions[name] = d
+            classes_for_rules.extend([d] * nums)
+
+        for i, ((rule_id, rule), (p, np, n, q, cx, c, s)) in enumerate(zip(rule_matcher, stat_matcher)):
+            r = Rule(int(rule_id), [])
+            r.covered_positives = p
+            r.covered_negatives = n
+            r.complexity = cx
+            r.cost = c
+            r.significance = s
             part_matcher = part_regex.findall(rule)
             if part_matcher:
-                attr_ids = [int(x) for (x, _) in part_matcher]
-                values = [y for (_, y) in part_matcher]
+                for (attr_id, value) in part_matcher:
+                    f = Fact(int(attr_id), list(map(int, value.split(','))), column_names[int(attr_id)])
+                    r.facts.append(f)
+
+            classes_for_rules[i].rules.append(r)
+
+    return descriptions

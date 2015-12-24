@@ -7,4 +7,6 @@ if __name__ == "__main__":
 
     print(data.shape)
 
-    aq.run_aq(data, class_column)
+    class_descriptions = aq.run_aq(data, class_column, dl.column_names)
+
+    print('\n'.join([str(class_descriptions[d]) for d in class_descriptions]))
