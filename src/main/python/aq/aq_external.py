@@ -101,11 +101,10 @@ def _parse_result(result, column_names):
 
     descriptions = {}
     if class_matcher and num_matcher and rule_matcher and stat_matcher:
-        class_names = list(map(int, class_matcher))
         rule_nums = list(map(int, num_matcher))
 
         classes_for_rules = []
-        for (name, nums) in zip(class_names, rule_nums):
+        for (name, nums) in zip(class_matcher, rule_nums):
             d = ClassDescription(name, [])
             descriptions[name] = d
             classes_for_rules.extend([d] * nums)
