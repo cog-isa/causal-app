@@ -100,7 +100,7 @@ class ClassDescription:
             for fact in rule.facts:
                 to_delete = []
                 for old_fact in self.properties:
-                    if fact == old_fact and fact.coverage >= coverage:
+                    if fact == old_fact and old_fact.coverage >= coverage:
                         break
                     if old_fact > fact:
                         break

@@ -11,8 +11,8 @@ if __name__ == "__main__":
     argparser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter)
     argparser.add_argument(dest='datafile')
     argparser.add_argument('-l', '--loglevel', choices=log_levels, default='info')
-    argparser.add_argument('-s', '--reasonsize', default=3)
-    argparser.add_argument('-u', '--univer', default=30)
+    argparser.add_argument('-s', '--reasonsize', default='3')
+    argparser.add_argument('-u', '--univer', default='30')
     args = argparser.parse_args()
 
     logging.basicConfig(level=getattr(logging, args.loglevel.upper()),
@@ -20,8 +20,8 @@ if __name__ == "__main__":
                         stream=sys.stdout)
 
     logging.info(args)
-    max_universe_size = args.univer
-    max_reason_length = args.reasonsize
+    max_universe_size = int(args.univer)
+    max_reason_length = int(args.reasonsize)
 
     data, class_column = dl.load_data(args.datafile)
 
