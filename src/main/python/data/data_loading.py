@@ -1,4 +1,5 @@
 import pandas as pd
+from aq.aq_description import Fact
 
 column_ranges = {}
 column_names = []
@@ -7,7 +8,7 @@ column_names = []
 def load_data(file_path):
     data = pd.read_csv(file_path, encoding='cp1251', sep=';', index_col=False, na_values='?', decimal=',')
     column_names.extend(list(data.columns))
-    data.columns = ['attr_' + str(x) for x in range(data.shape[1])]
+    data.columns = [Fact.canon_prefix + str(x) for x in range(data.shape[1])]
 
     # categorize nominal column 0
     data.iloc[:, 0] = data.iloc[:, 0].astype('category')

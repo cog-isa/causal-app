@@ -1,15 +1,31 @@
 class Fact:
+    canon_prefix = 'attr_'
+
     def __init__(self, attr_id, values, attr_name=''):
         self.attr_id = attr_id
         self.values = values
         self.attr_name = attr_name
         self.coverage = 0
+        self.canon_attr_name = Fact.canon_prefix + str(attr_id)
 
     def __str__(self):
-        return '{0}={1}'.format(self.attr_name, self.values)
+        value = ''
+        if self.values == {1}:
+            value = 'low'
+        if self.values == {2}:
+            value = 'mid'
+        if self.values == {3}:
+            value = 'high'
+        if self.values == {1, 2}:
+            value = 'not high'
+        if self.values == {2, 3}:
+            value = 'not low'
+        if self.values == {1, 3}:
+            value = 'not mid'
+        return '[{0} value of \'{1}\']'.format(value, self.attr_name)
 
     def __repr__(self):
-        return 'attr_{0}={1}'.format(self.attr_id, self.values)
+        return '{0}={1}'.format(self.canon_attr_name, self.values)
 
     def __hash__(self):
         return 3 * hash(self.attr_id) + 5 * hash(self.values)
@@ -78,7 +94,7 @@ class ClassDescription:
     def __repr__(self):
         return '[{0}]'.format(' '.join([repr(r) for r in self.properties]))
 
-    def build(self):
+    def build(self, max_universe_size):
         for rule in self.rules:
             coverage = rule.covered_positives
             for fact in rule.facts:
@@ -97,3 +113,4 @@ class ClassDescription:
                         self.properties.remove(to_del)
 
         self.properties.sort(key=lambda x: x.coverage, reverse=True)
+        self.properties = self.properties[:max_universe_size]

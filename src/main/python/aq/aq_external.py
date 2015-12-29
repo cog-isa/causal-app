@@ -91,7 +91,7 @@ def _parse_result(result, column_names):
     class_regex = re.compile(r'Output_Hypotheses rules_for_(\d+)\s+')
     num_regex = re.compile(r'Number of rules in the cover = (\d+)\s+')
     rule_regex = re.compile(r'# Rule (\d+)\s+<--([^:]+)')
-    part_regex = re.compile(r'\s*\[attr_(\d+)=(\S+)\]')
+    part_regex = re.compile(r'\s*\[' + Fact.canon_prefix + r'(\d+)=(\S+)\]')
     stat_regex = re.compile(r': p=(\d+),np=(\d+),n=(\d+),q=(\d+\.\d+),cx=(\d+),c=(\d+),s=(\d+) #')
 
     class_matcher = class_regex.findall(result)
