@@ -57,6 +57,8 @@ public class AQJSM {
             HelpFormatter formatter = new HelpFormatter();
 
             CommandLine line = parser.parse(options, args);
+            logger.info(line.toString());
+
             if (line.hasOption("h")) {
                 formatter.printHelp("aqjsm", options);
             }
