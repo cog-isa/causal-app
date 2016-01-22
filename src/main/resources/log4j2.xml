@@ -14,6 +14,9 @@
             <PatternLayout>
                 <Pattern>%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n</Pattern>
             </PatternLayout>
+            <Encoding>
+                UTF-8
+            </Encoding>
         </File>
     </Appenders>
     <Loggers>

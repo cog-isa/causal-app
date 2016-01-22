@@ -1,33 +1,46 @@
 import data.data_loading as dl
 import aq.aq_external as aq
 from jsm.jsm_analysis import FactBase, search_norris
-import sys
+import sys, platform, datetime
 import argparse
 import logging
 
 log_levels = ['debug', 'info', 'warning', 'error']
 
 if __name__ == "__main__":
-    argparser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter)
+    argparser = argparse.ArgumentParser(description='AQJSM causal relations miner',
+                                        formatter_class=argparse.ArgumentDefaultsHelpFormatter)
     argparser.add_argument(dest='datafile')
-    argparser.add_argument('-l', '--loglevel', choices=log_levels, default='info')
-    argparser.add_argument('-s', '--reasonsize', default='3')
-    argparser.add_argument('-u', '--univer', default='30')
+    argparser.add_argument('-l', '--loglevel', choices=log_levels, default='info',
+                           help='Logging level')
+    argparser.add_argument('-s', '--reasonsize', type=int, default='3',
+                           help='Maximum size of causes for filtering')
+    argparser.add_argument('-u', '--univer', type=int, default='30',
+                           help='Maximum size of the set of class properties')
+    argparser.add_argument('-c', '--classid', type=int, required=True,
+                           help='Index of class column in data file (starting from 0)')
+    argparser.add_argument('-n', '--nominaldata',
+                           help='Data string of information about nominal columns in format: <col_id1>:<nom1>,<nom2>,...;<col_id2>:<nom1>...')
     args = argparser.parse_args()
 
     logging.basicConfig(level=getattr(logging, args.loglevel.upper()),
-                        format='%(asctime)s %(levelname)-8s %(message)s',
+                        format='%(asctime)s %(message)s',
+                        datefmt='%H:%M:%S',
                         stream=sys.stdout)
 
+    logging.info('OS: {0}, date: {1}'.format(platform.platform(), datetime.datetime.now().strftime("%Y-%m-%d")))
     logging.info(args)
-    max_universe_size = int(args.univer)
-    max_reason_length = int(args.reasonsize)
+    max_universe_size = args.univer
+    max_reason_length = args.reasonsize
+    class_index = args.classid
+    nominal_data = args.nominaldata
 
-    data, class_column = dl.load_data(args.datafile)
+    data, class_column = dl.load_data(args.datafile, class_index, nominal_data)
 
     logging.info(
         'Data file {0}: {2} columns, {3} objects, class column is {1}'.format(args.datafile, class_column,
                                                                               *reversed(data.shape)))
+    logging.debug('\n\t'.join(['{0}: {1}'.format(key, dl.column_ranges[key]) for key in sorted(dl.column_ranges)]))
 
     class_descriptions = aq.run_aq(data, class_column, dl.column_names)
     for desc in class_descriptions.values():
@@ -44,9 +57,10 @@ if __name__ == "__main__":
                     reasons.append(
                         [class_descriptions[klass].properties[i] for i in range(len(hyp.value)) if hyp.value[i]])
             if reasons:
-                logging.info('Found {0} reasons for {1}:\n'.format(len(reasons), target) + '\n\t'.join(reasons))
+                logging.info('Found {0} reasons for {1}:\n'.format(len(reasons), target) + '\n\t'.join(
+                    [' & '.join([str(f) for f in r]) for r in reasons]))
             else:
-                logging.info('Was not found reasons for {0}'.format(target))
+                logging.debug('Was not found reasons for {0}'.format(target))
 
 
         logging.info('*' * 5 + 'Start search reasons for class {0}'.format(klass) + '*' * 5)
