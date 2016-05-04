@@ -35,7 +35,7 @@ public class TestAccumAQ {
         ConverterUtils.DataSource trainSource = new ConverterUtils.DataSource(loader);
         Instances data = trainSource.getDataSet(0);
 
-        AQ21ExternalClassifier classifier = new AQ21ExternalClassifier();
+        AQ21ExternalClassifier classifier = new AQ21ExternalClassifier(2);
         classifier.setCumulative(true);
         classifier.buildClassifier(data);
         Collection<AQClassDescription> classDescriptions = classifier.getDescriptions();

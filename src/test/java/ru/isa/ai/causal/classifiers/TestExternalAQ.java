@@ -17,7 +17,7 @@ import java.util.*;
  */
 public class TestExternalAQ {
     public static void main(String[] args) throws Exception {
-        AQ21ExternalClassifier cl = new AQ21ExternalClassifier();
+        AQ21ExternalClassifier cl = new AQ21ExternalClassifier(2);
 
         ConverterUtils.DataSource trainSource = new ConverterUtils.DataSource(AQ21ExternalClassifier.class.getClassLoader().getResource("ru/isa/ai/causal/classifiers/data1.arff").getPath());
 

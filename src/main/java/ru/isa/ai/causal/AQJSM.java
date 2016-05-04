@@ -115,7 +115,7 @@ public class AQJSM {
                 JAXBContext context = JAXBContext.newInstance(new Class<?>[]{ClassDescriptionList.class,
                         AQClassDescription.class, CRProperty.class, CRFeature.class});
                 Collection<AQClassDescription> classDescriptions = new ArrayList<>();
-                AQ21ExternalClassifier classifier = new AQ21ExternalClassifier();
+                AQ21ExternalClassifier classifier = new AQ21ExternalClassifier(discretization);
                 switch (mode) {
                     case aq_simple_jsm:
                     case aq_simple:

@@ -42,6 +42,11 @@ public class AQ21ExternalClassifier extends AbstractClassifier {
     private int numIterations = 100;
     private int maximumDescriptionSize = 30;
     private double cumulativeThreshold = 0.25;
+    private int discretization = 2; // 0 - without discretization, 1 - uniform discretization, 2 - chi-merge discretization
+
+    public AQ21ExternalClassifier(int discretization) {
+        this.discretization = discretization;
+    }
 
     @Override
     public Capabilities getCapabilities() {
@@ -301,7 +306,14 @@ public class AQ21ExternalClassifier extends AbstractClassifier {
                     builder.append("}\n");
                     break;
                 case Attribute.NUMERIC:
-                    builder.append("\t").append("attr_").append(attribute.index()).append(" continuous ChiMerge 3\n");
+                    if (discretization == 2)
+                        builder.append("\t").append("attr_").append(attribute.index()).append(" continuous ChiMerge 3\n");
+                    else if (discretization == 1)
+                        builder.append("\t").append("attr_").append(attribute.index()).append(" discretized continuous 3, ").
+                                append(testData.attributeStats(attribute.index()).numericStats.min).append(", ").
+                                append(testData.attributeStats(attribute.index()).numericStats.max).append("\n");
+                    else
+                        builder.append("\t").append("attr_").append(attribute.index()).append(" continuous\n");
                     break;
             }
         }
@@ -364,7 +376,12 @@ public class AQ21ExternalClassifier extends AbstractClassifier {
             Attribute attr = attrEnu.nextElement();
             CRFeature aqAttr = new CRFeature(attr.name());
             if (!attr.isNominal()) {
-                int discrPos = result.indexOf("attr_" + attr.index() + "_Discretized");
+                int discrPos = -1;
+                if (discretization == 2) {
+                    discrPos = result.indexOf("attr_" + attr.index() + "_Discretized");
+                } else if (discretization == 1) {
+                    discrPos = result.indexOf("attr_" + attr.index() + " discretized");
+                }
                 if (discrPos != -1) {
                     String line = result.substring(discrPos, result.indexOf("\n", discrPos));
 
@@ -375,6 +392,7 @@ public class AQ21ExternalClassifier extends AbstractClassifier {
                 } else {
                     throw new AQClassifierException("Bad aq result:\n" + result);
                 }
+
             }
             attributeMap.put(attr.index(), aqAttr);
         }
@@ -541,9 +559,9 @@ public class AQ21ExternalClassifier extends AbstractClassifier {
                 if (startExmaplePart != -1 && end_example_number_part != -1) {
                     int next_value = startExmaplePart + 2;
                     int counter = 0;
-                    while(counter < coverage) {
+                    while (counter < coverage) {
                         int end_line = result.indexOf("\n", next_value);
-                        if(end_line - next_value > 1) {
+                        if (end_line - next_value > 1) {
                             int last_part = result.lastIndexOf(",", end_line);
                             int event_number = getScanner(result.substring(last_part + 1, end_line), Pattern.compile("\\s")).nextInt();
                             rule.addCoveredInstance(testData.get(event_number - 1));
@@ -664,7 +682,7 @@ public class AQ21ExternalClassifier extends AbstractClassifier {
 
     public static void main(String[] argv) throws Exception {
         Instances data = DataUtils.loadData(argv[0]);
-        AQ21ExternalClassifier classifier = new AQ21ExternalClassifier();
+        AQ21ExternalClassifier classifier = new AQ21ExternalClassifier(2);
         classifier.buildClassifier(data);
         DataUtils.saveDescription(classifier.getDescriptions());
         for (AQClassDescription desc : classifier.getDescriptions()) {
