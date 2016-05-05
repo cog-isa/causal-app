@@ -10,6 +10,7 @@ import org.apache.logging.log4j.Logger;
 import ru.isa.ai.causal.utils.DataUtils;
 import weka.classifiers.AbstractClassifier;
 import weka.core.*;
+import weka.experiment.Stats;
 import weka.filters.Filter;
 import weka.filters.unsupervised.attribute.Reorder;
 
@@ -308,11 +309,14 @@ public class AQ21ExternalClassifier extends AbstractClassifier {
                 case Attribute.NUMERIC:
                     if (discretization == 2)
                         builder.append("\t").append("attr_").append(attribute.index()).append(" continuous ChiMerge 3\n");
-                    else if (discretization == 1)
-                        builder.append("\t").append("attr_").append(attribute.index()).append(" discretized continuous 3, ").
-                                append(testData.attributeStats(attribute.index()).numericStats.min).append(", ").
-                                append(testData.attributeStats(attribute.index()).numericStats.max).append("\n");
-                    else
+                    else if (discretization == 1) {
+                        Stats stats = testData.attributeStats(attribute.index()).numericStats;
+                        builder.append("\t").append("attr_").append(attribute.index()).append(" discretized continuous ranges [").
+                                append(stats.min).append(", ").
+                                append((stats.max + 2 * stats.min) / 3).append(", ").
+                                append((2 * stats.max + stats.min) / 3).append(", ").
+                                append(stats.max).append("]\n");
+                    } else
                         builder.append("\t").append("attr_").append(attribute.index()).append(" continuous\n");
                     break;
             }
