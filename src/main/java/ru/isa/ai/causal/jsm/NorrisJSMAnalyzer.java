@@ -75,7 +75,6 @@ public class NorrisJSMAnalyzer extends AbstractJSMAnalyzer {
                 // if D subsetoreq xkR then (C unite xk)xD in Mk
                 if (hyp.value.equals(example.getValue()) || BooleanArrayUtils.include(example.getValue(), hyp.value)) {
                     hyp.generators.add(example.getKey());
-
                 } else {
                     // if D not susetoreq xkR then CxD in Mk, and (C unite xk)x(D intersect xkR) in Mk if and only if
                     // emptyset noteq Cx(D intersect xkR) in T'k

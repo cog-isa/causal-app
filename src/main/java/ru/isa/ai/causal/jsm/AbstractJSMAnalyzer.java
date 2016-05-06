@@ -74,6 +74,7 @@ public abstract class AbstractJSMAnalyzer {
 
         JSMHypothesis cause = new JSMHypothesis(property);
         List<JSMIntersection> hypothesis = reasons(factBase, 0);
+        logger.debug("It was found " + hypothesis.size() + " hypothesis");
         for (JSMIntersection intersection : hypothesis) {
             Set<CRProperty> causeProps = new HashSet<>();
             for (int i = 0; i < intersection.value.length(); i++)

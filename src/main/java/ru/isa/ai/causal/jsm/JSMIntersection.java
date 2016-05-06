@@ -54,7 +54,9 @@ public class JSMIntersection implements Comparable<JSMIntersection>, Cloneable {
 
     @Override
     public int hashCode() {
-        return value.hashCode();
+        int result = value.hashCode();
+        result = 31 * result + generators.hashCode();
+        return result;
     }
 
     @Override

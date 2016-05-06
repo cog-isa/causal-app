@@ -48,7 +48,12 @@ public class AQClassDescription {
         Collections.sort(rawDescription, new Comparator<CRProperty>() {
             @Override
             public int compare(CRProperty o1, CRProperty o2) {
-                return -Integer.compare(o1.getPopularity(), o2.getPopularity());
+                int pop = -Integer.compare(o1.getPopularity(), o2.getPopularity());
+                if (pop == 0) {
+                    return -o1.getFeature().getName().compareTo(o2.getFeature().getName());
+                } else {
+                    return pop;
+                }
             }
         });
         rawDescription = rawDescription.subList(0,

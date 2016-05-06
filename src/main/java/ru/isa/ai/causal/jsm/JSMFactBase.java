@@ -22,15 +22,22 @@ public class JSMFactBase {
         JSMFactBase factBase = new JSMFactBase();
         factBase.universe = properties;
 
+        int p_dups = 0;
+        int n_dups = 0;
         for (Instance event : data) {
             BitSet objectVector = createObjectSet(event, properties);
-
             if (data.classAttribute().indexOfValue(event.stringValue(data.classIndex())) == classIndex) {
                 if (!factBase.plusExamples.containsValue(objectVector))
                     factBase.plusExamples.put(data.indexOf(event), objectVector);
+                else {
+                    p_dups++;
+                }
             } else {
                 if (!factBase.minusExamples.containsValue(objectVector))
                     factBase.minusExamples.put(data.indexOf(event), objectVector);
+                else {
+                    n_dups++;
+                }
             }
         }
         return factBase;
